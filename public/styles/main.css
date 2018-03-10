@@ -1,0 +1,307 @@
+.text-not-selectable, .text-not-selectable * {
+  cursor: default;
+  user-select: none; }
+
+.text-selectable, .text-selectable * {
+  user-select: text; }
+
+span.text-selectable {
+  cursor: text;
+  user-select: text; }
+
+/* basic elements */
+html {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  display: block; }
+
+/* document metadata */
+/* content sectioning */
+address, article, aside, footer, header, hgroup, nav, section, h1, h2, h3, h4, h5, h6 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  display: block; }
+
+/* text content */
+dd, div, dl, dt, figcaption, figure, hr, li, main, ol, p, pre, ul {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  display: block; }
+
+/* inline text semantics */
+a, abbr, b, bdi, bdo, br, cite, code, data, dfn, em, i, kbd, mark, q, rp, rt, rtc, ruby, s, samp, small, span, strong, sub, sup, time, u, var, wbr {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  display: inline; }
+
+/* image and multimedia */
+area, audio, img, map, track, video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* embedded content */
+embed, object, param, source {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* scripting */
+canvas, noscript, script {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* demarcating edits */
+del, ins {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* table content */
+caption, col, colgroup, table, tbody, td, tfoot, th, thead, tr {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* forms */
+button, datalist, fieldset, form, input, label, legend, meter, optgroup, option, output, progress, select, textarea {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* interactive elements */
+details, dialog, menu, menuitem, summary {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* Web Components */
+content, element, shadow, template {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* obsolete and deprecated elements */
+acronym, applet, basefont, big, blink, center, command, content, dir, font, frame, frameset, isindex, keygen, listing, marquee, multicol, nextid, noembed, plaintext, spacer, strike, tt, xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+:focus {
+  outline: 0; }
+
+body {
+  background: white; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  vertical-align: middle; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+code, pre.code {
+  font-size: 0.75rem;
+  font-family: 'Roboto Mono', 'Lucida Console', Monaco; }
+
+body {
+  font-size: 16px;
+  line-height: 16px; }
+
+h1 {
+  font-size: 45px;
+  font-weight: 400;
+  letter-spacing: -0.018em;
+  line-height: 48px; }
+
+h2 {
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 40px; }
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.012em;
+  line-height: 32px; }
+
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; }
+
+h5, h6 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px; }
+
+a {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.018em;
+  line-height: 24px;
+  text-transform: uppercase; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 20px 0; }
+
+body {
+  font-family: 'Roboto', 'Noto', sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  color: #212121; }
+
+h1, h2, h3, h4, h5, h6, a {
+  text-rendering: optimizeLegibility; }
+
+a, a:link, a:visited {
+  color: #0095dd;
+  text-decoration: none; }
+
+a:hover {
+  color: color(#0095dd blackness(25%)); }
+
+a:active {
+  color: color(#0095dd whiteness(25%)); }
+
+strong {
+  font-weight: 700; }
+
+#AboutUs h3, #AboutUs h4, #AboutUs article, #AboutUs p {
+  text-align: center; }
+
+#AdvisoryBoard header h3, #AdvisoryBoard header p {
+  text-align: center; }
+
+#AdvisoryBoard ul li header {
+  text-align: center; }
+  #AdvisoryBoard ul li header img {
+    background-color: rgba(0, 0, 0, 0.38);
+    background-color: var(--mdc-theme-text-icon-on-background, rgba(0, 0, 0, 0.38));
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; }
+
+#AdvisoryBoard ul li footer {
+  text-align: center; }
+  #AdvisoryBoard ul li footer aside {
+    display: none; }
+
+#Courses header h3, #Courses header p, #Courses header dl, #Courses header dt, #Courses header div {
+  text-align: center; }
+
+#Diversity h3, #Diversity p {
+  text-align: center; }
+
+#Home h3, #Home p {
+  text-align: center; }
+
+#Team header h3 {
+  text-align: center; }
+
+#Team ul li header {
+  text-align: center; }
+  #Team ul li header img {
+    background-color: rgba(0, 0, 0, 0.38);
+    background-color: var(--mdc-theme-text-icon-on-background, rgba(0, 0, 0, 0.38));
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; }
+
+#Team ul li footer {
+  text-align: center; }
+  #Team ul li footer aside {
+    display: none; }

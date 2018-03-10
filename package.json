@@ -1,18 +1,26 @@
 {
-  "name": "blg-website",
-  "private": true,
-  "version": "0.1.0",
-  "main": "src/index.js",
-  "description": "Blockchain Learning Group",
-  "homepage": "https://Blockchain-Learning-Group.github.io",
-  "repository": "https://github.com/Blockchain-Learning-Group/Blockchain-Learning-Group.github.io.git",
-  "devDependencies": {
-    "eslint": "^4.18.2",
-    "eslint-plugin-react": "^7.7.0",
-    "react-scripts": "^1.1.1"
-  },
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
-  }
+    "name": "blg-website",
+    "private": true,
+    "version": "0.1.0",
+    "main": "src/index.js",
+    "description": "Blockchain Learning Group",
+    "homepage": "https://Blockchain-Learning-Group.github.io",
+    "repository": "https://github.com/Blockchain-Learning-Group/Blockchain-Learning-Group.github.io.git",
+    "scripts": {
+        "watch-scss": "node-sass --include-path node_modules --watch --recursive src/styles/main.scss public/styles/main.css",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom"
+    },
+    "devDependencies": {
+        "eslint": "^4.18.2",
+        "eslint-plugin-react": "^7.7.0",
+        "node-sass": "^4.7.2",
+        "react-scripts": "^1.1.1"
+    },
+    "dependencies": {
+        "@jbarinas/styles-base": "github:jbarinas/styles-base",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0"
+    }
 }
