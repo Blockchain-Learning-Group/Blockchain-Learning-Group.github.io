@@ -258,6 +258,84 @@ a:active {
 strong {
   font-weight: 700; }
 
+.layout.horizontal, #App > footer .social, .layout.vertical, #App > footer .vertical.social {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.layout.inline, #App > footer .inline.social {
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex; }
+
+.layout.horizontal, #App > footer .social {
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row; }
+
+.layout.vertical, #App > footer .vertical.social {
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+.layout.wrap, #App > footer .wrap.social {
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.layout.no-wrap, #App > footer .no-wrap.social {
+  -ms-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap; }
+
+.layout.center, #App > footer .center.social, .layout.center-center, #App > footer .social {
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.layout.center-justified, #App > footer .center-justified.social, .layout.center-center, #App > footer .social {
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.flex {
+  -ms-flex: 1 1 0.000000001px;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: 0.000000001px;
+  flex-basis: 0.000000001px; }
+
+.flex-auto {
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto; }
+
+.flex-none {
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none; }
+
+#App > footer address, #App > footer div, #App > footer strong {
+  text-align: center; }
+
+#App > footer .social {
+  margin: 1.618rem; }
+  #App > footer .social a {
+    width: 44px;
+    height: 44px;
+    margin: 0 0.618rem;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center; }
+  #App > footer .social .linkedin {
+    background-image: url(../svg/linkedin.svg); }
+  #App > footer .social .twitter {
+    background-image: url(../svg/twitter.svg); }
+  #App > footer .social .github {
+    background-image: url(../svg/github.svg); }
+  #App > footer .social .slack {
+    background-image: url(../svg/slack.svg); }
+
 #AboutUs h3, #AboutUs h4, #AboutUs article, #AboutUs p {
   text-align: center; }
 

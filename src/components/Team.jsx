@@ -11,7 +11,7 @@ export default class extends React.Component {
                 <ul>
                     <li>
                         <header>
-                            <img />
+                            <img alt="" />
                         </header>
                         <footer>
                             <h4>
@@ -26,7 +26,7 @@ export default class extends React.Component {
 
                     <li>
                         <header>
-                            <img />
+                            <img alt="" />
                         </header>
                         <footer>
                             <h4>
@@ -41,7 +41,7 @@ export default class extends React.Component {
 
                     <li>
                         <header>
-                            <img />
+                            <img alt="" />
                         </header>
                         <footer>
                             <h4>
@@ -57,7 +57,7 @@ export default class extends React.Component {
 
                     <li>
                         <header>
-                            <img />
+                            <img alt="" />
                         </header>
                         <footer>
                             <h4>

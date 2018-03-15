@@ -12,7 +12,7 @@ export default class extends React.Component {
                 <ul>
                     <li>
                         <header>
-                            <img />
+                            <img alt="" />
                         </header>
                         <footer>
                             <h4>Jared "HG" Harwayne-Gidansky</h4>
@@ -26,7 +26,7 @@ export default class extends React.Component {
 
                     <li>
                         <header>
-                            <img />
+                            <img alt="" />
                         </header>
                         <footer>
                             <h4>Dr. Jonathan Reichental</h4>
@@ -38,7 +38,7 @@ export default class extends React.Component {
 
                     <li>
                         <header>
-                            <img />
+                            <img alt="" />
                         </header>
                         <footer>
                             <h4>Lincoln Teo</h4>

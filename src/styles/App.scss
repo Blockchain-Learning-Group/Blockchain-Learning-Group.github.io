@@ -1,0 +1,37 @@
+@import "@jbarinas/styles-base/src/flex-layout/classes/flex/_layout";
+
+#App {
+    & > footer {
+        address, div, strong {
+            text-align: center;
+        }
+        .social {
+            @extend .layout;
+            @extend .horizontal;
+            @extend .center-center;
+
+            margin: 1.618rem;
+
+            a {
+                width: 44px;
+                height: 44px;
+                margin: 0 0.618rem;
+                display: block;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .linkedin {
+                background-image: url(../svg/linkedin.svg);
+            }
+            .twitter {
+                background-image: url(../svg/twitter.svg);
+            }
+            .github {
+                background-image: url(../svg/github.svg);
+            }
+            .slack {
+                background-image: url(../svg/slack.svg);
+            }
+        }
+    }
+}
