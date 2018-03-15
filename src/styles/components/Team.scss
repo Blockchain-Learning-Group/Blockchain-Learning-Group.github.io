@@ -1,26 +1,48 @@
 #Team {
+    padding-bottom: 0;
+}
+#AdvisoryBoard {
+    padding-top: 0;
+}
+
+#Team, #AdvisoryBoard {
+    color: #fff;
+    background-color: #0188ee;
+    overflow: hidden;
+    padding: 1.618rem 0;
+
     header {
         h3 {
             text-align: center;
         }
     }
+
     ul {
         li {
             header {
                 text-align: center;
 
-                img {
+                span {
                     background-color: rgba(0, 0, 0, 0.38);
-                    background-color: var(--mdc-theme-text-icon-on-background, rgba(0, 0, 0, 0.38));
 
-                    margin: 0;
+                    display: inline-block;
                     width: 80px;
                     height: 80px;
+                    margin: 0;
                     border-radius: 50%;
+                    overflow: hidden;
                 }
             }
             footer {
                 text-align: center;
+                h4 {
+                    div:first-child {
+                        font-weight: 500;
+                    }
+                    div:nth-child(2) {
+                        color: #000;
+                    }
+                }
                 aside {
                     display: none;
                 }

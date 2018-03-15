@@ -339,24 +339,6 @@ strong {
 #AboutUs h3, #AboutUs h4, #AboutUs article, #AboutUs p {
   text-align: center; }
 
-#AdvisoryBoard header h3, #AdvisoryBoard header p {
-  text-align: center; }
-
-#AdvisoryBoard ul li header {
-  text-align: center; }
-  #AdvisoryBoard ul li header img {
-    background-color: rgba(0, 0, 0, 0.38);
-    background-color: var(--mdc-theme-text-icon-on-background, rgba(0, 0, 0, 0.38));
-    margin: 0;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%; }
-
-#AdvisoryBoard ul li footer {
-  text-align: center; }
-  #AdvisoryBoard ul li footer aside {
-    display: none; }
-
 #Courses header h3, #Courses header p, #Courses header dl, #Courses header dt, #Courses header div {
   text-align: center; }
 
@@ -366,20 +348,34 @@ strong {
 #Home h3, #Home p {
   text-align: center; }
 
-#Team header h3 {
-  text-align: center; }
+#Team {
+  padding-bottom: 0; }
 
-#Team ul li header {
-  text-align: center; }
-  #Team ul li header img {
-    background-color: rgba(0, 0, 0, 0.38);
-    background-color: var(--mdc-theme-text-icon-on-background, rgba(0, 0, 0, 0.38));
-    margin: 0;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%; }
+#AdvisoryBoard {
+  padding-top: 0; }
 
-#Team ul li footer {
-  text-align: center; }
-  #Team ul li footer aside {
-    display: none; }
+#Team, #AdvisoryBoard {
+  color: #fff;
+  background-color: #0188ee;
+  overflow: hidden;
+  padding: 1.618rem 0; }
+  #Team header h3, #AdvisoryBoard header h3 {
+    text-align: center; }
+  #Team ul li header, #AdvisoryBoard ul li header {
+    text-align: center; }
+    #Team ul li header span, #AdvisoryBoard ul li header span {
+      background-color: rgba(0, 0, 0, 0.38);
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      margin: 0;
+      border-radius: 50%;
+      overflow: hidden; }
+  #Team ul li footer, #AdvisoryBoard ul li footer {
+    text-align: center; }
+    #Team ul li footer h4 div:first-child, #AdvisoryBoard ul li footer h4 div:first-child {
+      font-weight: 500; }
+    #Team ul li footer h4 div:nth-child(2), #AdvisoryBoard ul li footer h4 div:nth-child(2) {
+      color: #000; }
+    #Team ul li footer aside, #AdvisoryBoard ul li footer aside {
+      display: none; }
