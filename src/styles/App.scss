@@ -1,10 +1,25 @@
 @import "@jbarinas/styles-base/src/flex-layout/classes/flex/_layout";
 
+* {
+    cursor: default !important;
+}
+
 #App {
     & > footer {
+        overflow: hidden;
+        padding: 1.618rem 0 0;
+
         address, div, strong {
             text-align: center;
         }
+
+        address {
+            a {
+                line-height: initial;
+                text-transform: initial;
+            }
+        }
+
         .social {
             @extend .layout;
             @extend .horizontal;

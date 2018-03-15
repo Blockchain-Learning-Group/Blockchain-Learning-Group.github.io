@@ -25,12 +25,12 @@ export default class extends React.Component {
                         <strong>Where we are located</strong>
                         <div>Blockchain Learning Group Inc.</div>
                         <div>24 Murray Spiers Court, Markham, ON, L6C 3C5 CANADA</div>
-                        <div>Let's talk</div>
+                        <div style={{ marginTop: '1rem' }}>Let's talk</div>
                         <div>
                             <a href="tel:+14165008518">+1 (416) 500-8518</a>
                         </div>
                         <div>
-                            <a href="mailto:murtaza@blockchainlearninggroup.com">murtaza@blockchainlearninggroup.com</a>
+                            <a href="mailto:murtaza@blockchainlearninggroup.com">murtaza@BlockchainLearningGroup.com</a>
                         </div>
                     </address>
                     <div className="social">
@@ -40,7 +40,7 @@ export default class extends React.Component {
                         <a target="_blank" rel="noopener noreferrer" className="slack" href="https://blockchainlearning.slack.com"></a>
                     </div>
                 </footer>
-            </div>
+            </div >
         );
     }
 }
