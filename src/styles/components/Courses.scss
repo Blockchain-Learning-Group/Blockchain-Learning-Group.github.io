@@ -1,7 +1,23 @@
 #Courses {
+    color: #fff;
+    background-color: #053a68;
+
     header {
-        h3, p, dl, dt, div {
+        h3, p, ul, li, header, footer, div {
             text-align: center;
+        }
+
+        ul {
+            li {
+                color: #212121;
+                background-color: #fff;
+                padding: 1.618rem 1rem;
+                margin-bottom: 1rem;
+                header {
+                    color:#0188ee;
+                    margin-bottom: 0.618rem;
+                }
+            }
         }
     }
 }

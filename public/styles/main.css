@@ -318,6 +318,15 @@ strong {
 * {
   cursor: default !important; }
 
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0; }
+
+a {
+  cursor: pointer !important; }
+
 #App > footer {
   overflow: hidden;
   padding: 1.618rem 0 0; }
@@ -344,23 +353,39 @@ strong {
     #App > footer .social .slack {
       background-image: url(../svg/slack.svg); }
 
+#AboutUs, #AdvisoryBoard, #Courses, #Diversity, #Home, #Team {
+  overflow: hidden;
+  padding: 1.618rem 1rem; }
+
 #AboutUs h3, #AboutUs h4, #AboutUs article, #AboutUs p {
   text-align: center; }
 
-#Courses header h3, #Courses header p, #Courses header dl, #Courses header dt, #Courses header div {
-  text-align: center; }
+#Courses {
+  color: #fff;
+  background-color: #053a68; }
+  #Courses header h3, #Courses header p, #Courses header ul, #Courses header li, #Courses header header, #Courses header footer, #Courses header div {
+    text-align: center; }
+  #Courses header ul li {
+    color: #212121;
+    background-color: #fff;
+    padding: 1.618rem 1rem;
+    margin-bottom: 1rem; }
+    #Courses header ul li header {
+      color: #0188ee;
+      margin-bottom: 0.618rem; }
 
-#Diversity h3, #Diversity p {
-  text-align: center; }
+#Diversity {
+  color: #fff;
+  background-color: #212121; }
+  #Diversity h3, #Diversity p {
+    text-align: center; }
 
 #Home h3, #Home p {
   text-align: center; }
 
 #Team, #AdvisoryBoard {
   color: #fff;
-  background-color: #0188ee;
-  overflow: hidden;
-  padding: 1.618rem 0; }
+  background-color: #0188ee; }
   #Team header h3, #AdvisoryBoard header h3 {
     text-align: center; }
   #Team ul li header, #AdvisoryBoard ul li header {

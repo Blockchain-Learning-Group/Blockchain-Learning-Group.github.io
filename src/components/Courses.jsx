@@ -8,23 +8,31 @@ export default class extends React.Component {
                     <h3>Our Courses</h3>
                     <p>Aligned with our vision to focus our efforts at the developer community - and the organizations they are affiliated with - we offer two specific education tracks</p>
 
-                    <dl>
-                        <dt>
-                            <div>BLOCKCHAIN</div>
-                            <div>
-                                <strong>DEVELOPER EDUCATION COURSE</strong>
-                            </div>
-                        </dt>
-                        <dd>An immersive end to end course in blockchain technology with a focus on decentralized application (DApp) development. From the basics of blockchain technology to in-depth explorations of use cases, digging deep into cutting edge smart contract development patterns and deployment techniques.</dd>
+                    <ul>
+                        <li>
+                            <header>
+                                <div>BLOCKCHAIN</div>
+                                <div>
+                                    <strong>DEVELOPER EDUCATION COURSE</strong>
+                                </div>
+                            </header>
+                            <footer>
+                                <p>An immersive end to end course in blockchain technology with a focus on decentralized application (DApp) development. From the basics of blockchain technology to in-depth explorations of use cases, digging deep into cutting edge smart contract development patterns and deployment techniques.</p>
+                            </footer>
+                        </li>
 
-                        <dt>
-                            <div>BLOCKCHAIN</div>
-                            <div>
-                                <strong>DEVELOPER & BUSINESS TEAM PACKAGE</strong>
-                            </div>
-                        </dt>
-                        <dd>For organizations who want to both train their developers and immediately turn this knowledge into action, the Blockchain Learning Group provides a comprehensive package to jumpstart your blockchain goals. Please contact us for more details on the business packages.</dd>
-                    </dl>
+                        <li>
+                            <header>
+                                <div>BLOCKCHAIN</div>
+                                <div>
+                                    <strong>DEVELOPER & BUSINESS TEAM PACKAGE</strong>
+                                </div>
+                            </header>
+                            <footer>
+                                <p>For organizations who want to both train their developers and immediately turn this knowledge into action, the Blockchain Learning Group provides a comprehensive package to jumpstart your blockchain goals. Please contact us for more details on the business packages.</p>
+                            </footer>
+                        </li>
+                    </ul>
                 </header>
 
                 <ul>
