@@ -316,7 +316,8 @@ strong {
   flex: none; }
 
 * {
-  cursor: default !important; }
+  cursor: default !important;
+  line-height: 20px !important; }
 
 body {
   border: 0;
@@ -363,16 +364,35 @@ a {
 #Courses {
   color: #fff;
   background-color: #053a68; }
-  #Courses header h3, #Courses header p, #Courses header ul, #Courses header li, #Courses header header, #Courses header footer, #Courses header div {
+  #Courses > header h3, #Courses > header p, #Courses > header ul, #Courses > header li, #Courses > header header, #Courses > header footer, #Courses > header div {
     text-align: center; }
-  #Courses header ul li {
+  #Courses > header ul li {
     color: #212121;
     background-color: #fff;
     padding: 1.618rem 1rem;
     margin-bottom: 1rem; }
-    #Courses header ul li header {
+    #Courses > header ul li header {
       color: #0188ee;
       margin-bottom: 0.618rem; }
+    #Courses > header ul li a {
+      color: #212121;
+      background-color: #76FF03;
+      padding: 0.618rem 1.618rem; }
+  #Courses > ul > li {
+    color: #212121;
+    background-color: #fff;
+    padding: 1rem 1rem 0.382rem;
+    margin-bottom: 1.618rem; }
+    #Courses > ul > li dl {
+      margin-bottom: 1rem; }
+      #Courses > ul > li dl dt {
+        float: left;
+        font-weight: 300;
+        padding-right: 0.618rem; }
+      #Courses > ul > li dl dd {
+        margin-bottom: 0.382rem; }
+    #Courses > ul > li ul {
+      margin-bottom: 1rem; }
 
 #Diversity {
   color: #fff;

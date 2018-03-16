@@ -2,7 +2,7 @@
     color: #fff;
     background-color: #053a68;
 
-    header {
+    & > header {
         h3, p, ul, li, header, footer, div {
             text-align: center;
         }
@@ -17,7 +17,38 @@
                     color:#0188ee;
                     margin-bottom: 0.618rem;
                 }
+                a {
+                    color: #212121;
+                    background-color: #76FF03;
+                    padding: 0.618rem 1.618rem;
+                }
             }
         }
+    }
+
+    & > ul {
+        & > li {
+            color: #212121;
+            background-color: #fff;
+            padding: 1rem 1rem 0.382rem;
+            margin-bottom: 1.618rem;
+
+            dl {
+                margin-bottom: 1rem;
+                dt {
+                    float:left;
+                    font-weight: 300;
+                    padding-right: 0.618rem;
+                }
+                dd {
+                    margin-bottom: 0.382rem;
+                }
+            }
+
+            ul {
+                margin-bottom: 1rem;
+            }
+        }
+
     }
 }

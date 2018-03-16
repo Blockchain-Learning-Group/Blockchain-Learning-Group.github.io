@@ -16,8 +16,11 @@ export default class extends React.Component {
                                     <strong>DEVELOPER EDUCATION COURSE</strong>
                                 </div>
                             </header>
-                            <footer>
+                            <div>
                                 <p>An immersive end to end course in blockchain technology with a focus on decentralized application (DApp) development. From the basics of blockchain technology to in-depth explorations of use cases, digging deep into cutting edge smart contract development patterns and deployment techniques.</p>
+                            </div>
+                            <footer>
+                                <a href="#COURSE--DEVELOPER-EDUCATION-COURSE">LEARN MORE</a>
                             </footer>
                         </li>
 
@@ -28,15 +31,18 @@ export default class extends React.Component {
                                     <strong>DEVELOPER & BUSINESS TEAM PACKAGE</strong>
                                 </div>
                             </header>
-                            <footer>
+                            <div>
                                 <p>For organizations who want to both train their developers and immediately turn this knowledge into action, the Blockchain Learning Group provides a comprehensive package to jumpstart your blockchain goals. Please contact us for more details on the business packages.</p>
+                            </div>
+                            <footer>
+                                <a href="#COURSE--DEVELOPER-AND-BUSINESS-TEAM-PACKAGE">LEARN MORE</a>
                             </footer>
                         </li>
                     </ul>
                 </header>
 
                 <ul>
-                    <li>
+                    <li id="COURSE--DEVELOPER-EDUCATION-COURSE">
                         <h4>
                             <div>BLOCKCHAIN</div>
                             <div>
@@ -72,6 +78,8 @@ export default class extends React.Component {
                         <h5>OUTCOMES</h5>
                         <p>All participants will gain a deep understanding of Blockchain technology, how it works, the ever growing landscape, cryptocurrencies and ICOs, and most importantly, hands-on experience with full stack DApp development.  Participants will have successfully built, tested and deployed several smart contracts as well as a full stack DApp.</p>
                     </li>
+
+                    <li id="COURSE--DEVELOPER-AND-BUSINESS-TEAM-PACKAGE"></li>
                 </ul>
             </section>
         );
