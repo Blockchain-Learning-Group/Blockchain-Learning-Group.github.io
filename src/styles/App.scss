@@ -17,6 +17,17 @@ a {
 }
 
 #App {
+    & > header {
+        img {
+            height: 48px;
+        }
+        .mdc-toolbar__title {
+            background-image: url(../svg/BLG.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
     & > footer {
         overflow: hidden;
         padding: 1.618rem 0 0;

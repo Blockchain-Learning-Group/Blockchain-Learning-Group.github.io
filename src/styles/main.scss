@@ -9,4 +9,7 @@
 @import "./components/Home";
 @import "./components/Team";
 
+$mdc-theme-primary: #fff;
+
 @import "@material/elevation/mdc-elevation";
+@import "@material/toolbar/mdc-toolbar";

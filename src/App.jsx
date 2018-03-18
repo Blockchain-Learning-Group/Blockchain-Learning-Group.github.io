@@ -11,7 +11,17 @@ export default class extends React.Component {
     render() {
         return (
             <div id="App">
-                <header></header>
+                <header className="mdc-toolbar mdc-toolbar--flexible-space-maximized">
+                    <div className="mdc-toolbar__row">
+                        <section className="mdc-toolbar__section mdc-toolbar__section--align-start">
+                            <img src="https://static.wixstatic.com/media/bf6dc6_9c78b47608854523bb3d3b75a640cea1~mv2.jpg/v1/fill/w_204,h_85,al_c,q_80,usm_0.66_1.00_0.01/bf6dc6_9c78b47608854523bb3d3b75a640cea1~mv2.webp" />
+                        </section>
+                        <section className="mdc-toolbar__section mdc-toolbar__section--align-end" role="toolbar">
+                            <i className="material-icons mdc-toolbar__menu-icon">menu</i>
+                        </section>
+                    </div>
+                </header>
+
                 <main>
                     <Home />
                     <AboutUs />
@@ -20,6 +30,7 @@ export default class extends React.Component {
                     <Team />
                     <AdvisoryBoard />
                 </main>
+
                 <footer>
                     <address>
                         <strong>Where we are located</strong>
