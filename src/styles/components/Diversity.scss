@@ -1,6 +1,15 @@
+@import "../lib/jbarinas/layout/mixins/index";
+
 #Diversity {
     color: #fff;
     background-color: #212121;
+
+    @include --layout-vertical;
+    @include --layout-center;
+
+    & > h3, & > p {
+        max-width: 960px;
+    }
 
     h3, p {
         text-align: center;

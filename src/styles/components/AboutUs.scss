@@ -1,4 +1,14 @@
+@import "../lib/jbarinas/layout/mixins/index";
+
 #AboutUs {
+
+    @include --layout-vertical;
+    @include --layout-center;
+
+    & > header, & > article {
+        max-width: 960px;
+    }
+
     h3, h4, article, p {
         text-align: center;
     }

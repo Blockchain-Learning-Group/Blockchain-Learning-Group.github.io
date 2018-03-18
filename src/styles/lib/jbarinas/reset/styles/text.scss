@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', 'Noto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    color: #212121;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-rendering: optimizeLegibility;
+}
+
+a,
+a:link,
+a:visited {
+    color: #0095dd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: color(#0095dd blackness(25%));
+}
+
+a:active {
+    color: color(#0095dd whiteness(25%));
+}
+
+strong {
+    font-weight: 700;
+}
+
+a {
+    font-weight: 500;
+    letter-spacing: 0.018em;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0 0 1em;
+}

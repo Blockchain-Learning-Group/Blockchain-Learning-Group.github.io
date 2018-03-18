@@ -1,4 +1,4 @@
-@import "@jbarinas/styles-base/src/base/index";
+@import "./lib/jbarinas/reset/style-reset";
 
 @import "./App";
 @import "./components/_common";
@@ -8,3 +8,5 @@
 @import "./components/Diversity";
 @import "./components/Home";
 @import "./components/Team";
+
+@import "@material/elevation/mdc-elevation";

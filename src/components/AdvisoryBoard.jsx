@@ -12,9 +12,14 @@ export default class extends React.Component {
                 <ul>
                     <li>
                         <header>
-                            <span>
-                                <img alt="" />
-                            </span>
+                            <div>
+                                <span className="avatar">
+                                    <img alt="" />
+                                </span>
+                                <span className="linkedin">
+                                    <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
+                                </span>
+                            </div>
                         </header>
                         <footer>
                             <h4>
@@ -30,9 +35,14 @@ export default class extends React.Component {
 
                     <li>
                         <header>
-                            <span>
-                                <img alt="" />
-                            </span>
+                            <div>
+                                <span className="avatar">
+                                    <img alt="" />
+                                </span>
+                                <span className="linkedin">
+                                    <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
+                                </span>
+                            </div>
                         </header>
                         <footer>
                             <h4>
@@ -46,9 +56,14 @@ export default class extends React.Component {
 
                     <li>
                         <header>
-                            <span>
-                                <img alt="" />
-                            </span>
+                            <div>
+                                <span className="avatar">
+                                    <img alt="" />
+                                </span>
+                                <span className="linkedin">
+                                    <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
+                                </span>
+                            </div>
                         </header>
                         <footer>
                             <h4>

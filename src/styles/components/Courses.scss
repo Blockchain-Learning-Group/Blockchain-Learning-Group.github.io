@@ -1,8 +1,19 @@
+@import "../lib/jbarinas/layout/mixins/index";
+
 #Courses {
     color: #fff;
     background-color: #053a68;
 
+    @include --layout-vertical;
+    @include --layout-center;
+
+    & > header, & > ul {
+        max-width: 960px;
+    }
+
     & > header {
+        margin-bottom: 1.618rem;
+
         h3, p, ul, li, header, footer, div {
             text-align: center;
         }
@@ -27,7 +38,16 @@
     }
 
     & > ul {
+        h5 {
+            font-weight: 700;
+        }
+
+        h6 {
+            margin-bottom: 0.382rem;
+        }
+
         & > li {
+            //display: none;
             color: #212121;
             background-color: #fff;
             padding: 1rem 1rem 0.382rem;
@@ -50,5 +70,24 @@
             }
         }
 
+    }
+}
+
+
+@media (min-width: 840px) {
+
+    #Courses {
+        & > header {
+            ul {
+                @include --layout-horizontal;
+                @include --layout-center-justified;
+
+                li {
+                    @include --layout-flex;
+                    margin: 0 1rem;
+                    max-width: 480px;
+                }
+            }
+        }
     }
 }
