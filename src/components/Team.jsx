@@ -66,6 +66,30 @@ export default class extends React.Component {
                         </header>
                         <footer>
                             <h4>
+                                <div>Chami Akmeemana</div>
+                                <div>Blockchain and AI Specialist</div>
+                            </h4>
+                            <aside>
+                                <p>He pursued a Ph.D. in Bioceramic Engineering at Queen Mary, University of London, until deciding to forgo an academic career in favor of Law Enforcement. In 2002, he joined London’s Metropolitan Police.</p>
+                                <p>Chami has had 4 successful exists over the last decade and is passionate about the intersection of technology, business and social good. His experience includes serving as Director of regulatory and government affairs at ConsenSys Inc; Fintech Advisor to the Ontario Securities Commission; and Managing Director, Fintech and blockchain at the Global Risk Institute.</p>
+                                <p>Chami is also the Chairman of the Blockchain Association Australia and a faculty member of the Blockchain Research Institute. He is also the lead advisor to Blockchain Learning Group</p>
+                            </aside>
+                        </footer>
+                    </li>
+
+                    <li>
+                        <header>
+                            <div>
+                                <span className="avatar">
+                                    <img alt="" />
+                                </span>
+                                <span className="linkedin">
+                                    <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
+                                </span>
+                            </div>
+                        </header>
+                        <footer>
+                            <h4>
                                 <div>David Valentine</div>
                                 <div>Program Manager</div>
                             </h4>
