@@ -1,15 +1,18 @@
 @import "../lib/jbarinas/layout/mixins/index";
 
 #AboutUs {
+    @include --layout-horizontal;
 
-    @include --layout-vertical;
-    @include --layout-center;
+    max-width: 960px;
 
-    & > header, & > article {
-        max-width: 960px;
+    div {
+        @include --layout-flex;
     }
+}
 
-    h3, h4, article, p {
-        text-align: center;
+@media (min-width: 960px) {
+    #AboutUs {
+        max-width: 960px;
+        margin: 0.618rem auto !important;
     }
 }
