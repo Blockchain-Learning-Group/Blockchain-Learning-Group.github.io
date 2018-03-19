@@ -439,8 +439,6 @@ a {
 /* multi-line alignment in main axis */
 /* fixed position */
 #Courses {
-  color: #fff;
-  background-color: #053a68;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -450,12 +448,14 @@ a {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center; }
-  #Courses > header, #Courses > ul {
+  #Courses > header, #Courses > footer {
     max-width: 960px; }
   #Courses > header {
     margin-bottom: 1.618rem; }
     #Courses > header h3, #Courses > header p, #Courses > header ul, #Courses > header li, #Courses > header header, #Courses > header footer, #Courses > header div {
       text-align: center; }
+    #Courses > header > p {
+      margin-bottom: 2rem; }
     #Courses > header ul li {
       display: -ms-flexbox;
       display: -webkit-flex;
@@ -484,36 +484,35 @@ a {
           padding: 0.618rem 1.618rem;
           display: inline-block;
           bottom: -50px; }
-  #Courses > ul h5 {
-    font-weight: 700; }
-  #Courses > ul h6 {
-    margin-bottom: 0.382rem; }
-  #Courses > ul > li {
-    color: #212121;
-    background-color: #fff;
-    padding: 1rem 1rem 0.382rem;
-    margin-top: 70px;
-    margin-bottom: 1.618rem; }
-    #Courses > ul > li > h4 {
+  #Courses > footer > ul > li {
+    overflow: hidden; }
+    #Courses > footer > ul > li div.wrapper header {
       position: relative;
-      top: -58px;
-      margin: 0 1rem 4rem; }
-      #Courses > ul > li > h4 > div {
+      top: -50px;
+      margin: 0 2.5rem 5rem; }
+      #Courses > footer > ul > li div.wrapper header > h4 {
         width: 100%;
         position: absolute;
         background-color: #0188ee;
         padding: 1.618rem;
         box-sizing: border-box; }
-    #Courses > ul > li dl {
-      margin-bottom: 1rem; }
-      #Courses > ul > li dl dt {
-        float: left;
-        font-weight: 300;
-        padding-right: 0.618rem; }
-      #Courses > ul > li dl dd {
-        margin-bottom: 0.382rem; }
-    #Courses > ul > li ul {
-      margin-bottom: 1rem; }
+    #Courses > footer > ul > li div.wrapper footer {
+      color: #212121;
+      background-color: #fff;
+      padding: 4rem 4rem 0.382rem;
+      margin: 75px 1rem 1.618rem; }
+      #Courses > footer > ul > li div.wrapper footer h5 {
+        font-weight: 700; }
+      #Courses > footer > ul > li div.wrapper footer dl {
+        margin-bottom: 1rem; }
+        #Courses > footer > ul > li div.wrapper footer dl dt {
+          float: left;
+          font-weight: 300;
+          padding-right: 0.618rem; }
+        #Courses > footer > ul > li div.wrapper footer dl dd {
+          margin-bottom: 0.382rem; }
+      #Courses > footer > ul > li div.wrapper footer ul {
+        margin-bottom: 1rem; }
 
 @media (min-width: 840px) {
   #Courses > header ul {

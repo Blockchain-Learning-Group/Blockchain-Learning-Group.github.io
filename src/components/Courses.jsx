@@ -41,47 +41,52 @@ export default class extends React.Component {
                     </ul>
                 </header>
 
-                <ul>
-                    <li id="COURSE--DEVELOPER-EDUCATION-COURSE">
-                        <h4>
-                            <div>
-                                <div>BLOCKCHAIN</div>
-                                <div>
-                                    <strong>DEVELOPER EDUCATION COURSE</strong>
-                                </div>
+                <footer>
+                    <ul>
+                        <li id="COURSE--DEVELOPER-EDUCATION-COURSE">
+                            <div className="wrapper">
+                                <header>
+                                    <h4 className="mdc-elevation--z4">
+                                        <div>BLOCKCHAIN</div>
+                                        <div>
+                                            <strong>DEVELOPER EDUCATION COURSE</strong>
+                                        </div>
+                                    </h4>
+                                </header>
+                                <footer className="mdc-elevation--z8">
+                                    <p>An immersive end to end course in blockchain technology with a focus on decentralized application (DApp) development. From the basics of blockchain technology to in-depth explorations of use cases, digging deep into cutting edge smart contract development patterns and deployment techniques.</p>
+
+                                    <h5>COURSE BREAKDOWN</h5>
+                                    <dl>
+                                        <dt>Day 1:</dt>
+                                        <dd>Blockchain Fundamentals</dd>
+
+                                        <dt>Day 2:</dt>
+                                        <dd>Introduction to DApp Development</dd>
+
+                                        <dt>Day 3:</dt>
+                                        <dd>Advanced DApp and Smart Contract Development</dd>
+
+                                        <dt>Day 4:</dt>
+                                        <dd>DApp Deployment and Interaction</dd>
+                                    </dl>
+
+                                    <p>* Primer course for students with no previous software development experience is also available (ask for further details).</p>
+
+                                    <h5>WHAT YOU BRING</h5>
+                                    <ul>
+                                        <li>Enthusiasm and a genuine passion for Blockchain technology</li>
+                                        <li>Software development experience is a plus</li>
+                                        <li>Laptop, Ubuntu preferred,  Mac / Windows OK</li>
+                                    </ul>
+
+                                    <h5>OUTCOMES</h5>
+                                    <p>All participants will gain a deep understanding of Blockchain technology, how it works, the ever growing landscape, cryptocurrencies and ICOs, and most importantly, hands-on experience with full stack DApp development.  Participants will have successfully built, tested and deployed several smart contracts as well as a full stack DApp.</p>
+                                </footer>
                             </div>
-                        </h4>
-
-                        <p>An immersive end to end course in blockchain technology with a focus on decentralized application (DApp) development. From the basics of blockchain technology to in-depth explorations of use cases, digging deep into cutting edge smart contract development patterns and deployment techniques.</p>
-
-                        <h5>COURSE BREAKDOWN</h5>
-                        <dl>
-                            <dt>Day 1:</dt>
-                            <dd>Blockchain Fundamentals</dd>
-
-                            <dt>Day 2:</dt>
-                            <dd>Introduction to DApp Development</dd>
-
-                            <dt>Day 3:</dt>
-                            <dd>Advanced DApp and Smart Contract Development</dd>
-
-                            <dt>Day 4:</dt>
-                            <dd>DApp Deployment and Interaction</dd>
-                        </dl>
-
-                        <p>* Primer course for students with no previous software development experience is also available (ask for further details).</p>
-
-                        <h5>WHAT YOU BRING</h5>
-                        <ul>
-                            <li>Enthusiasm and a genuine passion for Blockchain technology</li>
-                            <li>Software development experience is a plus</li>
-                            <li>Laptop, Ubuntu preferred,  Mac / Windows OK</li>
-                        </ul>
-
-                        <h5>OUTCOMES</h5>
-                        <p>All participants will gain a deep understanding of Blockchain technology, how it works, the ever growing landscape, cryptocurrencies and ICOs, and most importantly, hands-on experience with full stack DApp development.  Participants will have successfully built, tested and deployed several smart contracts as well as a full stack DApp.</p>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </footer>
             </section>
         );
     }
