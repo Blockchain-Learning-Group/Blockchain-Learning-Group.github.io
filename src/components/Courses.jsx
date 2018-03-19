@@ -1,10 +1,6 @@
 import React from 'react';
 
 export default class extends React.Component {
-
-    handleClick(e) {
-    }
-
     render() {
         return (
             <section id="Courses" className="mdc-dialog--open">
@@ -24,7 +20,7 @@ export default class extends React.Component {
                                 <p>An immersive end to end course in blockchain technology with a focus on decentralized application (DApp) development. From the basics of blockchain technology to in-depth explorations of use cases, digging deep into cutting edge smart contract development patterns and deployment techniques.</p>
                             </div>
                             <footer>
-                                <a href="#COURSE--DEVELOPER-EDUCATION-COURSE" onClick={this.handleClick.bind(this)}>LEARN MORE</a>
+                                <a href="#COURSE--DEVELOPER-EDUCATION-COURSE">LEARN MORE</a>
                             </footer>
                         </li>
 

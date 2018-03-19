@@ -1,4 +1,4 @@
-@import "@jbarinas/styles-base/src/flex-layout/classes/flex/_layout";
+@import "./lib/jbarinas/layout/mixins/index";
 
 * {
     cursor: default !important;
@@ -17,15 +17,52 @@ a {
 }
 
 #App {
+    overflow: auto;
+
     & > header {
-        img {
-            height: 48px;
-        }
-        .mdc-toolbar__title {
+        @include --layout-horizontal;
+
+        max-width: 960px;
+        margin: 0.618rem 1rem;
+
+        .logo {
             background-image: url(../svg/BLG.svg);
             background-repeat: no-repeat;
             background-position: center;
+            height: 48px;
+            width: 138.13px;
         }
+
+        .menu {
+            @include --layout-flex;
+            @include --layout-horizontal;
+            @include --layout-center;
+            @include --layout-end-justified
+        }
+
+        ul {
+            display: none;
+
+            &.show {
+                @include --layout-vertical;
+                @include --layout-center-center;
+                @include --layout-fixed-top;
+                @include --layout-fixed-bottom;
+
+                display: block;
+                padding: 1.618rem;
+                background-color: rgba(0, 0, 0, 0.87);
+
+                li {
+                    text-align: center;
+                    a {
+                        display: inline-block;
+                        padding: 0.618rem;
+                    }
+                }
+            }
+        }
+
     }
 
     & > footer {
@@ -44,9 +81,8 @@ a {
         }
 
         .social {
-            @extend .layout;
-            @extend .horizontal;
-            @extend .center-center;
+            @include --layout-horizontal;
+            @include --layout-center-center;
 
             margin: 1.618rem;
 
@@ -69,6 +105,26 @@ a {
             }
             .slack {
                 background-image: url(../svg/slack.svg);
+            }
+        }
+    }
+}
+
+@media (min-width: 960px) {
+    #App {
+        & > header {
+            max-width: 960px;
+            margin: 0.618rem auto !important;
+
+            ul {
+                @include --layout-flex;
+                @include --layout-horizontal;
+                @include --layout-center;
+                @include --layout-end-justified
+
+                li {
+                    margin-left: 1rem;
+                }
             }
         }
     }

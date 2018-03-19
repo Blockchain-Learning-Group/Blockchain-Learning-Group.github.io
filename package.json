@@ -8,6 +8,7 @@
     "repository": "https://github.com/Blockchain-Learning-Group/Blockchain-Learning-Group.github.io.git",
     "scripts": {
         "watch-scss": "node-sass --include-path node_modules --watch --recursive src/styles/main.scss public/styles/main.css",
+        "deploy": "gh-pages -d build --branch master",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom"

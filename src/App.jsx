@@ -8,18 +8,50 @@ import Home from './components/Home';
 import Team from './components/Team';
 
 export default class extends React.Component {
+
+    showMenuList() {
+        this.menu_list.className = 'show';
+    }
+
+    hideMenuList(e) {
+        if (e.target.hasAttribute('href')) {
+            this.menu_list.className = '';
+        }
+    }
+
     render() {
         return (
             <div id="App">
-                <header className="mdc-toolbar mdc-toolbar--flexible-space-maximized">
-                    <div className="mdc-toolbar__row">
-                        <section className="mdc-toolbar__section mdc-toolbar__section--align-start">
-                            <img src="https://static.wixstatic.com/media/bf6dc6_9c78b47608854523bb3d3b75a640cea1~mv2.jpg/v1/fill/w_204,h_85,al_c,q_80,usm_0.66_1.00_0.01/bf6dc6_9c78b47608854523bb3d3b75a640cea1~mv2.webp" />
-                        </section>
-                        <section className="mdc-toolbar__section mdc-toolbar__section--align-end" role="toolbar">
-                            <i className="material-icons mdc-toolbar__menu-icon">menu</i>
-                        </section>
+                <header>
+                    <div className="logo" />
+
+                    <div className="menu">
+                        <i className="material-icons mdc-toolbar__menu-icon" onClick={this.showMenuList.bind(this)}>menu</i>
                     </div>
+
+                    <ul ref={(el) => this.menu_list = el} onClick={this.hideMenuList.bind(this)}>
+                        <li>
+                            <a href="#Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#AboutUs">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#Courses">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#Team">Our Team</a>
+                        </li>
+                        <li>
+                            <a href="#AdvisoryBoard">Advisory Board</a>
+                        </li>
+                        <li>
+                            <a href="#OurClients">Our Clients</a>
+                        </li>
+                        <li>
+                            <a href="ContactUs">Contact Us</a>
+                        </li>
+                    </ul>
                 </header>
 
                 <main>
