@@ -3,7 +3,7 @@ import React from 'react';
 export default class extends React.Component {
     render() {
         return (
-            <section id="Courses" className="mdc-dialog--open">
+            <section id="Courses">
                 <header>
                     <h3>Our Courses</h3>
                     <p>Aligned with our vision to focus our efforts at the developer community - and the organizations they are affiliated with - we offer two specific education tracks</p>
@@ -44,9 +44,11 @@ export default class extends React.Component {
                 <ul>
                     <li id="COURSE--DEVELOPER-EDUCATION-COURSE">
                         <h4>
-                            <div>BLOCKCHAIN</div>
                             <div>
-                                <strong>DEVELOPER EDUCATION COURSE</strong>
+                                <div>BLOCKCHAIN</div>
+                                <div>
+                                    <strong>DEVELOPER EDUCATION COURSE</strong>
+                                </div>
                             </div>
                         </h4>
 

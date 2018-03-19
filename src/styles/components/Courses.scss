@@ -20,18 +20,32 @@
 
         ul {
             li {
+                @include --layout-vertical;
+
                 color: #212121;
                 background-color: #fff;
                 padding: 1.618rem 1rem;
                 margin-bottom: 1rem;
-                header {
+
+                & > header {
                     color:#0188ee;
                     margin-bottom: 0.618rem;
                 }
-                a {
-                    color: #212121;
-                    background-color: #76FF03;
-                    padding: 0.618rem 1.618rem;
+
+                & > div {
+                    @include --layout-flex;
+                }
+
+                & > footer {
+                    height: 0;
+
+                    a {
+                        color: #212121;
+                        background-color: #76FF03;
+                        padding: 0.618rem 1.618rem;
+                        display: inline-block;
+                        bottom: -50px;
+                    }
                 }
             }
         }
@@ -47,11 +61,25 @@
         }
 
         & > li {
-            //display: none;
             color: #212121;
             background-color: #fff;
             padding: 1rem 1rem 0.382rem;
+            margin-top: 70px;
             margin-bottom: 1.618rem;
+
+            & > h4 {
+                position: relative;
+                top: -58px;
+                margin: 0 1rem 4rem;
+
+                & > div {
+                    width: 100%;
+                    position: absolute;
+                    background-color: #0188ee;
+                    padding: 1.618rem;
+                    box-sizing: border-box;
+                }
+            }
 
             dl {
                 margin-bottom: 1rem;
