@@ -1,6 +1,28 @@
 #Home {
+    padding: 1.618rem 0;
+
     h3, p {
         text-align: center;
+
+    }
+    div {
+        text-align: center;
+        margin-bottom: 1em;
+
+        a {
+            color: #212121;
+            background-color: #76FF03;
+            padding: 0.618rem 1.618rem;
+            display: inline-block;
+            z-index: 2;
+            position: relative;
+        }
+
+        div {
+            top: -20px;
+            position: relative;
+            border-bottom: 1px solid #000;
+        }
     }
 }
 

@@ -380,6 +380,8 @@ a {
   #App > header {
     max-width: 960px;
     margin: 0.618rem auto !important; }
+    #App > header .menu {
+      display: none; }
     #App > header ul {
       -ms-flex: 1 1 0.000000001px;
       -webkit-flex: 1;
@@ -522,8 +524,24 @@ a {
   #Diversity h3, #Diversity p {
     text-align: center; }
 
-#Home h3, #Home p {
-  text-align: center; }
+#Home {
+  padding: 1.618rem 0; }
+  #Home h3, #Home p {
+    text-align: center; }
+  #Home div {
+    text-align: center;
+    margin-bottom: 1em; }
+    #Home div a {
+      color: #212121;
+      background-color: #76FF03;
+      padding: 0.618rem 1.618rem;
+      display: inline-block;
+      z-index: 2;
+      position: relative; }
+    #Home div div {
+      top: -20px;
+      position: relative;
+      border-bottom: 1px solid #000; }
 
 /* alignment in cross axis */
 /* alignment in main axis */
