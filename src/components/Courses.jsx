@@ -35,7 +35,7 @@ export default class extends React.Component {
                                 <p>For organizations who want to both train their developers and immediately turn this knowledge into action, the Blockchain Learning Group provides a comprehensive package to jumpstart your blockchain goals. Please contact us for more details on the business packages.</p>
                             </div>
                             <footer>
-                                <a href="#COURSE--DEVELOPER-AND-BUSINESS-TEAM-PACKAGE">LEARN MORE</a>
+                                <a href="#CONTACTUS">CONTACT US</a>
                             </footer>
                         </li>
                     </ul>
@@ -78,42 +78,6 @@ export default class extends React.Component {
 
                         <h5>OUTCOMES</h5>
                         <p>All participants will gain a deep understanding of Blockchain technology, how it works, the ever growing landscape, cryptocurrencies and ICOs, and most importantly, hands-on experience with full stack DApp development.  Participants will have successfully built, tested and deployed several smart contracts as well as a full stack DApp.</p>
-                    </li>
-
-                    <li id="COURSE--DEVELOPER-AND-BUSINESS-TEAM-PACKAGE">
-                        <h4>
-                            <div>BLOCKCHAIN</div>
-                            <div>
-                                <strong>DEVELOPER & BUSINESS TEAM PACKAGE</strong>
-                            </div>
-                        </h4>
-
-                        <p>This package covers the core components of the Standard Developer Education Package, followed by the facilitation of a Business Ideation session, and then concludes with a Hackathon. Participants include both the developer teams as well as key business team members from within the organization. The complete training package is intended to be conducted over a 5 consecutive-day period.</p>
-
-                        <h5>BREAKDOWN</h5>
-                        <ul>
-                            <li>
-                                <h6>Developer Training (2.5 days) - developer team only</h6>
-                                <dl>
-                                    <dt>Module 1:</dt>
-                                    <dd>What is Blockchain?</dd>
-
-                                    <dt>Module 2:</dt>
-                                    <dd>Introduction to DApp Development</dd>
-
-                                    <dt>Module 3:</dt>
-                                    <dd>Advanced Solidity and Full-Stack Development</dd>
-                                </dl>
-                            </li>
-                            <li>
-                                <h6>Business Ideation (0.5 days) - participants include both the developer and business teams</h6>
-                                <p>This is an ideation session that facilitates the roadmapping of specific business use cases that could potentially require a blockchain technology platform.  At the end of the session, a clearly defined Problem Statement is created, to be solved in the subsequent hackathon.</p>
-                            </li>
-                            <li>
-                                <h6>Hackathon (2.0 days) - participants include both the developer and business teams</h6>
-                                <p>The outcome of the hackathon will result in a fully functional prototype aimed at solving the Problem Statement(s) defined at the end of the Business Ideation session.</p>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
             </section>
