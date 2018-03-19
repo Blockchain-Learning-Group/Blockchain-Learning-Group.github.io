@@ -42,6 +42,7 @@ a {
 
         ul {
             display: none;
+            z-index: 1001;
 
             &.show {
                 @include --layout-vertical;
