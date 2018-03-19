@@ -1,8 +1,6 @@
 @import "../lib/jbarinas/layout/mixins/index";
 
 #Courses {
-//    color: #fff;
-//    background-color: #053a68;
 
     @include --layout-vertical;
     @include --layout-center;
