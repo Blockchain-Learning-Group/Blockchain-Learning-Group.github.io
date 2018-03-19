@@ -125,7 +125,7 @@ a {
                 @include --layout-flex;
                 @include --layout-horizontal;
                 @include --layout-center;
-                @include --layout-end-justified
+                @include --layout-end-justified;
 
                 li {
                     margin-left: 1rem;
