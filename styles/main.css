@@ -215,6 +215,9 @@ code, pre.code {
   font-size: 0.75rem;
   font-family: 'Roboto Mono', 'Lucida Console', Monaco; }
 
+button {
+  background-color: transparent; }
+
 body {
   font-family: 'Roboto', 'Noto', sans-serif;
   -webkit-font-smoothing: antialiased; }
@@ -438,9 +441,81 @@ a {
 /* self alignment */
 /* multi-line alignment in main axis */
 /* fixed position */
+@keyframes pulse {
+  0% {
+    transform: scale3d(1, 1, 1); }
+  15% {
+    transform: scale3d(1.02, 1.02, 1.02); }
+  30% {
+    transform: scale3d(1, 1, 1); } }
+
+#Clients {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+  #Clients > footer {
+    position: relative; }
+    #Clients > footer nav {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+      #Clients > footer nav button {
+        width: 20%;
+        animation: pulse 3s 2s infinite; }
+        #Clients > footer nav button:hover {
+          background-color: rgba(0, 0, 0, 0.06); }
+        #Clients > footer nav button:active {
+          background-color: rgba(0, 0, 0, 0.14); }
+      #Clients > footer nav .blg__nav__btn--prev {
+        text-align: left; }
+      #Clients > footer nav .blg__nav__btn--next {
+        text-align: right; }
+    #Clients > footer ul {
+      overflow: hidden;
+      box-sizing: border-box; }
+      @media (min-width: 480px) {
+        #Clients > footer ul {
+          height: 450px; } }
+      #Clients > footer ul li {
+        padding: 16px 24px;
+        overflow: hidden;
+        box-sizing: border-box; }
+        @media (min-width: 480px) {
+          #Clients > footer ul li {
+            height: 450px; } }
+        #Clients > footer ul li > div:first-child {
+          padding-bottom: 1rem; }
+          #Clients > footer ul li > div:first-child img {
+            height: 100px; }
+        #Clients > footer ul li > div:last-child footer h4 {
+          margin: 0; }
+
+/* alignment in cross axis */
+/* alignment in main axis */
+/* self alignment */
+/* multi-line alignment in main axis */
+/* fixed position */
 #Courses {
-  color: #fff;
-  background-color: #053a68;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -450,43 +525,71 @@ a {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center; }
-  #Courses > header, #Courses > ul {
+  #Courses > header, #Courses > footer {
     max-width: 960px; }
   #Courses > header {
     margin-bottom: 1.618rem; }
     #Courses > header h3, #Courses > header p, #Courses > header ul, #Courses > header li, #Courses > header header, #Courses > header footer, #Courses > header div {
       text-align: center; }
+    #Courses > header > p {
+      margin-bottom: 2rem; }
     #Courses > header ul li {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column;
       color: #212121;
       background-color: #fff;
       padding: 1.618rem 1rem;
       margin-bottom: 1rem; }
-      #Courses > header ul li header {
+      #Courses > header ul li > header {
         color: #0188ee;
         margin-bottom: 0.618rem; }
-      #Courses > header ul li a {
-        color: #212121;
-        background-color: #76FF03;
-        padding: 0.618rem 1.618rem; }
-  #Courses > ul h5 {
-    font-weight: 700; }
-  #Courses > ul h6 {
-    margin-bottom: 0.382rem; }
-  #Courses > ul > li {
-    color: #212121;
-    background-color: #fff;
-    padding: 1rem 1rem 0.382rem;
-    margin-bottom: 1.618rem; }
-    #Courses > ul > li dl {
-      margin-bottom: 1rem; }
-      #Courses > ul > li dl dt {
-        float: left;
-        font-weight: 300;
-        padding-right: 0.618rem; }
-      #Courses > ul > li dl dd {
-        margin-bottom: 0.382rem; }
-    #Courses > ul > li ul {
-      margin-bottom: 1rem; }
+      #Courses > header ul li > div {
+        -ms-flex: 1 1 0.000000001px;
+        -webkit-flex: 1;
+        flex: 1;
+        -webkit-flex-basis: 0.000000001px;
+        flex-basis: 0.000000001px; }
+      #Courses > header ul li > footer {
+        height: 0; }
+        #Courses > header ul li > footer a {
+          color: #212121;
+          background-color: #76FF03;
+          padding: 0.618rem 1.618rem;
+          display: inline-block;
+          bottom: -50px; }
+  #Courses > footer > ul > li {
+    overflow: hidden; }
+    #Courses > footer > ul > li div.wrapper header {
+      position: relative;
+      top: -50px;
+      margin: 0 2.5rem 5rem; }
+      #Courses > footer > ul > li div.wrapper header > h4 {
+        width: 100%;
+        position: absolute;
+        background-color: #0188ee;
+        padding: 1.618rem;
+        box-sizing: border-box; }
+    #Courses > footer > ul > li div.wrapper footer {
+      color: #212121;
+      background-color: #fff;
+      padding: 4rem 4rem 0.382rem;
+      margin: 75px 1rem 1.618rem; }
+      #Courses > footer > ul > li div.wrapper footer h5 {
+        font-weight: 700; }
+      #Courses > footer > ul > li div.wrapper footer dl {
+        margin-bottom: 1rem; }
+        #Courses > footer > ul > li div.wrapper footer dl dt {
+          float: left;
+          font-weight: 300;
+          padding-right: 0.618rem; }
+        #Courses > footer > ul > li div.wrapper footer dl dd {
+          margin-bottom: 0.382rem; }
+      #Courses > footer > ul > li div.wrapper footer ul {
+        margin-bottom: 1rem; }
 
 @media (min-width: 840px) {
   #Courses > header ul {
