@@ -215,6 +215,9 @@ code, pre.code {
   font-size: 0.75rem;
   font-family: 'Roboto Mono', 'Lucida Console', Monaco; }
 
+button {
+  background-color: transparent; }
+
 body {
   font-family: 'Roboto', 'Noto', sans-serif;
   -webkit-font-smoothing: antialiased; }
@@ -432,6 +435,80 @@ a {
   #AboutUs {
     max-width: 960px;
     margin: 0.618rem auto !important; } }
+
+/* alignment in cross axis */
+/* alignment in main axis */
+/* self alignment */
+/* multi-line alignment in main axis */
+/* fixed position */
+@keyframes pulse {
+  0% {
+    transform: scale3d(1, 1, 1); }
+  15% {
+    transform: scale3d(1.02, 1.02, 1.02); }
+  30% {
+    transform: scale3d(1, 1, 1); } }
+
+#Clients {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+  #Clients > footer {
+    position: relative; }
+    #Clients > footer nav {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+      #Clients > footer nav button {
+        width: 20%;
+        animation: pulse 3s 2s infinite; }
+        #Clients > footer nav button:hover {
+          background-color: rgba(0, 0, 0, 0.06); }
+        #Clients > footer nav button:active {
+          background-color: rgba(0, 0, 0, 0.14); }
+      #Clients > footer nav .blg__nav__btn--prev {
+        text-align: left; }
+      #Clients > footer nav .blg__nav__btn--next {
+        text-align: right; }
+    #Clients > footer ul {
+      overflow: hidden;
+      box-sizing: border-box; }
+      @media (min-width: 480px) {
+        #Clients > footer ul {
+          height: 450px; } }
+      #Clients > footer ul li {
+        padding: 16px 24px;
+        overflow: hidden;
+        box-sizing: border-box; }
+        @media (min-width: 480px) {
+          #Clients > footer ul li {
+            height: 450px; } }
+        #Clients > footer ul li > div:first-child {
+          padding-bottom: 1rem; }
+          #Clients > footer ul li > div:first-child img {
+            height: 100px; }
+        #Clients > footer ul li > div:last-child footer h4 {
+          margin: 0; }
 
 /* alignment in cross axis */
 /* alignment in main axis */

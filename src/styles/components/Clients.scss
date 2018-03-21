@@ -1,0 +1,87 @@
+@import "../lib/jbarinas/layout/mixins/index";
+
+@keyframes pulse {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    15% {
+        transform: scale3d(1.02, 1.02, 1.02);
+    }
+    30% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+#Clients {
+    @include --layout-vertical;
+    @include --layout-center-center;
+
+    & > footer {
+        position: relative;
+
+        nav {
+            @include --layout-horizontal;
+            @include --layout-justified;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            button {
+                width: 20%;
+                animation: pulse 3s 2s infinite;
+
+                &:hover {
+                    background-color: rgba(0,0,0,0.06);
+                }
+                &:active {
+                    background-color: rgba(0,0,0,0.14);
+                }
+            }
+
+            .blg__nav__btn--prev {
+                text-align: left;
+            }
+            .blg__nav__btn--next {
+                text-align: right;
+            }
+        }
+
+        ul {
+            overflow: hidden;
+            box-sizing: border-box;
+
+            @media (min-width: 480px) {
+                height: 450px;
+            }
+
+            li {
+                padding: 16px 24px;
+                overflow: hidden;
+                box-sizing: border-box;
+
+                @media (min-width: 480px) {
+                    height: 450px;
+                }
+
+                & > div:first-child {
+                    padding-bottom: 1rem;
+
+                    img {
+                        height: 100px;
+                    }
+                }
+
+                & > div:last-child {
+                    footer {
+                        h4 {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

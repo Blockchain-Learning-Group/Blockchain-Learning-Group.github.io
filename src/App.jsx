@@ -2,6 +2,7 @@ import React from 'react';
 
 import AboutUs from './components/AboutUs';
 import AdvisoryBoard from './components/AdvisoryBoard';
+import Clients from './components/Clients';
 import Courses from './components/Courses';
 import Diversity from './components/Diversity';
 import Home from './components/Home';
@@ -59,6 +60,7 @@ export default class extends React.Component {
                     <AboutUs />
                     <Courses />
                     <Diversity />
+                    <Clients />
                     <Team />
                     <AdvisoryBoard />
                 </main>
