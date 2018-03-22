@@ -941,6 +941,11 @@ a {
           height: 100px; }
       #Clients > footer ul li > div:last-child footer h4 {
         margin: 0; }
+        #Clients > footer ul li > div:last-child footer h4 div:first-child {
+          margin-bottom: 0.618rem; }
+        #Clients > footer ul li > div:last-child footer h4 small {
+          font-size: 0.9rem;
+          line-height: 0.9rem !important; }
     @media (min-width: 480px) {
       #Clients > footer ul {
         position: relative; }
