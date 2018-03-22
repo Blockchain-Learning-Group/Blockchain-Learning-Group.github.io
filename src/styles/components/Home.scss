@@ -1,6 +1,7 @@
 @import "../lib/jbarinas/layout/mixins/index";
 
 #Home {
+    position: relative;
     padding: 0 0 1.618rem;
 
     & > header {
@@ -8,6 +9,7 @@
         @include --layout-end-justified;
 
         height: 519px;
+        margin-bottom: 41px;
         background-image: url(../images/BLG_Hero_Image.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -20,7 +22,10 @@
 
     div {
         text-align: center;
-        margin-bottom: 1em;
+        //margin-bottom: 1em;
+        position: relative;
+        bottom: -21px;
+
 
         a {
             color: #212121;

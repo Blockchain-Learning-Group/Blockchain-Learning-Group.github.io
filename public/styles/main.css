@@ -582,7 +582,17 @@ body.fullbleed {
   letter-spacing: 1px;
   user-select: none;
   padding: 0.618rem 1.618rem;
-  display: inline-block; }
+  display: inline-block;
+  box-shadow: 0 2px 50px 0 #7ED321, 0 2px 50px 0 rgba(0, 0, 0, 0.5);
+  /* Rectangle: */
+  background: #7ED321;
+  border-radius: 100px;
+  /* View our courses: */
+  font-family: Lato-Regular;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: center; }
 
 /* alignment in cross axis */
 /* alignment in main axis */
@@ -1108,6 +1118,7 @@ a {
 /* multi-line alignment in main axis */
 /* fixed position */
 #Home {
+  position: relative;
   padding: 0 0 1.618rem; }
   #Home > header {
     display: -ms-flexbox;
@@ -1120,6 +1131,7 @@ a {
     -webkit-justify-content: flex-end;
     justify-content: flex-end;
     height: 519px;
+    margin-bottom: 41px;
     background-image: url(../images/BLG_Hero_Image.png);
     background-repeat: no-repeat;
     background-position: center; }
@@ -1127,7 +1139,8 @@ a {
     text-align: center; }
   #Home div {
     text-align: center;
-    margin-bottom: 1em; }
+    position: relative;
+    bottom: -21px; }
     #Home div a {
       color: #212121;
       background-color: #76FF03;

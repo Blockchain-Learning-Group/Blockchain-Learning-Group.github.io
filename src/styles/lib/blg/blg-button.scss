@@ -7,4 +7,15 @@
     user-select: none;
     padding: 0.618rem 1.618rem;
     display: inline-block;
+    //* shadow: */
+    box-shadow: 0 2px 50px 0 #7ED321, 0 2px 50px 0 rgba(0,0,0,0.50);
+    /* Rectangle: */
+    background: #7ED321;
+    border-radius: 100px;
+    /* View our courses: */
+    font-family: Lato-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-align: center;
 }
