@@ -31,18 +31,18 @@ export default class extends React.Component {
                     <h3>Our Clients</h3>
                 </header>
 
-                <footer>
+                <footer className="mdc-elevation--z8">
                     <nav>
-                        <button className="blg__nav__btn--prev" onClick={this.handleClickPrevious.bind(this)}>
+                        <button className="blg__nav__btn--prev mdc-elevation--z2" onClick={this.handleClickPrevious.bind(this)}>
                             <i className="material-icons">chevron_left</i>
                         </button>
-                        <button className="blg__nav__btn--next" onClick={this.handleClickNext.bind(this)}>
+                        <button className="blg__nav__btn--next mdc-elevation--z2" onClick={this.handleClickNext.bind(this)}>
                             <i className="material-icons">chevron_right</i>
                         </button>
                     </nav>
 
                     <ul>
-                        <li style={{ display: this.state.client === 0 ? 'block' : 'none' }}>
+                        <li className={this.state.client === 0 ? '' : 'invisible'}>
                             <div>
                                 <img alt="AGL Energy" src="images/clients/agl.png" />
                             </div>
@@ -60,25 +60,7 @@ export default class extends React.Component {
                             </div>
                         </li>
 
-                        <li style={{ display: this.state.client === 1 ? 'block' : 'none' }}>
-                            <div>
-                                <img alt="Melbourne Girls Grammar School" src="images/clients/MelbourneGirlsGrammarSchool.png" />
-                            </div>
-                            <div>
-                                <header>
-                                    <p>“Blockchain Learning Group provided an immersive learning experience for students and staff at Melbourne Girls Grammar. Their workshops illuminated for all participants the exciting, complex, and disruptive nature of blockchain technologies and its potential to democratize trust. Their skillful and patient coaching enabled students to become developers and integrators of blockchain technologies and imagine possible career pathways in tech. Our girls were able to demonstrate their new-found capabilities through success at the Smart Cities Hackathon in Melbourne where they developed DAPPs using the Ethereum blockchain and were one of the prize-winning groups.”</p>
-                                </header>
-                                <footer>
-                                    <h4>
-                                        <div>Ivan Carlisle, BA, BE(Monash), MTeach, MEdPolicy(Int)(Melb)</div>
-                                        <div>Director of STEM, Teacher of Mathematics & Algorithmics</div>
-                                        <div>Melbourne Girls Grammar School</div>
-                                    </h4>
-                                </footer>
-                            </div>
-                        </li>
-
-                        <li style={{ display: this.state.client === 2 ? 'block' : 'none' }}>
+                        <li className={this.state.client === 2 ? '' : 'invisible'}>
                             <div>
                                 <img alt="The Knowledge Society" src="images/clients/TheKnowledgeSociety.png" />
                             </div>
@@ -91,6 +73,24 @@ export default class extends React.Component {
                                         <div>Nadeem Nathoo</div>
                                         <div>Executive Director,</div>
                                         <div>The Knowledge Society</div>
+                                    </h4>
+                                </footer>
+                            </div>
+                        </li>
+
+                        <li className={this.state.client === 1 ? '' : 'invisible'} style={{ position: 'relative' }}>
+                            <div>
+                                <img alt="Melbourne Girls Grammar School" src="images/clients/MelbourneGirlsGrammarSchool.png" />
+                            </div>
+                            <div>
+                                <header>
+                                    <p>“Blockchain Learning Group provided an immersive learning experience for students and staff at Melbourne Girls Grammar. Their workshops illuminated for all participants the exciting, complex, and disruptive nature of blockchain technologies and its potential to democratize trust. Their skillful and patient coaching enabled students to become developers and integrators of blockchain technologies and imagine possible career pathways in tech. Our girls were able to demonstrate their new-found capabilities through success at the Smart Cities Hackathon in Melbourne where they developed DAPPs using the Ethereum blockchain and were one of the prize-winning groups.”</p>
+                                </header>
+                                <footer>
+                                    <h4>
+                                        <div>Ivan Carlisle, BA, BE(Monash), MTeach, MEdPolicy(Int)(Melb)</div>
+                                        <div>Director of STEM, Teacher of Mathematics & Algorithmics</div>
+                                        <div>Melbourne Girls Grammar School</div>
                                     </h4>
                                 </footer>
                             </div>
