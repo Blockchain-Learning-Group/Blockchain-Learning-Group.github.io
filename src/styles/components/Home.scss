@@ -1,10 +1,23 @@
+@import "../lib/jbarinas/layout/mixins/index";
+
 #Home {
-    padding: 1.618rem 0;
+    padding: 0 0 1.618rem;
+
+    & > header {
+        @include --layout-vertical;
+        @include --layout-end-justified;
+
+        height: 519px;
+        background-image: url(../images/BLG_Hero_Image.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
     h3, p {
         text-align: center;
 
     }
+
     div {
         text-align: center;
         margin-bottom: 1em;
@@ -21,7 +34,7 @@
         div {
             top: -20px;
             position: relative;
-            border-bottom: 1px solid #000;
+            border-bottom: 1px solid #fff;
         }
     }
 }
