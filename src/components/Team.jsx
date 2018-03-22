@@ -15,7 +15,7 @@ export default class extends React.Component {
                                 <span className="avatar">
                                     <img alt="" />
                                 </span>
-                                <span className="linkedin">
+                                <span className="linkedin" style={{ display: 'none' }}>
                                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
                                 </span>
                             </div>
@@ -37,7 +37,7 @@ export default class extends React.Component {
                                 <span className="avatar">
                                     <img alt="" />
                                 </span>
-                                <span className="linkedin">
+                                <span className="linkedin" style={{ display: 'none' }}>
                                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
                                 </span>
                             </div>
@@ -59,20 +59,18 @@ export default class extends React.Component {
                                 <span className="avatar">
                                     <img alt="" />
                                 </span>
-                                <span className="linkedin">
+                                <span className="linkedin" style={{ display: 'none' }}>
                                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
                                 </span>
                             </div>
                         </header>
                         <footer>
                             <h4>
-                                <div>Chami Akmeemana</div>
-                                <div>Blockchain and AI Specialist</div>
+                                <div>Morgan Moskalyk</div>
+                                <div>Engineer</div>
                             </h4>
                             <aside>
-                                <p>He pursued a Ph.D. in Bioceramic Engineering at Queen Mary, University of London, until deciding to forgo an academic career in favor of Law Enforcement. In 2002, he joined London’s Metropolitan Police.</p>
-                                <p>Chami has had 4 successful exists over the last decade and is passionate about the intersection of technology, business and social good. His experience includes serving as Director of regulatory and government affairs at ConsenSys Inc; Fintech Advisor to the Ontario Securities Commission; and Managing Director, Fintech and blockchain at the Global Risk Institute.</p>
-                                <p>Chami is also the Chairman of the Blockchain Association Australia and a faculty member of the Blockchain Research Institute. He is also the lead advisor to Blockchain Learning Group</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis commodi necessitatibus iste quod cum? Non asperiores illo iste error voluptatem aliquid, placeat deserunt rerum eligendi rem nobis incidunt voluptates!</p>
                             </aside>
                         </footer>
                     </li>
@@ -83,19 +81,18 @@ export default class extends React.Component {
                                 <span className="avatar">
                                     <img alt="" />
                                 </span>
-                                <span className="linkedin">
+                                <span className="linkedin" style={{ display: 'none' }}>
                                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
                                 </span>
                             </div>
                         </header>
                         <footer>
                             <h4>
-                                <div>David Valentine</div>
-                                <div>Program Manager</div>
+                                <div>Sebastian Barinas</div>
+                                <div>Engineer</div>
                             </h4>
                             <aside>
-                                <p>David has in depth, hands-on, experience with many current, important technology solutions and trends. Currently David is working with financial services organizations to define their enterprise architecture, strengthen their digital presence, and bring agility to their organizations. Previously, David has proven experience with internet banking and digital web architectures from his work with Citi Group, JP Morgan, ANZ Bank, and Audible at Amazon.</p>
-                                <p>David's Blockchain experience is extensive, starting with an interest in crypto-currency from as early as 2012. He has worked with several clients to define Blockchain solutions and implement Proof of Concept Solutions. David has also spoken at numerous corporate speaking events and meetups on the topic of Blockchain and Distributed Ledgers.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis commodi necessitatibus iste quod cum? Non asperiores illo iste error voluptatem aliquid, placeat deserunt rerum eligendi rem nobis incidunt voluptates!</p>
                             </aside>
                         </footer>
                     </li>
@@ -106,19 +103,18 @@ export default class extends React.Component {
                                 <span className="avatar">
                                     <img alt="" />
                                 </span>
-                                <span className="linkedin">
+                                <span className="linkedin" style={{ display: 'none' }}>
                                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
                                 </span>
                             </div>
                         </header>
                         <footer>
                             <h4>
-                                <div>Chandrakumar Sivasubramaniam</div>
-                                <div>Solutions Architect</div>
+                                <div>Rahul Kapoor</div>
+                                <div>UX Designer</div>
                             </h4>
                             <aside>
-                                <p>Chandra is an IBM Certified IT and Cloud Solution Architect. He has extensive expertise solutioning complex architecture in IBM Smart Cloud Enterprise, Amazon Web Services and Blockchain/Distributed Ledger Technologies.</p>
-                                <p>Chandra brings over 18 years of IT industry experience, including 14 years leading the full life-cycle of: application development; portfolio assessment; enterprise modernization; Enterprise Integration; Onchain & Offchain integration; cloud solution and implementation for various industries across Europe, United States of America, Singapore and Australia.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore perspiciatis commodi necessitatibus iste quod cum? Non asperiores illo iste error voluptatem aliquid, placeat deserunt rerum eligendi rem nobis incidunt voluptates!</p>
                             </aside>
                         </footer>
                     </li>
