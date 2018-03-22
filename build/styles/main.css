@@ -574,16 +574,6 @@ body.fullbleed {
   bottom: 0;
   left: 0; }
 
-.blg-btn {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.75rem;
-  border-radius: 100px;
-  letter-spacing: 1px;
-  user-select: none;
-  padding: 0.618rem 1.618rem;
-  display: inline-block; }
-
 /* alignment in cross axis */
 /* alignment in main axis */
 /* self alignment */
@@ -597,9 +587,7 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
-  outline: 0;
-  color: #fff;
-  background-color: #000; }
+  outline: 0; }
 
 a {
   cursor: pointer !important; }
@@ -613,10 +601,8 @@ a {
     -ms-flex-direction: row;
     -webkit-flex-direction: row;
     flex-direction: row;
-    color: #000;
-    background-color: #fff;
     max-width: 960px;
-    padding: 0.618rem 1rem; }
+    margin: 0.618rem 1rem; }
     #App > header .logo {
       background-image: url(../svg/BLG.svg);
       background-repeat: no-repeat;

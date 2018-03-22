@@ -23,7 +23,7 @@ export default class extends React.Component {
     render() {
         return (
             <div id="App">
-                <header>
+                <header className="mdc-elevation--z8">
                     <div className="logo" />
 
                     <div className="menu">
