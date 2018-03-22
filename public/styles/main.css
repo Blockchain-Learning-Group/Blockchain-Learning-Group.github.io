@@ -767,7 +767,7 @@ a {
   -webkit-flex-direction: row;
   flex-direction: row;
   max-width: 960px;
-  background-image: url(../images/BLG_Rowers.png);
+  background-image: url(../images/BLG_Rowers_mobile.png);
   background-repeat: no-repeat;
   background-position: center; }
   #AboutUs div {
@@ -780,7 +780,9 @@ a {
 @media (min-width: 960px) {
   #AboutUs {
     max-width: 960px;
-    margin: 0.618rem auto !important; } }
+    padding: 5rem 1rem;
+    margin: 0.618rem auto !important;
+    background-image: url(../images/BLG_Rowers.png); } }
 
 /* alignment in cross axis */
 /* alignment in main axis */
