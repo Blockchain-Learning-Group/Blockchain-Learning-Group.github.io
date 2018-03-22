@@ -42,7 +42,7 @@ export default class extends React.Component {
                     </nav>
 
                     <ul>
-                        <li className={this.state.client === 0 ? '' : 'invisible'}>
+                        <li className={this.state.client === 0 ? '' : 'blg--invisible'}>
                             <div>
                                 <img alt="AGL Energy" src="images/clients/agl.png" />
                             </div>
@@ -60,7 +60,7 @@ export default class extends React.Component {
                             </div>
                         </li>
 
-                        <li className={this.state.client === 2 ? '' : 'invisible'}>
+                        <li className={this.state.client === 2 ? '' : 'blg--invisible'}>
                             <div>
                                 <img alt="The Knowledge Society" src="images/clients/TheKnowledgeSociety.png" />
                             </div>
@@ -78,7 +78,7 @@ export default class extends React.Component {
                             </div>
                         </li>
 
-                        <li className={this.state.client === 1 ? '' : 'invisible'} style={{ position: 'relative' }}>
+                        <li className={this.state.client === 1 ? '' : 'blg--invisible'} style={{ position: 'relative' }}>
                             <div>
                                 <img alt="Melbourne Girls Grammar School" src="images/clients/MelbourneGirlsGrammarSchool.png" />
                             </div>
