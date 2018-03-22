@@ -16,7 +16,51 @@ export default class extends React.Component {
                                 <span className="avatar">
                                     <img alt="" />
                                 </span>
-                                <span className="linkedin">
+                                <span className="linkedin" style={{ display: 'none' }}>
+                                    <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
+                                </span>
+                            </div>
+                        </header>
+                        <footer>
+                            <h4>
+                                <div>Chami Akmeemana</div>
+                            </h4>
+                            <aside>
+                                <p>Chami Akmeemana is a Blockchain and AI Specialist. He pursued a Ph.D. in Bioceramic Engineering at Queen Mary, University of London, until deciding to forgo an academic career in favor of Law Enforcement. In 2002, he joined London’s Metropolitan Police.</p>
+                                <p>Chami has had 4 successful exists over the last decade and is passionate about the intersection of technology, business and social good. His experience includes serving as Director of regulatory and government affairs at ConsenSys Inc; Fintech Advisor to the Ontario Securities Commission; and Managing Director, Fintech and blockchain at the Global Risk Institute.</p>
+                                <p>Chami is also the Chairman of the Blockchain Association Australia and a faculty member of the Blockchain Research Institute. He is also the lead advisor to Blockchain Learning Group.</p>
+                            </aside>
+                        </footer>
+                    </li>
+
+                    <li>
+                        <header>
+                            <div>
+                                <span className="avatar">
+                                    <img alt="" />
+                                </span>
+                                <span className="linkedin" style={{ display: 'none' }}>
+                                    <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
+                                </span>
+                            </div>
+                        </header>
+                        <footer>
+                            <h4>
+                                <div>Dr. Jonathan Reichental</div>
+                            </h4>
+                            <aside>
+                                <p>Currently the Chief Information Officer (CIO) for the City of Palo Alto, is a multiple award-winning technology leader whose 25-year career has spanned both the private and public sectors. In 2017, he was named one of the top 100 CIOs in the world and in 2016 he was named one of the top 20 most influential CIO's in the United States. Dr. Reichental is also recognized as a global thought leader on a number of emerging trends including urban innovation and blockchain technology. Dr. Reichental works with his teams to apply technology innovation in organizations to create new value and to enable work to be more meaningful and fun.</p>
+                            </aside>
+                        </footer>
+                    </li>
+
+                    <li>
+                        <header>
+                            <div>
+                                <span className="avatar">
+                                    <img alt="" />
+                                </span>
+                                <span className="linkedin" style={{ display: 'none' }}>
                                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
                                 </span>
                             </div>
@@ -39,28 +83,7 @@ export default class extends React.Component {
                                 <span className="avatar">
                                     <img alt="" />
                                 </span>
-                                <span className="linkedin">
-                                    <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
-                                </span>
-                            </div>
-                        </header>
-                        <footer>
-                            <h4>
-                                <div>Dr. Jonathan Reichental</div>
-                            </h4>
-                            <aside>
-                                <p>Currently the Chief Information Officer (CIO) for the City of Palo Alto, is a multiple award-winning technology leader whose 25-year career has spanned both the private and public sectors. In 2017, he was named one of the top 100 CIOs in the world and in 2016 he was named one of the top 20 most influential CIO's in the United States. Dr. Reichental is also recognized as a global thought leader on a number of emerging trends including urban innovation and blockchain technology. Dr. Reichental works with his teams to apply technology innovation in organizations to create new value and to enable work to be more meaningful and fun.</p>
-                            </aside>
-                        </footer>
-                    </li>
-
-                    <li>
-                        <header>
-                            <div>
-                                <span className="avatar">
-                                    <img alt="" />
-                                </span>
-                                <span className="linkedin">
+                                <span className="linkedin" style={{ display: 'none' }}>
                                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
                                 </span>
                             </div>
@@ -70,8 +93,8 @@ export default class extends React.Component {
                                 <div>Lincoln Teo</div>
                             </h4>
                             <aside>
-                                <p>David has in depth, hands-on, experience with many current, important technology solutions and trends. Currently David is working with financial services organizations to define their enterprise architecture, strengthen their digital presence, and bring agility to their organizations. Previously, David has proven experience with internet banking and digital web architectures from his work with Citi Group, JP Morgan, ANZ Bank, and Audible at Amazon.</p>
-                                <p>David's Blockchain experience is extensive, starting with an interest in crypto-currency from as early as 2012. He has worked with several clients to define Blockchain solutions and implement Proof of Concept Solutions. David has also spoken at numerous corporate speaking events and meetups on the topic of Blockchain and Distributed Ledgers.</p>
+                                <p>Currently an Advisor with the central bank of Brunei Darussalam. He has managed multiple credit bureau projects in South-East Asia (Singapore, Malaysia, Indonesia, Vietnam and Brunei) as a senior executive of Dun & Bradstreet and then with Experian.</p>
+                                <p>Lincoln’s experience includes serving on project teams of the World Bank Group and the Asian Development Bank. More recently, he founded Intel Wise, an ICT firm that has successfully integrated information registries containing data on more than 80+ million companies in China and also expanding the use of blockchain technologies to link corporate registries regionally.</p>
                             </aside>
                         </footer>
                     </li>
