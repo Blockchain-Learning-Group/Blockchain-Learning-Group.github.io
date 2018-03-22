@@ -714,7 +714,8 @@ a {
 @media (min-width: 960px) {
   #App > header {
     max-width: 960px;
-    margin: 0.618rem auto !important; }
+    margin: auto;
+    padding: 0.618rem auto !important; }
     #App > header .menu {
       display: none; }
     #App > header ul {
