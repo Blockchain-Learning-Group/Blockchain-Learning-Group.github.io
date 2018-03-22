@@ -609,7 +609,8 @@ body {
   padding: 0;
   outline: 0;
   color: #fff;
-  background-color: #000; }
+  background-color: #000;
+  font-family: 'Lato', sans-serif; }
 
 a {
   cursor: pointer !important; }
@@ -765,7 +766,10 @@ a {
   -ms-flex-direction: row;
   -webkit-flex-direction: row;
   flex-direction: row;
-  max-width: 960px; }
+  max-width: 960px;
+  background-image: url(../images/BLG_Rowers.png);
+  background-repeat: no-repeat;
+  background-position: center; }
   #AboutUs div {
     -ms-flex: 1 1 0.000000001px;
     -webkit-flex: 1;

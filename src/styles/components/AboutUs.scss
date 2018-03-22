@@ -4,6 +4,9 @@
     @include --layout-horizontal;
 
     max-width: 960px;
+    background-image: url(../images/BLG_Rowers.png);
+    background-repeat: no-repeat;
+    background-position: center;
 
     div {
         @include --layout-flex;
