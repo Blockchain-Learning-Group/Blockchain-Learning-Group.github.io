@@ -52,9 +52,15 @@ export default class extends React.Component {
                                 </header>
                                 <footer>
                                     <h4>
-                                        <div>Joy Marrocco</div>
-                                        <div>IT Innovation Manager</div>
-                                        <div>AGL Energy</div>
+                                        <div>
+                                            <strong>Joy Marrocco</strong>
+                                        </div>
+                                        <div>
+                                            <small>IT Innovation Manager</small>
+                                        </div>
+                                        <div>
+                                            <small>AGL Energy</small>
+                                        </div>
                                     </h4>
                                 </footer>
                             </div>
@@ -70,9 +76,15 @@ export default class extends React.Component {
                                 </header>
                                 <footer>
                                     <h4>
-                                        <div>Nadeem Nathoo</div>
-                                        <div>Executive Director,</div>
-                                        <div>The Knowledge Society</div>
+                                        <div>
+                                            <strong>Nadeem Nathoo</strong>
+                                        </div>
+                                        <div>
+                                            <small>Executive Director</small>
+                                        </div>
+                                        <div>
+                                            <small>The Knowledge Society</small>
+                                        </div>
                                     </h4>
                                 </footer>
                             </div>
@@ -88,9 +100,15 @@ export default class extends React.Component {
                                 </header>
                                 <footer>
                                     <h4>
-                                        <div>Ivan Carlisle, BA, BE(Monash), MTeach, MEdPolicy(Int)(Melb)</div>
-                                        <div>Director of STEM, Teacher of Mathematics & Algorithmics</div>
-                                        <div>Melbourne Girls Grammar School</div>
+                                        <div>
+                                            <strong>Ivan Carlisle, BA, BE(Monash), MTeach, MEdPolicy(Int)(Melb)</strong>
+                                        </div>
+                                        <div>
+                                            <small>Director of STEM, Teacher of Mathematics & Algorithmics</small>
+                                        </div>
+                                        <div>
+                                            <small>Melbourne Girls Grammar School</small>
+                                        </div>
                                     </h4>
                                 </footer>
                             </div>
