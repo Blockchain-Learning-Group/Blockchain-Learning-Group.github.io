@@ -23,52 +23,55 @@ a {
     overflow: auto;
 
     & > header {
-        @include --layout-horizontal;
-
         color: #000;
         background-color: #fff;
-        max-width: 960px;
-        padding: 0.618rem 1rem;
 
-        .logo {
-            background-image: url(../svg/BLG.svg);
-            background-repeat: no-repeat;
-            background-position: center;
-            height: 48px;
-            width: 138.13px;
-        }
-
-        .menu {
-            @include --layout-flex;
+        div.--blg-wrapper {
             @include --layout-horizontal;
-            @include --layout-center;
-            @include --layout-end-justified
-        }
 
-        ul {
-            display: none;
-            z-index: 1001;
+            max-width: 960px;
+            margin: auto;
+            padding: 0.618rem 1rem;
 
-            &.show {
-                @include --layout-vertical;
-                @include --layout-center-center;
-                @include --layout-fixed-top;
-                @include --layout-fixed-bottom;
+            .logo {
+                background-image: url(../svg/BLG.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 48px;
+                width: 138.13px;
+            }
 
-                display: block;
-                padding: 1.618rem;
-                background-color: rgba(0, 0, 0, 0.87);
+            .menu {
+                @include --layout-flex;
+                @include --layout-horizontal;
+                @include --layout-center;
+                @include --layout-end-justified
+            }
 
-                li {
-                    text-align: center;
-                    a {
-                        display: inline-block;
-                        padding: 0.618rem;
+            ul {
+                display: none;
+                z-index: 1001;
+
+                &.show {
+                    @include --layout-vertical;
+                    @include --layout-center-center;
+                    @include --layout-fixed-top;
+                    @include --layout-fixed-bottom;
+
+                    display: block;
+                    padding: 1.618rem;
+                    background-color: rgba(0, 0, 0, 0.87);
+
+                    li {
+                        text-align: center;
+                        a {
+                            display: inline-block;
+                            padding: 0.618rem;
+                        }
                     }
                 }
             }
         }
-
     }
 
     & > footer {
@@ -119,22 +122,21 @@ a {
 @media (min-width: 960px) {
     #App {
         & > header {
-            max-width: 960px;
-            margin: auto;
-            padding: 0.618rem auto !important;
+            div.--blg-wrapper {
 
-            .menu {
-                display: none;
-            }
+                .menu {
+                    display: none;
+                }
 
-            ul {
-                @include --layout-flex;
-                @include --layout-horizontal;
-                @include --layout-center;
-                @include --layout-end-justified;
+                ul {
+                    @include --layout-flex;
+                    @include --layout-horizontal;
+                    @include --layout-center;
+                    @include --layout-end-justified;
 
-                li {
-                    margin-left: 1rem;
+                    li {
+                        margin-left: 1rem;
+                    }
                 }
             }
         }
