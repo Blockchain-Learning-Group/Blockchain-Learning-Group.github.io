@@ -1,3 +1,4 @@
+@import "../constants";
 @import "../lib/jbarinas/layout/mixins/index";
 
 #Home {
@@ -9,37 +10,34 @@
         @include --layout-end-justified;
 
         height: 519px;
-        margin-bottom: 41px;
+        margin-bottom: 51px;
         background-image: url(../images/BLG_Hero_Image.png);
         background-repeat: no-repeat;
         background-position: center;
-    }
 
-    h3, p {
-        text-align: center;
-
-    }
-
-    div {
-        text-align: center;
-        //margin-bottom: 1em;
-        position: relative;
-        bottom: -21px;
-
-
-        a {
-            color: #212121;
-            background-color: #76FF03;
-            padding: 0.618rem 1.618rem;
-            display: inline-block;
-            z-index: 2;
-            position: relative;
+        h3, p, div {
+            text-align: center;
         }
 
         div {
-            top: -20px;
             position: relative;
-            border-bottom: 1px solid #fff;
+            bottom: -21px;
+
+            div {
+                top: -20px;
+                position: relative;
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+
+    p {
+        padding: 0 map-get($map: $layout-padding, $key: horizontal);
+        text-align: center;
+
+        @media (min-width: map-get($map: $breakpoints, $key: lg)) {
+            max-width: map-get($map: $breakpoints, $key: lg);
+            margin: 0 auto;
         }
     }
 }
