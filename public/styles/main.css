@@ -741,9 +741,9 @@ body {
     #App > header div.--blg-wrapper ul li {
       margin-left: 1rem; } }
 
-#AboutUs, #AdvisoryBoard, #Courses, #Diversity, #Home, #Team {
+#AdvisoryBoard, #Courses, #Diversity, #Home, #Team {
   overflow: hidden;
-  padding: 1.618rem 1rem; }
+  padding: 0.618rem 1rem; }
 
 /* alignment in cross axis */
 /* alignment in main axis */
@@ -757,10 +757,10 @@ body {
   -ms-flex-direction: row;
   -webkit-flex-direction: row;
   flex-direction: row;
-  max-width: 960px;
   background-image: url(../images/BLG_Rowers_mobile.png);
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  padding: 5rem 1rem; }
   #AboutUs div {
     -ms-flex: 1 1 0.000000001px;
     -webkit-flex: 1;
@@ -771,7 +771,6 @@ body {
 @media (min-width: 960px) {
   #AboutUs {
     max-width: 960px;
-    padding: 5rem 1rem;
     margin: 0.618rem auto !important;
     background-image: url(../images/BLG_Rowers.png); } }
 

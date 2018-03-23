@@ -1,23 +1,24 @@
+@import "../constants";
 @import "../lib/jbarinas/layout/mixins/index";
 
 #AboutUs {
     @include --layout-horizontal;
 
-    max-width: 960px;
     background-image: url(../images/BLG_Rowers_mobile.png);
     background-repeat: no-repeat;
     background-position: center;
+
+    padding: 5rem map-get($map: $padding, $key: horizontal);
 
     div {
         @include --layout-flex;
     }
 }
 
-@media (min-width: 960px) {
+@media (min-width: map-get($map: $breakpoints, $key: lg)) {
     #AboutUs {
-        max-width: 960px;
-        padding: 5rem 1rem;
-        margin: 0.618rem auto !important;
+        max-width: map-get($map: $breakpoints, $key: lg);
+        margin: map-get($map: $padding, $key: vertical) auto !important;
         background-image: url(../images/BLG_Rowers.png);
     }
 }

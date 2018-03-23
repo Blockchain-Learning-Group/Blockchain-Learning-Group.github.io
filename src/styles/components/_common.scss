@@ -1,4 +1,6 @@
-#AboutUs, #AdvisoryBoard, #Courses, #Diversity, #Home, #Team {
+@import "../constants";
+
+#AdvisoryBoard, #Courses, #Diversity, #Home, #Team {
     overflow: hidden;
-    padding: 1.618rem 1rem;
+    padding: map-get($map: $padding, $key: vertical) map-get($map: $padding, $key: horizontal);
 }

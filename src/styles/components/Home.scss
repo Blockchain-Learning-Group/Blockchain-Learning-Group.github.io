@@ -32,7 +32,7 @@
     }
 
     p {
-        padding: 0 map-get($map: $layout-padding, $key: horizontal);
+        padding: 0 map-get($map: $padding, $key: horizontal);
         text-align: center;
 
         @media (min-width: map-get($map: $breakpoints, $key: lg)) {
