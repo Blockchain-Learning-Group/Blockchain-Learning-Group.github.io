@@ -19,12 +19,30 @@ a {
     cursor: pointer !important;
 }
 
-#App {
-    overflow: auto;
+body {
+    @include --layout-fullbleed;
+    #root {
+        @include --layout-fit;
+        #App {
+            @include --layout-fit;
+            @include --layout-vertical;
+            & > main {
+                @include --layout-flex;
+                div.blg--main-wrapper {
+                    @include --layout-fit;
+                    overflow-y: scroll;
+                }
+            }
+        }
+    }
+}
 
+#App {
     & > header {
+
         color: #000;
         background-color: #fff;
+        z-index: 1001;
 
         div.--blg-wrapper {
             @include --layout-horizontal;
@@ -73,57 +91,12 @@ a {
             }
         }
     }
-
-    & > footer {
-        overflow: hidden;
-        padding: 1.618rem 0 0;
-
-        address, div, strong {
-            text-align: center;
-        }
-
-        address {
-            a {
-                line-height: initial;
-                text-transform: initial;
-            }
-        }
-
-        .social {
-            @include --layout-horizontal;
-            @include --layout-center-center;
-
-            margin: 1.618rem;
-
-            a {
-                width: 44px;
-                height: 44px;
-                margin: 0 0.618rem;
-                display: block;
-                background-repeat: no-repeat;
-                background-position: center;
-            }
-            .linkedin {
-                background-image: url(../svg/linkedin.svg);
-            }
-            .twitter {
-                background-image: url(../svg/twitter.svg);
-            }
-            .github {
-                background-image: url(../svg/github.svg);
-            }
-            .slack {
-                background-image: url(../svg/slack.svg);
-            }
-        }
-    }
 }
 
 @media (min-width: 960px) {
     #App {
         & > header {
             div.--blg-wrapper {
-
                 .menu {
                     display: none;
                 }

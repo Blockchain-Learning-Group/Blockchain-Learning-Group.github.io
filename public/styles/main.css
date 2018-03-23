@@ -615,86 +615,67 @@ body {
 a {
   cursor: pointer !important; }
 
-#App {
-  overflow: auto; }
-  #App > header {
-    color: #000;
-    background-color: #fff; }
-    #App > header div.--blg-wrapper {
+body {
+  margin: 0;
+  height: 100vh; }
+  body #root {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+    body #root #App {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
-      -ms-flex-direction: row;
-      -webkit-flex-direction: row;
-      flex-direction: row;
-      max-width: 960px;
-      margin: auto;
-      padding: 0.618rem 1rem; }
-      #App > header div.--blg-wrapper .logo {
-        background-image: url(../svg/BLG.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 48px;
-        width: 138.13px; }
-      #App > header div.--blg-wrapper .menu {
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column; }
+      body #root #App > main {
         -ms-flex: 1 1 0.000000001px;
         -webkit-flex: 1;
         flex: 1;
         -webkit-flex-basis: 0.000000001px;
-        flex-basis: 0.000000001px;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -ms-flex-direction: row;
-        -webkit-flex-direction: row;
-        flex-direction: row;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-        -ms-flex-pack: end;
-        -webkit-justify-content: flex-end;
-        justify-content: flex-end; }
-      #App > header div.--blg-wrapper ul {
-        display: none;
-        z-index: 1001; }
-        #App > header div.--blg-wrapper ul.show {
-          display: -ms-flexbox;
-          display: -webkit-flex;
-          display: flex;
-          -ms-flex-direction: column;
-          -webkit-flex-direction: column;
-          flex-direction: column;
-          -ms-flex-align: center;
-          -webkit-align-items: center;
-          align-items: center;
-          -ms-flex-pack: center;
-          -webkit-justify-content: center;
-          justify-content: center;
-          position: fixed;
+        flex-basis: 0.000000001px; }
+        body #root #App > main div.blg--main-wrapper {
+          position: absolute;
           top: 0;
-          left: 0;
-          right: 0;
-          position: fixed;
           right: 0;
           bottom: 0;
           left: 0;
-          display: block;
-          padding: 1.618rem;
-          background-color: rgba(0, 0, 0, 0.87); }
-          #App > header div.--blg-wrapper ul.show li {
-            text-align: center; }
-            #App > header div.--blg-wrapper ul.show li a {
-              display: inline-block;
-              padding: 0.618rem; }
-  #App > footer {
-    overflow: hidden;
-    padding: 1.618rem 0 0; }
-    #App > footer address, #App > footer div, #App > footer strong {
-      text-align: center; }
-    #App > footer address a {
-      line-height: initial;
-      text-transform: initial; }
-    #App > footer .social {
+          overflow-y: scroll; }
+
+#App > header {
+  color: #000;
+  background-color: #fff;
+  z-index: 1001; }
+  #App > header div.--blg-wrapper {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    max-width: 960px;
+    margin: auto;
+    padding: 0.618rem 1rem; }
+    #App > header div.--blg-wrapper .logo {
+      background-image: url(../svg/BLG.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 48px;
+      width: 138.13px; }
+    #App > header div.--blg-wrapper .menu {
+      -ms-flex: 1 1 0.000000001px;
+      -webkit-flex: 1;
+      flex: 1;
+      -webkit-flex-basis: 0.000000001px;
+      flex-basis: 0.000000001px;
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
@@ -704,25 +685,41 @@ a {
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      margin: 1.618rem; }
-      #App > footer .social a {
-        width: 44px;
-        height: 44px;
-        margin: 0 0.618rem;
+      -ms-flex-pack: end;
+      -webkit-justify-content: flex-end;
+      justify-content: flex-end; }
+    #App > header div.--blg-wrapper ul {
+      display: none;
+      z-index: 1001; }
+      #App > header div.--blg-wrapper ul.show {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
         display: block;
-        background-repeat: no-repeat;
-        background-position: center; }
-      #App > footer .social .linkedin {
-        background-image: url(../svg/linkedin.svg); }
-      #App > footer .social .twitter {
-        background-image: url(../svg/twitter.svg); }
-      #App > footer .social .github {
-        background-image: url(../svg/github.svg); }
-      #App > footer .social .slack {
-        background-image: url(../svg/slack.svg); }
+        padding: 1.618rem;
+        background-color: rgba(0, 0, 0, 0.87); }
+        #App > header div.--blg-wrapper ul.show li {
+          text-align: center; }
+          #App > header div.--blg-wrapper ul.show li a {
+            display: inline-block;
+            padding: 0.618rem; }
 
 @media (min-width: 960px) {
   #App > header div.--blg-wrapper .menu {
@@ -992,6 +989,49 @@ a {
         flex-direction: row; }
         #Clients > footer ul li.show {
           display: flex; } }
+
+/* alignment in cross axis */
+/* alignment in main axis */
+/* self alignment */
+/* multi-line alignment in main axis */
+/* fixed position */
+#ContactUs {
+  overflow: hidden;
+  padding: 1.618rem 0 0; }
+  #ContactUs address, #ContactUs div, #ContactUs strong {
+    text-align: center; }
+  #ContactUs address a {
+    line-height: initial;
+    text-transform: initial; }
+  #ContactUs .social {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin: 1.618rem; }
+    #ContactUs .social a {
+      width: 44px;
+      height: 44px;
+      margin: 0 0.618rem;
+      display: block;
+      background-repeat: no-repeat;
+      background-position: center; }
+    #ContactUs .social .linkedin {
+      background-image: url(../svg/linkedin.svg); }
+    #ContactUs .social .twitter {
+      background-image: url(../svg/twitter.svg); }
+    #ContactUs .social .github {
+      background-image: url(../svg/github.svg); }
+    #ContactUs .social .slack {
+      background-image: url(../svg/slack.svg); }
 
 /* alignment in cross axis */
 /* alignment in main axis */

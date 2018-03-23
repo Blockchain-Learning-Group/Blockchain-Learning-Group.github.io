@@ -1,0 +1,46 @@
+@import "../lib/jbarinas/layout/mixins/index";
+
+#ContactUs {
+    overflow: hidden;
+    padding: 1.618rem 0 0;
+
+    address, div, strong {
+        text-align: center;
+    }
+
+    address {
+        a {
+            line-height: initial;
+            text-transform: initial;
+        }
+    }
+
+    .social {
+        @include --layout-horizontal;
+        @include --layout-center-center;
+
+        margin: 1.618rem;
+
+        a {
+            width: 44px;
+            height: 44px;
+            margin: 0 0.618rem;
+            display: block;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .linkedin {
+            background-image: url(../svg/linkedin.svg);
+        }
+        .twitter {
+            background-image: url(../svg/twitter.svg);
+        }
+        .github {
+            background-image: url(../svg/github.svg);
+        }
+        .slack {
+            background-image: url(../svg/slack.svg);
+        }
+    }
+}
+
