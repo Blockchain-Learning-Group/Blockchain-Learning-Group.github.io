@@ -1187,7 +1187,7 @@ a {
 /* fixed position */
 #Team, #AdvisoryBoard {
   color: #fff;
-  background-color: #0188ee;
+  background-color: #000;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -1216,6 +1216,8 @@ a {
       margin: 0;
       border-radius: 50%;
       overflow: hidden; }
+      #Team ul li header span.avatar img, #AdvisoryBoard ul li header span.avatar img {
+        width: 80px; }
     #Team ul li header span.linkedin, #AdvisoryBoard ul li header span.linkedin {
       display: -ms-flexbox;
       display: -webkit-flex;

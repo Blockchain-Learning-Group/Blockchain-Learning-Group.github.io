@@ -14,7 +14,7 @@ export default class extends React.Component {
                         <header>
                             <div>
                                 <span className="avatar">
-                                    <img alt="" />
+                                    <img alt="" src="images/profiles/Chami.jpg" />
                                 </span>
                                 <span className="linkedin" style={{ display: 'none' }}>
                                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
@@ -37,7 +37,7 @@ export default class extends React.Component {
                         <header>
                             <div>
                                 <span className="avatar">
-                                    <img alt="" />
+                                    <img alt="" src="images/profiles/Jonathan.jpg" />
                                 </span>
                                 <span className="linkedin" style={{ display: 'none' }}>
                                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
@@ -58,7 +58,7 @@ export default class extends React.Component {
                         <header>
                             <div>
                                 <span className="avatar">
-                                    <img alt="" />
+                                    <img alt="" src="images/profiles/Jared.jpg" />
                                 </span>
                                 <span className="linkedin" style={{ display: 'none' }}>
                                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
@@ -81,7 +81,7 @@ export default class extends React.Component {
                         <header>
                             <div>
                                 <span className="avatar">
-                                    <img alt="" />
+                                    <img alt="" src="images/profiles/Lincoln.jpg" />
                                 </span>
                                 <span className="linkedin" style={{ display: 'none' }}>
                                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>

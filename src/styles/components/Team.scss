@@ -2,7 +2,7 @@
 
 #Team, #AdvisoryBoard {
     color: #fff;
-    background-color: #0188ee;
+    background-color: #000;
 
     @include --layout-vertical;
     @include --layout-center;
@@ -37,6 +37,10 @@
                     margin: 0;
                     border-radius: 50%;
                     overflow: hidden;
+
+                    img {
+                        width: 80px;
+                    }
                 }
 
                 span.linkedin {
