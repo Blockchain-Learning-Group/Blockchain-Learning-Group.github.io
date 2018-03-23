@@ -11,18 +11,26 @@
     h3, p {
         text-align: center;
     }
+}
 
-    & > footer {
-        @include --layout-horizontal;
+@media (min-width: 840px) {
+    #Diversity {
+        & > footer {
+            @include --layout-horizontal;
 
-        padding: 4rem;
-        box-sizing: border-box;
-        background-image: url(../images/BLG_ChampioningDiversity.png);
-        background-repeat: no-repeat;
-        background-position: center;
+            padding: 4rem;
+            box-sizing: border-box;
+            background-image: url(../images/BLG_ChampioningDiversity.png);
+            background-repeat: no-repeat;
+            background-position: center;
 
-        & > div {
-            @include --layout-flex;
+            & > div {
+                @include --layout-flex;
+
+                p {
+                    text-align: left;
+                }
+            }
         }
     }
 }
