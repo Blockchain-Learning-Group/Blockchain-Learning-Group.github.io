@@ -574,6 +574,26 @@ body.fullbleed {
   bottom: 0;
   left: 0; }
 
+.blg-btn {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  border-radius: 100px;
+  letter-spacing: 1px;
+  user-select: none;
+  padding: 0.618rem 1.618rem;
+  display: inline-block;
+  box-shadow: 0 2px 50px 0 #7ED321, 0 2px 50px 0 rgba(0, 0, 0, 0.5);
+  /* Rectangle: */
+  background: #7ED321;
+  border-radius: 100px;
+  /* View our courses: */
+  font-family: Lato-Regular;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-align: center; }
+
 /* alignment in cross axis */
 /* alignment in main axis */
 /* self alignment */
@@ -587,14 +607,54 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
-  outline: 0; }
+  outline: 0;
+  color: #fff;
+  background-color: #000;
+  font-family: 'Lato', sans-serif; }
 
 a {
   cursor: pointer !important; }
 
-#App {
-  overflow: auto; }
-  #App > header {
+body {
+  margin: 0;
+  height: 100vh; }
+  body #root {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+    body #root #App {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column; }
+      body #root #App > main {
+        -ms-flex: 1 1 0.000000001px;
+        -webkit-flex: 1;
+        flex: 1;
+        -webkit-flex-basis: 0.000000001px;
+        flex-basis: 0.000000001px; }
+        body #root #App > main div.blg--main-wrapper {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          overflow-y: scroll; }
+
+#App > header {
+  color: #000;
+  background-color: #fff;
+  z-index: 1001; }
+  #App > header div.--blg-wrapper {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -602,14 +662,15 @@ a {
     -webkit-flex-direction: row;
     flex-direction: row;
     max-width: 960px;
-    margin: 0.618rem 1rem; }
-    #App > header .logo {
+    margin: auto;
+    padding: 0.618rem 1rem; }
+    #App > header div.--blg-wrapper .logo {
       background-image: url(../svg/BLG.svg);
       background-repeat: no-repeat;
       background-position: center;
       height: 48px;
       width: 138.13px; }
-    #App > header .menu {
+    #App > header div.--blg-wrapper .menu {
       -ms-flex: 1 1 0.000000001px;
       -webkit-flex: 1;
       flex: 1;
@@ -627,10 +688,10 @@ a {
       -ms-flex-pack: end;
       -webkit-justify-content: flex-end;
       justify-content: flex-end; }
-    #App > header ul {
+    #App > header div.--blg-wrapper ul {
       display: none;
       z-index: 1001; }
-      #App > header ul.show {
+      #App > header div.--blg-wrapper ul.show {
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
@@ -654,75 +715,35 @@ a {
         display: block;
         padding: 1.618rem;
         background-color: rgba(0, 0, 0, 0.87); }
-        #App > header ul.show li {
+        #App > header div.--blg-wrapper ul.show li {
           text-align: center; }
-          #App > header ul.show li a {
+          #App > header div.--blg-wrapper ul.show li a {
             display: inline-block;
             padding: 0.618rem; }
-  #App > footer {
-    overflow: hidden;
-    padding: 1.618rem 0 0; }
-    #App > footer address, #App > footer div, #App > footer strong {
-      text-align: center; }
-    #App > footer address a {
-      line-height: initial;
-      text-transform: initial; }
-    #App > footer .social {
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -ms-flex-direction: row;
-      -webkit-flex-direction: row;
-      flex-direction: row;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      margin: 1.618rem; }
-      #App > footer .social a {
-        width: 44px;
-        height: 44px;
-        margin: 0 0.618rem;
-        display: block;
-        background-repeat: no-repeat;
-        background-position: center; }
-      #App > footer .social .linkedin {
-        background-image: url(../svg/linkedin.svg); }
-      #App > footer .social .twitter {
-        background-image: url(../svg/twitter.svg); }
-      #App > footer .social .github {
-        background-image: url(../svg/github.svg); }
-      #App > footer .social .slack {
-        background-image: url(../svg/slack.svg); }
 
 @media (min-width: 960px) {
-  #App > header {
-    max-width: 960px;
-    margin: 0.618rem auto !important; }
-    #App > header .menu {
-      display: none; }
-    #App > header ul {
-      -ms-flex: 1 1 0.000000001px;
-      -webkit-flex: 1;
-      flex: 1;
-      -webkit-flex-basis: 0.000000001px;
-      flex-basis: 0.000000001px;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -ms-flex-direction: row;
-      -webkit-flex-direction: row;
-      flex-direction: row;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-      -ms-flex-pack: end;
-      -webkit-justify-content: flex-end;
-      justify-content: flex-end; }
-      #App > header ul li {
-        margin-left: 1rem; } }
+  #App > header div.--blg-wrapper .menu {
+    display: none; }
+  #App > header div.--blg-wrapper ul {
+    -ms-flex: 1 1 0.000000001px;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-basis: 0.000000001px;
+    flex-basis: 0.000000001px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end; }
+    #App > header div.--blg-wrapper ul li {
+      margin-left: 1rem; } }
 
 #AboutUs, #AdvisoryBoard, #Courses, #Diversity, #Home, #Team {
   overflow: hidden;
@@ -740,7 +761,10 @@ a {
   -ms-flex-direction: row;
   -webkit-flex-direction: row;
   flex-direction: row;
-  max-width: 960px; }
+  max-width: 960px;
+  background-image: url(../images/BLG_Rowers_mobile.png);
+  background-repeat: no-repeat;
+  background-position: center; }
   #AboutUs div {
     -ms-flex: 1 1 0.000000001px;
     -webkit-flex: 1;
@@ -751,7 +775,9 @@ a {
 @media (min-width: 960px) {
   #AboutUs {
     max-width: 960px;
-    margin: 0.618rem auto !important; } }
+    padding: 5rem 1rem;
+    margin: 0.618rem auto !important;
+    background-image: url(../images/BLG_Rowers.png); } }
 
 /* alignment in cross axis */
 /* alignment in main axis */
@@ -888,7 +914,7 @@ a {
   -webkit-justify-content: center;
   justify-content: center;
   color: #fff;
-  background-color: #212121;
+  background-color: #000;
   overflow: hidden;
   padding: 1.618rem 0; }
   #Clients > footer {
@@ -969,6 +995,49 @@ a {
 /* self alignment */
 /* multi-line alignment in main axis */
 /* fixed position */
+#ContactUs {
+  overflow: hidden;
+  padding: 1.618rem 0 0; }
+  #ContactUs address, #ContactUs div, #ContactUs strong {
+    text-align: center; }
+  #ContactUs address a {
+    line-height: initial;
+    text-transform: initial; }
+  #ContactUs .social {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin: 1.618rem; }
+    #ContactUs .social a {
+      width: 44px;
+      height: 44px;
+      margin: 0 0.618rem;
+      display: block;
+      background-repeat: no-repeat;
+      background-position: center; }
+    #ContactUs .social .linkedin {
+      background-image: url(../svg/linkedin.svg); }
+    #ContactUs .social .twitter {
+      background-image: url(../svg/twitter.svg); }
+    #ContactUs .social .github {
+      background-image: url(../svg/github.svg); }
+    #ContactUs .social .slack {
+      background-image: url(../svg/slack.svg); }
+
+/* alignment in cross axis */
+/* alignment in main axis */
+/* self alignment */
+/* multi-line alignment in main axis */
+/* fixed position */
 #Courses {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -978,7 +1047,10 @@ a {
   flex-direction: column;
   -ms-flex-align: center;
   -webkit-align-items: center;
-  align-items: center; }
+  align-items: center;
+  background-image: url(../images/BLG_Courses.png);
+  background-repeat: no-repeat;
+  background-position: center; }
   #Courses > header, #Courses > footer {
     max-width: 960px; }
   #Courses > header {
@@ -1063,7 +1135,9 @@ a {
       -webkit-flex-basis: 0.000000001px;
       flex-basis: 0.000000001px;
       margin: 0 1rem;
-      max-width: 480px; } }
+      max-width: 480px; }
+  #Courses > footer > ul {
+    padding: 3rem; } }
 
 /* alignment in cross axis */
 /* alignment in main axis */
@@ -1071,8 +1145,6 @@ a {
 /* multi-line alignment in main axis */
 /* fixed position */
 #Diversity {
-  color: #fff;
-  background-color: #212121;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -1082,18 +1154,58 @@ a {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center; }
-  #Diversity > h3, #Diversity > p {
+  #Diversity > header, #Diversity > footer {
     max-width: 960px; }
   #Diversity h3, #Diversity p {
     text-align: center; }
+  #Diversity > footer {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    padding: 4rem;
+    box-sizing: border-box;
+    background-image: url(../images/BLG_ChampioningDiversity.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+    #Diversity > footer > div {
+      -ms-flex: 1 1 0.000000001px;
+      -webkit-flex: 1;
+      flex: 1;
+      -webkit-flex-basis: 0.000000001px;
+      flex-basis: 0.000000001px; }
 
+/* alignment in cross axis */
+/* alignment in main axis */
+/* self alignment */
+/* multi-line alignment in main axis */
+/* fixed position */
 #Home {
-  padding: 1.618rem 0; }
+  position: relative;
+  padding: 0 0 1.618rem; }
+  #Home > header {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    height: 519px;
+    margin-bottom: 41px;
+    background-image: url(../images/BLG_Hero_Image.png);
+    background-repeat: no-repeat;
+    background-position: center; }
   #Home h3, #Home p {
     text-align: center; }
   #Home div {
     text-align: center;
-    margin-bottom: 1em; }
+    position: relative;
+    bottom: -21px; }
     #Home div a {
       color: #212121;
       background-color: #76FF03;
@@ -1104,7 +1216,7 @@ a {
     #Home div div {
       top: -20px;
       position: relative;
-      border-bottom: 1px solid #000; }
+      border-bottom: 1px solid #fff; }
 
 /* alignment in cross axis */
 /* alignment in main axis */
@@ -1113,7 +1225,7 @@ a {
 /* fixed position */
 #Team, #AdvisoryBoard {
   color: #fff;
-  background-color: #0188ee;
+  background-color: #000;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -1137,11 +1249,13 @@ a {
     #Team ul li header span.avatar, #AdvisoryBoard ul li header span.avatar {
       background-color: rgba(0, 0, 0, 0.38);
       display: inline-block;
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       margin: 0;
       border-radius: 50%;
       overflow: hidden; }
+      #Team ul li header span.avatar img, #AdvisoryBoard ul li header span.avatar img {
+        width: 100px; }
     #Team ul li header span.linkedin, #AdvisoryBoard ul li header span.linkedin {
       display: -ms-flexbox;
       display: -webkit-flex;
@@ -1174,9 +1288,10 @@ a {
   #Team ul li footer, #AdvisoryBoard ul li footer {
     text-align: center; }
     #Team ul li footer h4 div:first-child, #AdvisoryBoard ul li footer h4 div:first-child {
-      font-weight: 500; }
+      font-weight: 700; }
     #Team ul li footer h4 div:nth-child(2), #AdvisoryBoard ul li footer h4 div:nth-child(2) {
-      color: #000; }
+      color: #067294;
+      font-weight: 700; }
     #Team ul li footer aside, #AdvisoryBoard ul li footer aside {
       display: none; }
 
