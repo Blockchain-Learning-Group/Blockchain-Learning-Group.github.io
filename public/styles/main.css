@@ -1211,13 +1211,13 @@ a {
     #Team ul li header span.avatar, #AdvisoryBoard ul li header span.avatar {
       background-color: rgba(0, 0, 0, 0.38);
       display: inline-block;
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       margin: 0;
       border-radius: 50%;
       overflow: hidden; }
       #Team ul li header span.avatar img, #AdvisoryBoard ul li header span.avatar img {
-        width: 80px; }
+        width: 100px; }
     #Team ul li header span.linkedin, #AdvisoryBoard ul li header span.linkedin {
       display: -ms-flexbox;
       display: -webkit-flex;
@@ -1252,7 +1252,8 @@ a {
     #Team ul li footer h4 div:first-child, #AdvisoryBoard ul li footer h4 div:first-child {
       font-weight: 500; }
     #Team ul li footer h4 div:nth-child(2), #AdvisoryBoard ul li footer h4 div:nth-child(2) {
-      color: #000; }
+      color: #067294;
+      font-weight: 700; }
     #Team ul li footer aside, #AdvisoryBoard ul li footer aside {
       display: none; }
 
