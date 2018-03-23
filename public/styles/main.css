@@ -1107,8 +1107,6 @@ a {
 /* multi-line alignment in main axis */
 /* fixed position */
 #Diversity {
-  color: #fff;
-  background-color: #212121;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -1118,10 +1116,28 @@ a {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center; }
-  #Diversity > h3, #Diversity > p {
+  #Diversity > header, #Diversity > footer {
     max-width: 960px; }
   #Diversity h3, #Diversity p {
     text-align: center; }
+  #Diversity > footer {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    padding: 4rem;
+    box-sizing: border-box;
+    background-image: url(../images/BLG_ChampioningDiversity.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+    #Diversity > footer > div {
+      -ms-flex: 1 1 0.000000001px;
+      -webkit-flex: 1;
+      flex: 1;
+      -webkit-flex-basis: 0.000000001px;
+      flex-basis: 0.000000001px; }
 
 /* alignment in cross axis */
 /* alignment in main axis */
