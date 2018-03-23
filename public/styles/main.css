@@ -1009,7 +1009,10 @@ a {
   flex-direction: column;
   -ms-flex-align: center;
   -webkit-align-items: center;
-  align-items: center; }
+  align-items: center;
+  background-image: url(../images/BLG_Courses.png);
+  background-repeat: no-repeat;
+  background-position: center; }
   #Courses > header, #Courses > footer {
     max-width: 960px; }
   #Courses > header {
@@ -1094,7 +1097,9 @@ a {
       -webkit-flex-basis: 0.000000001px;
       flex-basis: 0.000000001px;
       margin: 0 1rem;
-      max-width: 480px; } }
+      max-width: 480px; }
+  #Courses > footer > ul {
+    padding: 3rem; } }
 
 /* alignment in cross axis */
 /* alignment in main axis */

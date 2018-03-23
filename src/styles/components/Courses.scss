@@ -5,6 +5,10 @@
     @include --layout-vertical;
     @include --layout-center;
 
+    background-image: url(../images/BLG_Courses.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
     & > header, & > footer {
         max-width: 960px;
     }
@@ -119,6 +123,12 @@
                     margin: 0 1rem;
                     max-width: 480px;
                 }
+            }
+        }
+
+        & > footer {
+            & > ul {
+                padding: 3rem;
             }
         }
     }
