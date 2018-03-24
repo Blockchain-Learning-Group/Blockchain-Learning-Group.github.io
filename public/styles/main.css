@@ -637,7 +637,8 @@ body {
         -webkit-flex: 1;
         flex: 1;
         -webkit-flex-basis: 0.000000001px;
-        flex-basis: 0.000000001px; }
+        flex-basis: 0.000000001px;
+        position: relative; }
         body #root #App > main div.blg--main-wrapper {
           position: absolute;
           top: 0;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import AboutUs from './components/AboutUs';
-import AdvisoryBoard from './components/AdvisoryBoard';
+import Advisors from './components/Advisors';
 import Clients from './components/Clients';
 import ContactUs from './components/ContactUs';
 import Courses from './components/Courses';
@@ -43,16 +43,16 @@ export default class extends React.Component {
                                 <a href="#Courses">Courses</a>
                             </li>
                             <li>
-                                <a href="#Team">Our Team</a>
+                                <a href="#Team">Team</a>
                             </li>
                             <li>
-                                <a href="#AdvisoryBoard">Advisory Board</a>
+                                <a href="#AdvisoryBoard">Advisors</a>
                             </li>
                             <li>
-                                <a href="#OurClients">Our Clients</a>
+                                <a href="#OurClients">Clients</a>
                             </li>
                             <li>
-                                <a href="ContactUs">Contact Us</a>
+                                <a href="#ContactUs">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -66,7 +66,7 @@ export default class extends React.Component {
                         <Diversity />
                         <Clients />
                         <Team />
-                        <AdvisoryBoard />
+                        <Advisors />
                         <ContactUs />
                     </div>
                 </main>

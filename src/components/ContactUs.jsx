@@ -13,14 +13,13 @@ export default class extends React.Component {
                         <a href="tel:+14165008518">+1 (416) 500-8518</a>
                     </div>
                     <div>
-                        <a href="mailto:murtaza@blockchainlearninggroup.com">murtaza@BlockchainLearningGroup.com</a>
+                        <a href="mailto:info@BlockchainLearningGroup.com">info@BlockchainLearningGroup.com</a>
                     </div>
                 </address>
                 <div className="social">
                     <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
                     <a target="_blank" rel="noopener noreferrer" className="twitter" href="https://twitter.com/BlockchainLG"></a>
                     <a target="_blank" rel="noopener noreferrer" className="github" href="https://github.com/Blockchain-Learning-Group"></a>
-                    <a target="_blank" rel="noopener noreferrer" className="slack" href="https://blockchainlearning.slack.com"></a>
                 </div>
             </section>
         );

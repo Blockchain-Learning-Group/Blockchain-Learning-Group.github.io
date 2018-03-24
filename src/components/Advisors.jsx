@@ -5,7 +5,7 @@ export default class extends React.Component {
         return (
             <section id="AdvisoryBoard">
                 <header>
-                    <h3>Advisory Board</h3>
+                    <h3>Advisors</h3>
                     <p>We've aligned with leading blockchain experts worldwide and the developer community at large to form our advisory board, and we are just starting! We will continue to add thought leaders, corporate veterans and technology guru's on as advisors as we continue our journey.</p>
                 </header>
 

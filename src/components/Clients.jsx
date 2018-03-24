@@ -28,7 +28,7 @@ export default class extends React.Component {
         return (
             <section id="Clients">
                 <header>
-                    <h3>Our Clients</h3>
+                    <h3>Clients</h3>
                 </header>
 
                 <footer className="mdc-elevation--z8">
