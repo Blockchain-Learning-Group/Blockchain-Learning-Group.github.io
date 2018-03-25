@@ -764,6 +764,7 @@ body {
   -webkit-flex-direction: row;
   flex-direction: row;
   background-image: url(../images/BLG_Rowers_mobile.png);
+  background-size: 99%;
   background-repeat: no-repeat;
   background-position: center;
   padding: 5rem 1rem; }
