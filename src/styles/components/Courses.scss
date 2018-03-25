@@ -89,6 +89,7 @@
                             margin-bottom: 1rem;
                             dt {
                                 float:left;
+                                color: map-get($map: $colors, $key: blue);
                                 //font-weight: 300;
                                 padding-right: 0.618rem;
                             }
