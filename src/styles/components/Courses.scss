@@ -1,3 +1,4 @@
+@import "../constants";
 @import "../lib/jbarinas/layout/mixins/index";
 
 #Courses {
@@ -34,7 +35,7 @@
                 margin-bottom: 1rem;
 
                 & > header {
-                    color:#0188ee;
+                    color:#007395;
                     margin-bottom: 0.618rem;
                 }
 
@@ -71,7 +72,7 @@
                         & > h4 {
                             width: 100%;
                             position: absolute;
-                            background-color: #0188ee;
+                            background-color: map-get($map: $colors, $key: blue);
                             padding: 1.618rem;
                             box-sizing: border-box;
                         }

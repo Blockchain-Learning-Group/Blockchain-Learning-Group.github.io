@@ -3,9 +3,9 @@
 $img-height: 100px;
 
 
-#Team, #AdvisoryBoard {
+#Team, #Advisors {
     color: #fff;
-    background-color: #000;
+    background-color: #0B1517;
 
     @include --layout-vertical;
     @include --layout-center;
@@ -14,7 +14,7 @@ $img-height: 100px;
         max-width: 840px;
     }
 
-    header {
+    & > header {
         margin-bottom: 1.618rem;
 
         h3, p {
@@ -22,8 +22,10 @@ $img-height: 100px;
         }
     }
 
-    ul {
+    & > ul {
         li {
+            margin-bottom: 3rem;
+
             header {
                 text-align: center;
                 div {
@@ -74,15 +76,12 @@ $img-height: 100px;
                 text-align: center;
                 h4 {
                     div:first-child {
-                        font-weight: 700;
+                        font-weight: 900;
                     }
                     div:nth-child(2) {
                         color: #067294;
                         font-weight: 700;
                     }
-                }
-                aside {
-                    display: none;
                 }
             }
         }
@@ -92,13 +91,13 @@ $img-height: 100px;
 
 @media (min-width: 840px) {
 
-    #Team, #AdvisoryBoard {
+    #Team, #Advisors {
         & > ul {
             li {
                 @include --layout-horizontal;
 
-                margin-bottom: 1rem;
                 padding-right: 1.618rem;
+                margin-bottom: 2rem;
 
                 header {
                     padding: 1rem 1.618rem;

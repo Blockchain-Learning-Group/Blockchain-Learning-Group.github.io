@@ -17,19 +17,21 @@ h6 {
     text-rendering: optimizeLegibility;
 }
 
+$link-color: #0095dd !default;
+
 a,
 a:link,
 a:visited {
-    color: #0095dd;
+    color: $link-color;
     text-decoration: none;
 }
 
 a:hover {
-    color: color(#0095dd blackness(25%));
+    color: color($link-color blackness(25%));
 }
 
 a:active {
-    color: color(#0095dd whiteness(25%));
+    color: color($link-color whiteness(25%));
 }
 
 strong {
@@ -39,7 +41,6 @@ strong {
 a {
     font-weight: 500;
     letter-spacing: 0.018em;
-    text-transform: uppercase;
 }
 
 p {

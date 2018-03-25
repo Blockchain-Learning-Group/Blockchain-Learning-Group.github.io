@@ -1,3 +1,5 @@
+$link-color: #067294;
+
 @import "./lib/jbarinas/reset/style-reset";
 @import "./lib/jbarinas/layout/classes/index";
 
@@ -12,6 +14,7 @@
 @import "./components/Courses";
 @import "./components/Diversity";
 @import "./components/Home";
+@import "./components/ProductDevelopmentServices";
 @import "./components/Team";
 
 $mdc-theme-primary: #fff;

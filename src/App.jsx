@@ -7,6 +7,7 @@ import ContactUs from './components/ContactUs';
 import Courses from './components/Courses';
 import Diversity from './components/Diversity';
 import Home from './components/Home';
+import ProductDevelopmentServices from './components/ProductDevelopmentServices';
 import Team from './components/Team';
 
 export default class extends React.Component {
@@ -46,10 +47,10 @@ export default class extends React.Component {
                                 <a href="#Team">Team</a>
                             </li>
                             <li>
-                                <a href="#AdvisoryBoard">Advisors</a>
+                                <a href="#Advisors">Advisors</a>
                             </li>
                             <li>
-                                <a href="#OurClients">Clients</a>
+                                <a href="#Clients">Clients</a>
                             </li>
                             <li>
                                 <a href="#ContactUs">Contact Us</a>
@@ -62,6 +63,7 @@ export default class extends React.Component {
                     <div className="blg--main-wrapper">
                         <Home />
                         <AboutUs />
+                        <ProductDevelopmentServices />
                         <Courses />
                         <Diversity />
                         <Clients />

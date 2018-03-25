@@ -1,8 +1,9 @@
+@import "./constants";
 @import "./lib/jbarinas/layout/mixins/index";
 
 * {
     cursor: default !important;
-    line-height: 20px !important;
+    line-height: 20px;
 }
 
 body {
@@ -15,7 +16,14 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h3 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 42px !important;
+}
+
 a {
+    color: map-get($map: $colors, $key: blue);
     cursor: pointer !important;
 }
 
@@ -109,7 +117,7 @@ body {
                     @include --layout-end-justified;
 
                     li {
-                        margin-left: 1rem;
+                        margin-left: 1.618rem;
                     }
                 }
             }
