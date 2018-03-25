@@ -4,9 +4,7 @@
 #AboutUs {
     @include --layout-horizontal;
 
-    //background-image: url(../images/BLG_Rowers_mobile.png);
-    background-image: url(../images/BLG_Rowers.png);
-    background-size: 125%;
+    background-image: url(../images/BLG_Rowers_mobile.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -14,6 +12,15 @@
 
     div {
         @include --layout-flex;
+    }
+}
+
+@media (min-width: 480px) {
+    #AboutUs {
+        max-width: map-get($map: $breakpoints, $key: lg);
+        margin: map-get($map: $padding, $key: vertical) auto !important;
+        background-image: url(../images/BLG_Rowers.png);
+        background-size: 125%;
     }
 }
 

@@ -763,8 +763,7 @@ body {
   -ms-flex-direction: row;
   -webkit-flex-direction: row;
   flex-direction: row;
-  background-image: url(../images/BLG_Rowers.png);
-  background-size: 125%;
+  background-image: url(../images/BLG_Rowers_mobile.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 5rem 1rem; }
@@ -774,6 +773,13 @@ body {
     flex: 1;
     -webkit-flex-basis: 0.000000001px;
     flex-basis: 0.000000001px; }
+
+@media (min-width: 480px) {
+  #AboutUs {
+    max-width: 960px;
+    margin: 0.618rem auto !important;
+    background-image: url(../images/BLG_Rowers.png);
+    background-size: 125%; } }
 
 @media (min-width: 960px) {
   #AboutUs {
@@ -999,7 +1005,8 @@ body {
 /* fixed position */
 #ContactUs {
   overflow: hidden;
-  padding: 1.618rem 0 0; }
+  padding: 1.618rem 0;
+  background-color: #067294; }
   #ContactUs address, #ContactUs div, #ContactUs strong {
     text-align: center; }
   #ContactUs address a {
