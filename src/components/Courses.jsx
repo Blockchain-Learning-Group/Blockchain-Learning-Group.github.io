@@ -20,7 +20,7 @@ export default class extends React.Component {
                                 <p>An immersive end to end course in blockchain technology with a focus on decentralized application (DApp) development. From the basics of blockchain technology to in-depth explorations of use cases, digging deep into cutting edge smart contract development patterns and deployment techniques.</p>
                             </div>
                             <footer>
-                                <a href="#COURSE--DEVELOPER-EDUCATION-COURSE">LEARN MORE</a>
+                                <a className="blg-btn" href="#COURSE--DEVELOPER-EDUCATION-COURSE">LEARN MORE</a>
                             </footer>
                         </li>
 
@@ -35,7 +35,7 @@ export default class extends React.Component {
                                 <p>For organizations who want to both train their developers and immediately turn this knowledge into action, the Blockchain Learning Group provides a comprehensive package to jumpstart your blockchain strategies into action. Please contact us for more details on our business packages.</p>
                             </div>
                             <footer>
-                                <a href="#CONTACTUS">CONTACT US</a>
+                                <a className="blg-btn" href="#CONTACTUS">CONTACT US</a>
                             </footer>
                         </li>
                     </ul>
