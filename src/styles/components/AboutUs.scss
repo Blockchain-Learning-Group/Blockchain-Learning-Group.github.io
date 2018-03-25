@@ -4,8 +4,9 @@
 #AboutUs {
     @include --layout-horizontal;
 
-    background-image: url(../images/BLG_Rowers_mobile.png);
-    background-size: 99%;
+    //background-image: url(../images/BLG_Rowers_mobile.png);
+    background-image: url(../images/BLG_Rowers.png);
+    background-size: 125%;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -20,6 +21,7 @@
     #AboutUs {
         max-width: map-get($map: $breakpoints, $key: lg);
         margin: map-get($map: $padding, $key: vertical) auto !important;
-        background-image: url(../images/BLG_Rowers.png);
+        //background-image: url(../images/BLG_Rowers.png);
+        background-size: 80%;
     }
 }

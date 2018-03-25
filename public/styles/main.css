@@ -763,8 +763,8 @@ body {
   -ms-flex-direction: row;
   -webkit-flex-direction: row;
   flex-direction: row;
-  background-image: url(../images/BLG_Rowers_mobile.png);
-  background-size: 99%;
+  background-image: url(../images/BLG_Rowers.png);
+  background-size: 125%;
   background-repeat: no-repeat;
   background-position: center;
   padding: 5rem 1rem; }
@@ -779,7 +779,7 @@ body {
   #AboutUs {
     max-width: 960px;
     margin: 0.618rem auto !important;
-    background-image: url(../images/BLG_Rowers.png); } }
+    background-size: 80%; } }
 
 /* alignment in cross axis */
 /* alignment in main axis */
