@@ -930,10 +930,34 @@ body {
     background-color: #fff;
     position: relative;
     max-width: 720px; }
+    #Clients > footer > .mobile {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center; }
+      #Clients > footer > .mobile > div {
+        padding: 1rem 1.618rem; }
+        #Clients > footer > .mobile > div img {
+          max-width: 100%;
+          max-height: 100px; }
+    #Clients > footer > .not-mobile {
+      display: none; }
     @media (min-width: 480px) {
       #Clients > footer {
         overflow: hidden;
-        box-sizing: border-box; } }
+        box-sizing: border-box; }
+        #Clients > footer > .mobile {
+          display: none; }
+        #Clients > footer > .not-mobile {
+          display: block; } }
     #Clients > footer nav {
       z-index: 1;
       display: none; }
