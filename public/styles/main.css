@@ -1034,13 +1034,11 @@ body {
       background-repeat: no-repeat;
       background-position: center; }
     #ContactUs .social .linkedin {
-      background-image: url(../svg/linkedin.svg); }
+      background-image: url(../svg/linkedin-square.svg); }
     #ContactUs .social .twitter {
-      background-image: url(../svg/twitter.svg); }
+      background-image: url(../svg/twitter-square.svg); }
     #ContactUs .social .github {
-      background-image: url(../svg/github.svg); }
-    #ContactUs .social .slack {
-      background-image: url(../svg/slack.svg); }
+      background-image: url(../svg/github-square.svg); }
 
 /* alignment in cross axis */
 /* alignment in main axis */
