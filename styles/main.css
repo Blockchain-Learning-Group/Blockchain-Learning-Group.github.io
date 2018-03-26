@@ -237,22 +237,21 @@ h6 {
 a,
 a:link,
 a:visited {
-  color: #0095dd;
+  color: #067294;
   text-decoration: none; }
 
 a:hover {
-  color: color(#0095dd blackness(25%)); }
+  color: color(#067294 blackness(25%)); }
 
 a:active {
-  color: color(#0095dd whiteness(25%)); }
+  color: color(#067294 whiteness(25%)); }
 
 strong {
   font-weight: 700; }
 
 a {
   font-weight: 500;
-  letter-spacing: 0.018em;
-  text-transform: uppercase; }
+  letter-spacing: 0.018em; }
 
 p {
   margin: 0 0 1em; }
@@ -597,7 +596,7 @@ body.fullbleed {
 /* fixed position */
 * {
   cursor: default !important;
-  line-height: 20px !important; }
+  line-height: 20px; }
 
 body {
   border: 0;
@@ -608,7 +607,13 @@ body {
   background-color: #000;
   font-family: 'Lato', sans-serif; }
 
+h3 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 42px !important; }
+
 a {
+  color: #067294;
   cursor: pointer !important; }
 
 body {
@@ -740,9 +745,9 @@ body {
     -webkit-justify-content: flex-end;
     justify-content: flex-end; }
     #App > header div.--blg-wrapper ul li {
-      margin-left: 1rem; } }
+      margin-left: 1.618rem; } }
 
-#AdvisoryBoard, #Courses, #Diversity, #Home, #Team {
+#Advisors, #Courses, #Diversity, #Home, #ProductDevelopmentServices, #Team {
   overflow: hidden;
   padding: 0.618rem 1rem; }
 
@@ -769,11 +774,18 @@ body {
     -webkit-flex-basis: 0.000000001px;
     flex-basis: 0.000000001px; }
 
+@media (min-width: 480px) {
+  #AboutUs {
+    max-width: 960px;
+    margin: 0.618rem auto !important;
+    background-image: url(../images/BLG_Rowers.png);
+    background-size: 125%; } }
+
 @media (min-width: 960px) {
   #AboutUs {
     max-width: 960px;
     margin: 0.618rem auto !important;
-    background-image: url(../images/BLG_Rowers.png); } }
+    background-size: 80%; } }
 
 /* alignment in cross axis */
 /* alignment in main axis */
@@ -993,7 +1005,8 @@ body {
 /* fixed position */
 #ContactUs {
   overflow: hidden;
-  padding: 1.618rem 0 0; }
+  padding: 1.618rem 0;
+  background-image: linear-gradient(-172deg, rgba(73, 150, 174, 0.78) 0%, rgba(59, 66, 68, 0) 0%, rgba(6, 114, 148, 0.78) 0%, rgba(12, 117, 150, 0.8) 23%, #0B1417 74%); }
   #ContactUs address, #ContactUs div, #ContactUs strong {
     text-align: center; }
   #ContactUs address a {
@@ -1021,13 +1034,11 @@ body {
       background-repeat: no-repeat;
       background-position: center; }
     #ContactUs .social .linkedin {
-      background-image: url(../svg/linkedin.svg); }
+      background-image: url(../svg/linkedin-square.svg); }
     #ContactUs .social .twitter {
-      background-image: url(../svg/twitter.svg); }
+      background-image: url(../svg/twitter-square.svg); }
     #ContactUs .social .github {
-      background-image: url(../svg/github.svg); }
-    #ContactUs .social .slack {
-      background-image: url(../svg/slack.svg); }
+      background-image: url(../svg/github-square.svg); }
 
 /* alignment in cross axis */
 /* alignment in main axis */
@@ -1065,9 +1076,9 @@ body {
       color: #212121;
       background-color: #fff;
       padding: 1.618rem 1rem;
-      margin-bottom: 1rem; }
+      margin-bottom: 4rem; }
       #Courses > header ul li > header {
-        color: #0188ee;
+        color: #007395;
         margin-bottom: 0.618rem; }
       #Courses > header ul li > div {
         -ms-flex: 1 1 0.000000001px;
@@ -1078,10 +1089,7 @@ body {
       #Courses > header ul li > footer {
         height: 0; }
         #Courses > header ul li > footer a {
-          color: #212121;
-          background-color: #76FF03;
-          padding: 0.618rem 1.618rem;
-          display: inline-block;
+          position: initial;
           bottom: -50px; }
   #Courses > footer > ul > li {
     overflow: hidden; }
@@ -1092,7 +1100,7 @@ body {
       #Courses > footer > ul > li div.wrapper header > h4 {
         width: 100%;
         position: absolute;
-        background-color: #0188ee;
+        background-color: #067294;
         padding: 1.618rem;
         box-sizing: border-box; }
     #Courses > footer > ul > li div.wrapper footer {
@@ -1106,7 +1114,7 @@ body {
         margin-bottom: 1rem; }
         #Courses > footer > ul > li div.wrapper footer dl dt {
           float: left;
-          font-weight: 300;
+          color: #067294;
           padding-right: 0.618rem; }
         #Courses > footer > ul > li div.wrapper footer dl dd {
           margin-bottom: 0.382rem; }
@@ -1137,7 +1145,7 @@ body {
       margin: 0 1rem;
       max-width: 480px; }
   #Courses > footer > ul {
-    padding: 3rem; } }
+    padding: 3rem 1rem; } }
 
 /* alignment in cross axis */
 /* alignment in main axis */
@@ -1221,14 +1229,21 @@ body {
         max-width: 960px;
         margin: 0 auto; } }
 
+#ProductDevelopmentServices {
+  text-align: center;
+  max-width: 960px;
+  margin: 2rem auto; }
+  #ProductDevelopmentServices a {
+    font-weight: 700; }
+
 /* alignment in cross axis */
 /* alignment in main axis */
 /* self alignment */
 /* multi-line alignment in main axis */
 /* fixed position */
-#Team, #AdvisoryBoard {
+#Team, #Advisors {
   color: #fff;
-  background-color: #000;
+  background-color: #0B1517;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -1238,86 +1253,86 @@ body {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center; }
-  #Team > header, #Team > ul, #AdvisoryBoard > header, #AdvisoryBoard > ul {
+  #Team > header, #Team > ul, #Advisors > header, #Advisors > ul {
     max-width: 840px; }
-  #Team header, #AdvisoryBoard header {
+  #Team > header, #Advisors > header {
     margin-bottom: 1.618rem; }
-    #Team header h3, #Team header p, #AdvisoryBoard header h3, #AdvisoryBoard header p {
+    #Team > header h3, #Team > header p, #Advisors > header h3, #Advisors > header p {
       text-align: center; }
-  #Team ul li header, #AdvisoryBoard ul li header {
-    text-align: center; }
-    #Team ul li header div, #AdvisoryBoard ul li header div {
-      position: relative;
-      display: inline-block; }
-    #Team ul li header span.avatar, #AdvisoryBoard ul li header span.avatar {
-      background-color: rgba(0, 0, 0, 0.38);
-      display: inline-block;
-      width: 100px;
-      height: 100px;
-      margin: 0;
-      border-radius: 50%;
-      overflow: hidden; }
-      #Team ul li header span.avatar img, #AdvisoryBoard ul li header span.avatar img {
-        width: 100px; }
-    #Team ul li header span.linkedin, #AdvisoryBoard ul li header span.linkedin {
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -ms-flex-direction: column;
-      -webkit-flex-direction: column;
-      flex-direction: column;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      position: absolute;
-      width: 25px;
-      height: 25px;
-      bottom: 0;
-      right: 0;
-      border-radius: 50%;
-      border: 2px solid rgba(0, 0, 0, 0.38);
-      overflow: hidden;
-      background-color: #fff; }
-      #Team ul li header span.linkedin a, #AdvisoryBoard ul li header span.linkedin a {
-        display: block;
-        width: 75%;
-        height: 75%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-image: url(../svg/linkedin.svg); }
-  #Team ul li footer, #AdvisoryBoard ul li footer {
-    text-align: center; }
-    #Team ul li footer h4 div:first-child, #AdvisoryBoard ul li footer h4 div:first-child {
-      font-weight: 700; }
-    #Team ul li footer h4 div:nth-child(2), #AdvisoryBoard ul li footer h4 div:nth-child(2) {
-      color: #067294;
-      font-weight: 700; }
-    #Team ul li footer aside, #AdvisoryBoard ul li footer aside {
-      display: none; }
+  #Team > ul li, #Advisors > ul li {
+    margin-bottom: 3rem; }
+    #Team > ul li header, #Advisors > ul li header {
+      text-align: center; }
+      #Team > ul li header div, #Advisors > ul li header div {
+        position: relative;
+        display: inline-block; }
+      #Team > ul li header span.avatar, #Advisors > ul li header span.avatar {
+        background-color: rgba(0, 0, 0, 0.38);
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin: 0;
+        border-radius: 50%;
+        overflow: hidden; }
+        #Team > ul li header span.avatar img, #Advisors > ul li header span.avatar img {
+          width: 100px; }
+      #Team > ul li header span.linkedin, #Advisors > ul li header span.linkedin {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        bottom: 0;
+        right: 0;
+        border-radius: 50%;
+        border: 2px solid rgba(0, 0, 0, 0.38);
+        overflow: hidden;
+        background-color: #fff; }
+        #Team > ul li header span.linkedin a, #Advisors > ul li header span.linkedin a {
+          display: block;
+          width: 75%;
+          height: 75%;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-image: url(../svg/linkedin.svg); }
+    #Team > ul li footer, #Advisors > ul li footer {
+      text-align: center; }
+      #Team > ul li footer h4 div:first-child, #Advisors > ul li footer h4 div:first-child {
+        font-weight: 900; }
+      #Team > ul li footer h4 div:nth-child(2), #Advisors > ul li footer h4 div:nth-child(2) {
+        color: #067294;
+        font-weight: 700; }
 
 @media (min-width: 840px) {
-  #Team > ul li, #AdvisoryBoard > ul li {
+  #Team > ul li, #Advisors > ul li {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     -ms-flex-direction: row;
     -webkit-flex-direction: row;
     flex-direction: row;
-    margin-bottom: 1rem;
-    padding-right: 1.618rem; }
-    #Team > ul li header, #AdvisoryBoard > ul li header {
+    padding-right: 1.618rem;
+    margin-bottom: 2rem; }
+    #Team > ul li header, #Advisors > ul li header {
       padding: 1rem 1.618rem; }
-      #Team > ul li header span, #AdvisoryBoard > ul li header span {
+      #Team > ul li header span, #Advisors > ul li header span {
         width: 100px;
         height: 100px; }
-    #Team > ul li footer, #AdvisoryBoard > ul li footer {
+    #Team > ul li footer, #Advisors > ul li footer {
       text-align: left; }
-      #Team > ul li footer h4, #AdvisoryBoard > ul li footer h4 {
+      #Team > ul li footer h4, #Advisors > ul li footer h4 {
         margin-bottom: 0.618rem; }
-      #Team > ul li footer aside, #AdvisoryBoard > ul li footer aside {
+      #Team > ul li footer aside, #Advisors > ul li footer aside {
         display: block; } }
 
 /**
