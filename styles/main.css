@@ -773,6 +773,8 @@ body {
     flex: 1;
     -webkit-flex-basis: 0.000000001px;
     flex-basis: 0.000000001px; }
+  #AboutUs p {
+    margin-bottom: 2.618rem; }
 
 @media (min-width: 480px) {
   #AboutUs {
@@ -1041,14 +1043,32 @@ body {
   #ContactUs > * {
     margin: 0 auto;
     max-width: 960px; }
-  #ContactUs .logo {
-    background-image: url(../svg/BLG.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 48px;
-    width: 138.13px; }
   #ContactUs address, #ContactUs div, #ContactUs strong {
     text-align: center; }
+  #ContactUs div.logos {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center; }
+    @media (min-width: 600px) {
+      #ContactUs div.logos {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: distribute;
+        -webkit-justify-content: space-around;
+        justify-content: space-around; } }
   #ContactUs address a {
     line-height: initial;
     text-transform: initial;
