@@ -10,16 +10,18 @@
         max-width: 960px;
     }
 
-    .logo {
-        background-image: url(../svg/BLG.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 48px;
-        width: 138.13px;
-    }
-
     address, div, strong {
         text-align: center;
+    }
+
+    div.logos {
+        @include --layout-vertical;
+        @include --layout-center-center;
+
+        @media (min-width: 600px) {
+            @include --layout-horizontal;
+            @include --layout-around-justified;
+        }
     }
 
     address {
