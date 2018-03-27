@@ -747,7 +747,7 @@ body {
     #App > header div.--blg-wrapper ul li {
       margin-left: 1.618rem; } }
 
-#Advisors, #Courses, #Diversity, #Home, #ProductDevelopmentServices, #Team {
+#Advisors, #Courses, #ContactUs, #Diversity, #Home, #ProductDevelopmentServices, #Team {
   overflow: hidden;
   padding: 0.618rem 1rem; }
 
@@ -950,6 +950,59 @@ body {
           max-height: 100px; }
     #Clients > footer > .not-mobile {
       display: none; }
+      #Clients > footer > .not-mobile nav {
+        z-index: 1;
+        display: none;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; }
+        #Clients > footer > .not-mobile nav button {
+          width: 30px;
+          height: 30px;
+          text-align: center; }
+          #Clients > footer > .not-mobile nav button:hover {
+            background-color: rgba(0, 0, 0, 0.06); }
+          #Clients > footer > .not-mobile nav button:active {
+            background-color: rgba(0, 0, 0, 0.14); }
+          #Clients > footer > .not-mobile nav button i {
+            vertical-align: middle;
+            animation: pulse 3s 2s infinite; }
+      #Clients > footer > .not-mobile ul {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-direction: row; }
+        #Clients > footer > .not-mobile ul li {
+          padding: 16px 32px; }
+          #Clients > footer > .not-mobile ul li.blg--invisible {
+            display: none; }
+          #Clients > footer > .not-mobile ul li > div:first-child {
+            padding: 1rem 2rem 1rem 0; }
+            #Clients > footer > .not-mobile ul li > div:first-child img {
+              height: 100px; }
+          #Clients > footer > .not-mobile ul li > div:last-child footer h4 {
+            margin: 0; }
+            #Clients > footer > .not-mobile ul li > div:last-child footer h4 div:first-child {
+              margin-bottom: 0.618rem; }
+            #Clients > footer > .not-mobile ul li > div:last-child footer h4 small {
+              font-size: 0.9rem;
+              line-height: 0.9rem !important; }
     @media (min-width: 480px) {
       #Clients > footer {
         overflow: hidden;
@@ -958,59 +1011,11 @@ body {
           display: none; }
         #Clients > footer > .not-mobile {
           display: block; } }
-    #Clients > footer nav {
-      z-index: 1;
-      display: none; }
-      @media (min-width: 480px) {
-        #Clients > footer nav {
-          display: -ms-flexbox;
-          display: -webkit-flex;
-          display: flex;
-          -ms-flex-direction: row;
-          -webkit-flex-direction: row;
-          flex-direction: row;
-          -ms-flex-pack: justify;
-          -webkit-justify-content: space-between;
-          justify-content: space-between;
-          -ms-flex-align: center;
-          -webkit-align-items: center;
-          align-items: center;
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0; }
-          #Clients > footer nav button {
-            width: 30px;
-            height: 30px;
-            text-align: center; }
-            #Clients > footer nav button:hover {
-              background-color: rgba(0, 0, 0, 0.06); }
-            #Clients > footer nav button:active {
-              background-color: rgba(0, 0, 0, 0.14); }
-            #Clients > footer nav button i {
-              vertical-align: middle;
-              animation: pulse 3s 2s infinite; } }
-    #Clients > footer ul li {
-      padding: 16px 32px; }
-      #Clients > footer ul li > div:first-child {
-        padding: 1rem 2rem 1rem 0; }
-        #Clients > footer ul li > div:first-child img {
-          height: 100px; }
-      #Clients > footer ul li > div:last-child footer h4 {
-        margin: 0; }
-        #Clients > footer ul li > div:last-child footer h4 div:first-child {
-          margin-bottom: 0.618rem; }
-        #Clients > footer ul li > div:last-child footer h4 small {
-          font-size: 0.9rem;
-          line-height: 0.9rem !important; }
     @media (min-width: 480px) {
-      #Clients > footer ul {
-        position: relative; }
-        #Clients > footer ul li {
-          position: absolute; }
-          #Clients > footer ul li.blg--invisible {
-            visibility: hidden !important; } }
+      #Clients > footer ul li {
+        width: 100vw;
+        height: 515px;
+        box-sizing: border-box; } }
     @media (min-width: 720px) {
       #Clients > footer ul li {
         display: -ms-flexbox;
@@ -1018,7 +1023,9 @@ body {
         display: flex;
         -ms-flex-direction: row;
         -webkit-flex-direction: row;
-        flex-direction: row; }
+        flex-direction: row;
+        width: 720px;
+        height: 380px; }
         #Clients > footer ul li.show {
           display: flex; } }
 
@@ -1029,13 +1036,24 @@ body {
 /* fixed position */
 #ContactUs {
   overflow: hidden;
-  padding: 1.618rem 0;
+  padding: 1.618rem 1rem;
   background-image: linear-gradient(-172deg, rgba(73, 150, 174, 0.78) 0%, rgba(59, 66, 68, 0) 0%, rgba(6, 114, 148, 0.78) 0%, rgba(12, 117, 150, 0.8) 23%, #0B1417 74%); }
+  #ContactUs > * {
+    margin: 0 auto;
+    max-width: 960px; }
+  #ContactUs .logo {
+    background-image: url(../svg/BLG.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 48px;
+    width: 138.13px; }
   #ContactUs address, #ContactUs div, #ContactUs strong {
     text-align: center; }
   #ContactUs address a {
     line-height: initial;
-    text-transform: initial; }
+    text-transform: initial;
+    color: #fff;
+    font-weight: 700; }
   #ContactUs .social {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -1049,7 +1067,7 @@ body {
     -ms-flex-pack: center;
     -webkit-justify-content: center;
     justify-content: center;
-    margin: 1.618rem; }
+    margin: 1.618rem auto; }
     #ContactUs .social a {
       width: 44px;
       height: 44px;
