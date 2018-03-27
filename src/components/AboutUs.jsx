@@ -7,7 +7,6 @@ export default class extends React.Component {
                 <div />
                 <div>
                     <header>
-                        <h3>At the Blockchain Learning Group</h3>
                         <p>We have developed a hands-on, immersive blockchain training course for developers that was created by our in-house developers, with a strong focus on smart contracts and decentralized application development.</p>
                     </header>
 

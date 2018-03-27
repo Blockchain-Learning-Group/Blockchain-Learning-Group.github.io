@@ -773,6 +773,8 @@ body {
     flex: 1;
     -webkit-flex-basis: 0.000000001px;
     flex-basis: 0.000000001px; }
+  #AboutUs p {
+    margin-bottom: 2.618rem; }
 
 @media (min-width: 480px) {
   #AboutUs {
