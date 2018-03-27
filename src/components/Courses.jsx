@@ -1,6 +1,15 @@
 import React from 'react';
 
 export default class extends React.Component {
+    scrollTo(e) {
+        if (e.target.hasAttribute('href')) {
+            let id = e.target.getAttribute('href').replace('#', '');
+            let el = document.getElementById(id);
+            document.getElementsByClassName('blg--main-wrapper')[0].scroll(0, el.offsetTop);
+            e.preventDefault();
+        }
+    }
+
     render() {
         return (
             <section id="Courses">
@@ -35,7 +44,7 @@ export default class extends React.Component {
                                 <p>For organizations who want to both train their developers and immediately turn this knowledge into action, the Blockchain Learning Group provides a comprehensive package to jumpstart your blockchain strategies into action. Please contact us for more details on our business packages.</p>
                             </div>
                             <footer>
-                                <a className="blg-btn" href="#CONTACTUS">CONTACT US</a>
+                                <a className="blg-btn" href="#ContactUs" onClick={this.scrollTo.bind(this)}>CONTACT US</a>
                             </footer>
                         </li>
                     </ul>

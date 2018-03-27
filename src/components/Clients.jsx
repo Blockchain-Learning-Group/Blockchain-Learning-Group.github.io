@@ -5,7 +5,7 @@ export default class extends React.Component {
         super(props);
         this.state = {
             client: 0,
-            clients: 3
+            clients: 4
         };
     }
 
@@ -112,7 +112,7 @@ export default class extends React.Component {
                                 </div>
                             </li>
 
-                            <li className={this.state.client === 2 ? '' : 'blg--invisible'} style={{ position: 'relative' }}>
+                            <li className={this.state.client === 2 ? '' : 'blg--invisible'}>
                                 <div>
                                     <img alt="Melbourne Girls Grammar School" src="images/clients/MelbourneGirlsGrammarSchool.png" />
                                 </div>
@@ -133,6 +133,20 @@ export default class extends React.Component {
                                             </div>
                                         </h4>
                                     </footer>
+                                </div>
+                            </li>
+
+                            <li className={this.state.client === 3 ? '' : 'blg--invisible layout vertical center-center'}>
+                                <div className="layout vertical center-center" style={{ padding: 0, height: '100%', width: '100%', justifyContent: 'space-around' }}>
+                                    <div>
+                                        <img alt="Government Of Ontario" src="images/clients/GovernmentOfOntario.png" />
+                                    </div>
+                                    <div>
+                                        <img alt="The Bishop Strachan School" src="images/clients/TheBishopStrachanSchool.png" />
+                                    </div>
+                                    <div>
+                                        <img alt="TMX Group" src="images/clients/TMXGroup.png" />
+                                    </div>
                                 </div>
                             </li>
                         </ul>

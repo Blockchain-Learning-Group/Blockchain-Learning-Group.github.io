@@ -22,6 +22,15 @@ export default class extends React.Component {
         }
     }
 
+    scrollTo(e) {
+        if (e.target.hasAttribute('href')) {
+            let id = e.target.getAttribute('href').replace('#', '');
+            let el = document.getElementById(id);
+            document.getElementsByClassName('blg--main-wrapper')[0].scroll(0, el.offsetTop);
+            e.preventDefault();
+        }
+    }
+
     render() {
         return (
             <div id="App">
@@ -35,25 +44,25 @@ export default class extends React.Component {
 
                         <ul ref={(el) => this.menu_list = el} onClick={this.hideMenuList.bind(this)}>
                             <li>
-                                <a href="#Home">Home</a>
+                                <a href="#Home" onClick={this.scrollTo.bind(this)}>Home</a>
                             </li>
                             <li>
-                                <a href="#AboutUs">About Us</a>
+                                <a href="#AboutUs" onClick={this.scrollTo.bind(this)}>About Us</a>
                             </li>
                             <li>
-                                <a href="#Courses">Courses</a>
+                                <a href="#Courses" onClick={this.scrollTo.bind(this)}>Courses</a>
                             </li>
                             <li>
-                                <a href="#Team">Team</a>
+                                <a href="#Team" onClick={this.scrollTo.bind(this)}>Team</a>
                             </li>
                             <li>
-                                <a href="#Advisors">Advisors</a>
+                                <a href="#Advisors" onClick={this.scrollTo.bind(this)}>Advisors</a>
                             </li>
                             <li>
-                                <a href="#Clients">Clients</a>
+                                <a href="#Clients" onClick={this.scrollTo.bind(this)}>Clients</a>
                             </li>
                             <li>
-                                <a href="#ContactUs">Contact Us</a>
+                                <a href="#ContactUs" onClick={this.scrollTo.bind(this)}>Contact Us</a>
                             </li>
                         </ul>
                     </div>
