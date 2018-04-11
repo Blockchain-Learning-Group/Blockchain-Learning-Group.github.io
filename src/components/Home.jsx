@@ -1,6 +1,15 @@
 import React from 'react';
 
 export default class extends React.Component {
+    scrollTo(e) {
+        if (e.target.hasAttribute('href')) {
+            let id = e.target.getAttribute('href').replace('#', '');
+            let el = document.getElementById(id);
+            document.getElementsByClassName('blg--main-wrapper')[0].scroll(0, el.offsetTop);
+            e.preventDefault();
+        }
+    }
+
     render() {
         return (
             <section id="Home">
@@ -8,7 +17,7 @@ export default class extends React.Component {
                     <h3>Take Control of Your Blockchain Future</h3>
                     <p>Ready to jumpstart your blockchain education? Looking to turn your company’s Blockchain strategies into tangible solutions and results?</p>
                     <div>
-                        <a href="#Courses" className="blg-btn">VIEW OUR COURSES</a>
+                        <a href="#Courses" className="blg-btn" onClick={this.scrollTo.bind(this)}>VIEW OUR COURSES</a>
                         <div />
                     </div>
                 </header>

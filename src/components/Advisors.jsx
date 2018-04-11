@@ -14,6 +14,30 @@ export default class extends React.Component {
                         <header>
                             <div>
                                 <span className="avatar">
+                                    <img alt="" src="images/profiles/Tony.jpg" />
+                                </span>
+                                <span className="linkedin" style={{ display: 'none' }}>
+                                    <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
+                                </span>
+                            </div>
+                        </header>
+                        <footer>
+                            <h4>
+                                <div>Tony Gaffney</div>
+                            </h4>
+                            <aside>
+                                <p>Tony is Managing Partner, Board and CEO Services at Odgers Berndtson Canada.</p>
+                                <p>He has a proven record of creating value, in diverse industries and geographies by; setting direction, igniting growth, leading change, driving performance, servicing clients and empowering employees.</p>
+                                <p>Tony is particularly adept at capitalizing on digital and technology disruptions, both as a market disrupter and industry incumbent. He was most recently CEO of Aon Hewitt, Canada. Before joining Aon Hewitt, Tony was a Managing Partner at Accenture, and has served as the President and CEO of Bell Nexxia and as the CEO of BCE Emergis. He has also held international leadership positions with MCI Telecommunications, SHL Systemhouse Inc., and Andersen Consulting.</p>
+                                <p>Tony holds a Bachelor of Engineering (B.A.I.) degree and M.A. from Trinity College Dublin, and is a graduate of the Rotman Corporate Directors program (ICD.D).</p>
+                            </aside>
+                        </footer>
+                    </li>
+
+                    <li>
+                        <header>
+                            <div>
+                                <span className="avatar">
                                     <img alt="" src="images/profiles/Jonathan.jpg" />
                                 </span>
                                 <span className="linkedin" style={{ display: 'none' }}>
