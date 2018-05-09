@@ -27,8 +27,8 @@ export default class extends React.Component {
                             </h4>
                             <aside>
                                 <p>Chami Akmeemana is the CEO of Blockchain Learning Group and Blockscale Solutions. He is a Blockchain and AI Specialist. He pursued a Ph.D. in Bioceramic Engineering at Queen Mary, University of London, until deciding to forgo an academic career in favor of Law Enforcement. In 2002, he joined London’s Metropolitan Police.</p>
-                                <p>Chami has had 4 successful exits over the last decade and is passionate about the intersection of technology, business and social good. His experience includes serving as Director of regulatory and government affairs at ConsenSys Inc; Fintech Advisor to the Ontario Securities Commission; and Managing Director, Fintech and blockchain at the Global Risk Institute.</p>
-                                <p>Chami is also the Chairman of the Blockchain Association Australia and a faculty member of the Blockchain Research Institute.</p>
+                                <p>Chami has had 4 successful exits over the last decade and is passionate about the intersection of technology, business and social good. His experience includes serving as Director of Regulatory and Government Affairs at ConsenSys Inc; Fintech Advisor to the Ontario Securities Commission; Managing Director, Fintech and Blockchain at the Global Risk Institute; and Regulatory Advisor to the Republic of Liberland.</p>
+                                <p>Chami is also the Chairman of the Blockchain Association Australia and an Advisory Board member of doc.ai.</p>
                             </aside>
                         </footer>
                     </li>
