@@ -14,6 +14,30 @@ export default class extends React.Component {
                         <header>
                             <div>
                                 <span className="avatar">
+                                    <img alt="" src="images/profiles/Leanne.jpg" />
+                                </span>
+                                <span className="linkedin" style={{ display: 'none' }}>
+                                    <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
+                                </span>
+                            </div>
+                        </header>
+                        <footer>
+                            <h4>
+                                <div>Leanne Kemp</div>
+                            </h4>
+                            <aside>
+                                <p>Leanne Kemp is the Founder & CEO of Everledger.</p>
+                                <p>Using her extensive background in emerging technology, business, jewellery and insurance, Leanne is pushing boundaries with Everledger in building a global verification system that asserts transparency along the entire supply chain process. With a rich history in innovation, Leanne previously founded three Australian startups where she introduced and patented transformational technology ideas alongside various solutions to streamline inventory and supply chain operations.</p>
+                                <p>Her leadership role in technology has been recognised, winning awards including Innovator of the Year 2018 at the Women in IT Awards (London). She has also been named an IBM Champion for 2018.</p>
+                                <p>Leanne is an appointed member of the World Economic Forum’s Blockchain Council and a Co-Chair for the World Trade Board's Sustainable Trade Action Group. She is also on the IBM Blockchain Platform Board of Advisors.</p>
+                            </aside>
+                        </footer>
+                    </li>
+
+                    <li>
+                        <header>
+                            <div>
+                                <span className="avatar">
                                     <img alt="" src="images/profiles/Tony.jpg" />
                                 </span>
                                 <span className="linkedin" style={{ display: 'none' }}>
@@ -96,30 +120,6 @@ export default class extends React.Component {
                             <aside>
                                 <p>Currently an Advisor with the central bank of Brunei Darussalam. He has managed multiple credit bureau projects in South-East Asia (Singapore, Malaysia, Indonesia, Vietnam and Brunei) as a senior executive of Dun & Bradstreet and then with Experian.</p>
                                 <p>Lincoln’s experience includes serving on project teams of the World Bank Group and the Asian Development Bank. More recently, he founded Intel Wise, an ICT firm that has successfully integrated information registries containing data on more than 80+ million companies in China and also expanding the use of blockchain technologies to link corporate registries regionally.</p>
-                            </aside>
-                        </footer>
-                    </li>
-
-                    <li>
-                        <header>
-                            <div>
-                                <span className="avatar">
-                                    <img alt="" src="images/profiles/Leanne.jpg" />
-                                </span>
-                                <span className="linkedin" style={{ display: 'none' }}>
-                                    <a target="_blank" rel="noopener noreferrer" className="linkedin" href="https://ca.linkedin.com/company/blockchainlearninggroup"></a>
-                                </span>
-                            </div>
-                        </header>
-                        <footer>
-                            <h4>
-                                <div>Leanne Kemp</div>
-                            </h4>
-                            <aside>
-                                <p>Leanne Kemp is the Founder & CEO of Everledger.</p>
-                                <p>Using her extensive background in emerging technology, business, jewellery and insurance, Leanne is pushing boundaries with Everledger in building a global verification system that asserts transparency along the entire supply chain process. With a rich history in innovation, Leanne previously founded three Australian startups where she introduced and patented transformational technology ideas alongside various solutions to streamline inventory and supply chain operations.</p>
-                                <p>Her leadership role in technology has been recognised, winning awards including Innovator of the Year 2018 at the Women in IT Awards (London). She has also been named an IBM Champion for 2018.</p>
-                                <p>Leanne is an appointed member of the World Economic Forum’s Blockchain Council and a Co-Chair for the World Trade Board's Sustainable Trade Action Group. She is also on the IBM Blockchain Platform Board of Advisors.</p>
                             </aside>
                         </footer>
                     </li>
