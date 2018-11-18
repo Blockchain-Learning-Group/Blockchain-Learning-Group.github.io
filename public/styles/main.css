@@ -1397,6 +1397,88 @@ body {
       #Team > ul li footer aside, #Advisors > ul li footer aside {
         display: block; } }
 
+/* alignment in cross axis */
+/* alignment in main axis */
+/* self alignment */
+/* multi-line alignment in main axis */
+/* fixed position */
+#ChallengeHeading {
+  position: relative;
+  padding: 0 0 1.618rem; }
+  #ChallengeHeading > header {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    height: 519px;
+    margin-bottom: 51px;
+    background-image: url(../images/BLG_Courses.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+    #ChallengeHeading > header h3, #ChallengeHeading > header p, #ChallengeHeading > header div {
+      text-align: center; }
+    #ChallengeHeading > header div {
+      position: relative;
+      bottom: -21px; }
+      #ChallengeHeading > header div div {
+        top: -20px;
+        position: relative;
+        border-bottom: 1px solid #fff; }
+  #ChallengeHeading p {
+    padding: 0 1rem;
+    text-align: center; }
+    @media (min-width: 960px) {
+      #ChallengeHeading p {
+        max-width: 960px;
+        margin: 0 auto; } }
+
+/* alignment in cross axis */
+/* alignment in main axis */
+/* self alignment */
+/* multi-line alignment in main axis */
+/* fixed position */
+#Details {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+  #Details > header, #Details > footer {
+    max-width: 960px; }
+  #Details h3, #Details p {
+    text-align: center; }
+
+@media (min-width: 840px) {
+  #Details > footer {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    padding: 4rem;
+    box-sizing: border-box;
+    background-image: url(../images/BLG_ChampioningDiversity.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+    #Details > footer > div {
+      -ms-flex: 1 1 0.000000001px;
+      -webkit-flex: 1;
+      flex: 1;
+      -webkit-flex-basis: 0.000000001px;
+      flex-basis: 0.000000001px; }
+      #Details > footer > div p {
+        text-align: left; } }
+
 /**
  * The css property used for elevation. In most cases this should not be changed. It is exposed
  * as a variable for abstraction / easy use when needing to reference the property directly, for
@@ -1713,7 +1795,7 @@ body {
       transition-duration: 75ms;
       opacity: 0.16; }
     .mdc-toolbar .mdc-toolbar__icon.mdc-ripple-upgraded {
-      --mdc-ripple-fg-opacity: 0.16; }
+      --mdc-ripple-fg-opacity: $opacity; }
   .mdc-toolbar__row {
     display: flex;
     position: relative;
@@ -1817,7 +1899,7 @@ body {
     --mdc-ripple-fg-scale: 1;
     --mdc-ripple-fg-translate-end: 0;
     --mdc-ripple-fg-translate-start: 0;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     will-change: transform, opacity;
     display: flex;
     position: relative;
