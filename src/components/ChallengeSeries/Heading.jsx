@@ -15,10 +15,10 @@ export default class extends React.Component {
             <section id="ChallengeHeading">
                 <header>
                     <h3>Blockchain Learning Group's <strong>Challenge Series</strong></h3>
-                    <p>[finalize copy] The Blockchain Learning Group is launching a series of challenges...</p>
-                    <p>[finalize copy]  Example may include human rights, world hunger, financial inclusion and many more...</p>
+                    <p>The Blockchain Learning Group is launching a series of global challenges.</p>
+                    <p>Examples may include human rights, world hunger, financial inclusion, pharmaceutical fraud and many more...</p>
                     <div>
-                        <a href="#Challenges" className="blg-btn" onClick={this.scrollTo.bind(this)}>VIEW OUR CHALLENGES</a>
+                        <a href="#" className="blg-btn" onClick={() => window.open('https://goo.gl/forms/LGmorh3YbdAy4Qew2')}>I'M INTERESTED!</a>
                         <div />
                     </div>
                 </header>

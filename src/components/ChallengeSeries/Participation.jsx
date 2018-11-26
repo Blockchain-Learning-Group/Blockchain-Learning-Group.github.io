@@ -21,14 +21,14 @@ export default class extends React.Component {
                         <li className="mdc-elevation--z16">
                             <header>
                                 <div>
-                                    <strong>SIGN UP</strong>
+                                    <strong>EXPRESS YOUR INTEREST</strong>
                                 </div>
                             </header>
                             <div>
-                                {/* <p>Register yourself to participate.</p> */}
+                                <p>Select the button to express your interest.</p>
                             </div>
                             <footer>
-                                <a className="blg-btn" href="#todo" onClick={this.scrollTo.bind(this)}>SIGN UP</a>
+                                <a className="blg-btn" href="#" onClick={() => window.open('https://goo.gl/forms/LGmorh3YbdAy4Qew2')}>COUNT ME IN!</a>
                             </footer>
                         </li>
 
@@ -39,10 +39,10 @@ export default class extends React.Component {
                                 </div>
                             </header>
                             <div>
-                                {/* <p>...</p> */}
+                                <p>Registration will be open soon.</p>
                             </div>
                             <footer>
-                                <a className="blg-btn" href="#todo" onClick={this.scrollTo.bind(this)}>REGISTER</a>
+                                {/* <a className="blg-btn" disabled={true} onClick={this.scrollTo.bind(this)}>REGISTER</a> */}
                             </footer>
                         </li>
                         <li className="mdc-elevation--z16">
@@ -52,10 +52,10 @@ export default class extends React.Component {
                                 </div>
                             </header>
                             <div>
-                                {/* <p>...</p> */}
+                                <p>The first challenge will be announced shortly!</p>
                             </div>
                             <footer>
-                                <a className="blg-btn">#BUIDL</a>
+                                {/* <a className="blg-btn">#BUIDL</a> */}
                             </footer>
                         </li>
                     </ul>
@@ -67,7 +67,7 @@ export default class extends React.Component {
                             <div className="wrapper">
                                 <header>
                                     <h4 className="mdc-elevation--z4">
-                                        <div>BLOCKCHAIN CHALLENGES</div>
+                                        <div>CHALLENGES</div>
                                         <div>
                                             <strong>WHAT  IS A CHALLENGE?</strong>
                                         </div>
@@ -75,31 +75,32 @@ export default class extends React.Component {
                                 </header>
                                 <footer className="mdc-elevation--z8">
                                     <p>
-                                        A challenge is a problem or use that is presented to all challenge participants.  Challenges may be as broad as one of the United Nation’s Sustainable Development Goals or as specific as the tracking of medicine from a given producer to consumer
-                                        A challenge outlines the scope of the problem to be tackled as well as outlines the deliverables
+                                        A challenge is a problem or use case that is presented to all participants.  Challenges may be as broad as one of the United Nation’s Sustainable Development Goals or as specific as the tracking of medicine from a given producer to consumer in Bangladesh.
+                                        A challenge outlines the scope of the problem to be tackled as well as outlines the given deliverables.
                                         In many cases a prototype of a solution and complementary presentation will be required to submitted. Including a recorded demonstration and presentation clearly communicating what was achieved and how this has overcome the given challenge.
                                     </p>
 
                                     <h5>EXPECTED DELIVERABLES</h5>
                                     <dl>
                                         <dt>1 Code Base</dt>
-                                        <dd>MVP of the given solution</dd>
+                                        <dd>Functional MVP of the given solution.</dd>
 
                                         <dt>2 Presentation:</dt>
-                                        <dd>Deck or document detailing the design of the solution, value proposition, benefits and roadmap</dd>
+                                        <dd>Deck or document detailing the design of the solution, value proposition, benefits and roadmap minimally.</dd>
 
                                         <dt>3 Video:</dt>
-                                        <dd>Demonstration of the solution and presentation</dd>
+                                        <dd>Demonstration of the solution and presentation.</dd>
                                     </dl>
 
                                     <h5>WHAT YOU BRING</h5>
                                     <ul>
-                                        <li>Enthusiasm and a genuine passion for Blockchain technology</li>
-                                        <li>Software development experience is a plus</li>
+                                        <li>Enthusiasm and a genuine passion for technology and experimentation.</li>
+                                        <li>Software development experience is a plus.</li>
                                     </ul>
 
-                                    <h5>OUTCOMES</h5>
-                                    <p>All participants will gain a deep understanding of Blockchain technology, how it works, the ever growing landscape, cryptocurrencies and ICOs, and most importantly, hands-on experience with full stack DApp development. Participants will have successfully built, tested and deployed several smart contracts as well as a full stack DApp.</p>
+                                    <h5>PRIZES & OUTCOMES</h5>
+                                    <p>Each challenge will feature a unique opportunity to be won.  Many involving cash prizes ranging from $500 up to over $5000!!</p>
+                                    <p>Special challenges also exist where a specific global partner or sponsor has but something much more interesting than just money on the line...</p>
                                 </footer>
                             </div>
                         </li>

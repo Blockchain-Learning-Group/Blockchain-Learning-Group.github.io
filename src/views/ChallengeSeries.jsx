@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import ContactUs from '../components/ContactUs';
 import Heading from '../components/ChallengeSeries/Heading';
-import SignUpForm from '../components/ChallengeSeries/SignUpForm';
 import Details from '../components/ChallengeSeries/Details';
 import Participation from '../components/ChallengeSeries/Participation';
 
@@ -32,7 +31,6 @@ export default class extends React.Component {
                         <Heading />
                         <Details />
                         <Participation />
-                        {/* <SignUpForm /> */}
                         <ContactUs />
                     </div>
                 </main>
