@@ -1397,6 +1397,152 @@ body {
       #Team > ul li footer aside, #Advisors > ul li footer aside {
         display: block; } }
 
+/* alignment in cross axis */
+/* alignment in main axis */
+/* self alignment */
+/* multi-line alignment in main axis */
+/* fixed position */
+#ChallengeHeading {
+  position: relative;
+  padding: 0 0 1.618rem; }
+  #ChallengeHeading > header {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    height: 519px;
+    margin-bottom: 51px;
+    background-image: url(../images/BLG_Courses.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+    #ChallengeHeading > header h3, #ChallengeHeading > header p, #ChallengeHeading > header div {
+      text-align: center; }
+    #ChallengeHeading > header div {
+      position: relative;
+      bottom: -21px; }
+      #ChallengeHeading > header div div {
+        top: -20px;
+        position: relative;
+        border-bottom: 1px solid #fff; }
+  #ChallengeHeading p {
+    padding: 0 1rem;
+    text-align: center; }
+    @media (min-width: 960px) {
+      #ChallengeHeading p {
+        max-width: 960px;
+        margin: 0 auto; } }
+
+/* alignment in cross axis */
+/* alignment in main axis */
+/* self alignment */
+/* multi-line alignment in main axis */
+/* fixed position */
+#Challenges {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center; }
+  #Challenges > header, #Challenges > footer {
+    max-width: 960px; }
+  #Challenges > header {
+    margin-bottom: 1.618rem; }
+    #Challenges > header h3, #Challenges > header p, #Challenges > header ul, #Challenges > header li, #Challenges > header header, #Challenges > header footer, #Challenges > header div {
+      text-align: center; }
+    #Challenges > header > p {
+      margin-bottom: 2rem; }
+    #Challenges > header ul li {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      color: #212121;
+      background-color: #fff;
+      padding: 1.618rem 1rem;
+      margin-bottom: 4rem; }
+      #Challenges > header ul li > header {
+        color: #007395;
+        margin-bottom: 0.618rem; }
+      #Challenges > header ul li > div {
+        -ms-flex: 1 1 0.000000001px;
+        -webkit-flex: 1;
+        flex: 1;
+        -webkit-flex-basis: 0.000000001px;
+        flex-basis: 0.000000001px; }
+      #Challenges > header ul li > footer {
+        height: 0; }
+        #Challenges > header ul li > footer a {
+          position: initial;
+          bottom: -50px; }
+  #Challenges > footer > ul > li {
+    overflow: hidden; }
+    #Challenges > footer > ul > li div.wrapper header {
+      position: relative;
+      top: -50px;
+      margin: 0 2.5rem 5rem; }
+      #Challenges > footer > ul > li div.wrapper header > h4 {
+        width: 100%;
+        position: absolute;
+        background-color: #067294;
+        padding: 1.618rem;
+        box-sizing: border-box; }
+    #Challenges > footer > ul > li div.wrapper footer {
+      color: #212121;
+      background-color: #fff;
+      padding: 7rem 1rem 0.382rem;
+      margin: 75px 0rem 1.618rem; }
+      #Challenges > footer > ul > li div.wrapper footer h5 {
+        font-weight: 700; }
+      #Challenges > footer > ul > li div.wrapper footer dl {
+        margin-bottom: 1rem; }
+        #Challenges > footer > ul > li div.wrapper footer dl dt {
+          float: left;
+          color: #067294;
+          padding-right: 0.618rem; }
+        #Challenges > footer > ul > li div.wrapper footer dl dd {
+          margin-bottom: 0.382rem; }
+      #Challenges > footer > ul > li div.wrapper footer ul {
+        margin-bottom: 1rem; }
+
+@media (min-width: 480px) {
+  #Challenges > footer > ul > li div.wrapper footer {
+    padding: 5rem 1rem 0.382rem; } }
+
+@media (min-width: 840px) {
+  #Challenges > header ul {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center; }
+    #Challenges > header ul li {
+      -ms-flex: 1 1 0.000000001px;
+      -webkit-flex: 1;
+      flex: 1;
+      -webkit-flex-basis: 0.000000001px;
+      flex-basis: 0.000000001px;
+      margin: 0 1rem;
+      max-width: 480px; }
+  #Challenges > footer > ul {
+    padding: 3rem 1rem; } }
+
 /**
  * The css property used for elevation. In most cases this should not be changed. It is exposed
  * as a variable for abstraction / easy use when needing to reference the property directly, for
@@ -1713,7 +1859,7 @@ body {
       transition-duration: 75ms;
       opacity: 0.16; }
     .mdc-toolbar .mdc-toolbar__icon.mdc-ripple-upgraded {
-      --mdc-ripple-fg-opacity: 0.16; }
+      --mdc-ripple-fg-opacity: $opacity; }
   .mdc-toolbar__row {
     display: flex;
     position: relative;
@@ -1817,7 +1963,7 @@ body {
     --mdc-ripple-fg-scale: 1;
     --mdc-ripple-fg-translate-end: 0;
     --mdc-ripple-fg-translate-start: 0;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     will-change: transform, opacity;
     display: flex;
     position: relative;
