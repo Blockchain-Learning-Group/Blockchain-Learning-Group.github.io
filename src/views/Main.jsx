@@ -1,32 +1,33 @@
-import React from 'react';
+import React from "react";
 
-import AboutUs from '../components/AboutUs';
-import Advisors from '../components/Advisors';
-import Clients from '../components/Clients';
-import ContactUs from '../components/ContactUs';
-import Courses from '../components/Courses';
-import Diversity from '../components/Diversity';
-import Home from '../components/Home';
-import ProductDevelopmentServices from '../components/ProductDevelopmentServices';
-import Team from '../components/Team';
+import AboutUs from "../components/AboutUs";
+import Advisors from "../components/Advisors";
+import Clients from "../components/Clients";
+import ContactUs from "../components/ContactUs";
+import Courses from "../components/Courses";
+import Diversity from "../components/Diversity";
+import Home from "../components/Home";
+import ProductDevelopmentServices from "../components/ProductDevelopmentServices";
+import Team from "../components/Team";
 
 export default class extends React.Component {
-
     showMenuList() {
-        this.menu_list.className = 'show';
+        this.menu_list.className = "show";
     }
 
     hideMenuList(e) {
-        if (e.target.hasAttribute('href')) {
-            this.menu_list.className = '';
+        if (e.target.hasAttribute("href")) {
+            this.menu_list.className = "";
         }
     }
 
     scrollTo(e) {
-        if (e.target.hasAttribute('href')) {
-            let id = e.target.getAttribute('href').replace('#', '');
+        if (e.target.hasAttribute("href")) {
+            let id = e.target.getAttribute("href").replace("#", "");
             let el = document.getElementById(id);
-            document.getElementsByClassName('blg--main-wrapper')[0].scroll(0, el.offsetTop);
+            document
+                .getElementsByClassName("blg--main-wrapper")[0]
+                .scroll(0, el.offsetTop);
             e.preventDefault();
         }
     }
@@ -39,34 +40,85 @@ export default class extends React.Component {
                         <div className="logo" />
 
                         <div className="menu">
-                            <i className="material-icons mdc-toolbar__menu-icon" onClick={this.showMenuList.bind(this)}>menu</i>
+                            <i
+                                className="material-icons mdc-toolbar__menu-icon"
+                                onClick={this.showMenuList.bind(this)}
+                            >
+                                menu
+                            </i>
                         </div>
 
-                        <ul ref={(el) => this.menu_list = el} onClick={this.hideMenuList.bind(this)}>
+                        <ul
+                            ref={el => (this.menu_list = el)}
+                            onClick={this.hideMenuList.bind(this)}
+                        >
                             <li>
-                                <a href="#Home" onClick={this.scrollTo.bind(this)}>Home</a>
+                                <a
+                                    href="#Home"
+                                    onClick={this.scrollTo.bind(this)}
+                                >
+                                    Home
+                                </a>
                             </li>
                             <li>
-                                <a href="#AboutUs" onClick={this.scrollTo.bind(this)}>About Us</a>
+                                <a
+                                    href="#AboutUs"
+                                    onClick={this.scrollTo.bind(this)}
+                                >
+                                    About Us
+                                </a>
                             </li>
                             <li>
-                                <a href="#Courses" onClick={this.scrollTo.bind(this)}>Courses</a>
+                                <a
+                                    href="#Courses"
+                                    onClick={this.scrollTo.bind(this)}
+                                >
+                                    Courses
+                                </a>
                             </li>
                             <li>
-                                <a href="#Team" onClick={this.scrollTo.bind(this)}>Team</a>
+                                <a
+                                    href="#Team"
+                                    onClick={this.scrollTo.bind(this)}
+                                >
+                                    Team
+                                </a>
                             </li>
                             <li>
-                                <a href="#Advisors" onClick={this.scrollTo.bind(this)}>Advisors</a>
+                                <a
+                                    href="#Advisors"
+                                    onClick={this.scrollTo.bind(this)}
+                                >
+                                    Advisors
+                                </a>
                             </li>
                             <li>
-                                <a href="#Clients" onClick={this.scrollTo.bind(this)}>Clients</a>
+                                <a
+                                    href="#Clients"
+                                    onClick={this.scrollTo.bind(this)}
+                                >
+                                    Clients
+                                </a>
                             </li>
                             <li>
-                                <a href="#ContactUs" onClick={this.scrollTo.bind(this)}>Contact Us</a>
+                                <a
+                                    href="#ContactUs"
+                                    onClick={this.scrollTo.bind(this)}
+                                >
+                                    Contact Us
+                                </a>
                             </li>
                             <li>
                                 <u>
-                                    <a href="challenge-series">Challenge Series</a>
+                                    <a
+                                        href="#challenge-series"
+                                        onClick={() => {
+                                            window.location.hash =
+                                                "challenge-series";
+                                        }}
+                                    >
+                                        Challenge Series
+                                    </a>
                                 </u>
                             </li>
                         </ul>
