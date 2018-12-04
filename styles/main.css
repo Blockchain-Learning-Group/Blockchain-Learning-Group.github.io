@@ -1402,6 +1402,46 @@ body {
 /* self alignment */
 /* multi-line alignment in main axis */
 /* fixed position */
+#ChallengeLandingHeading {
+  position: relative;
+  padding: 0 0 1.618rem; }
+  #ChallengeLandingHeading > header {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    height: 519px;
+    margin-bottom: 51px;
+    background-image: url(../images/BLG_Courses.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+    #ChallengeLandingHeading > header h3, #ChallengeLandingHeading > header p, #ChallengeLandingHeading > header div {
+      text-align: center; }
+    #ChallengeLandingHeading > header div {
+      position: relative;
+      bottom: -21px; }
+      #ChallengeLandingHeading > header div div {
+        top: -20px;
+        position: relative;
+        border-bottom: 1px solid #fff; }
+  #ChallengeLandingHeading p {
+    padding: 0 1rem;
+    text-align: center; }
+    @media (min-width: 960px) {
+      #ChallengeLandingHeading p {
+        max-width: 960px;
+        margin: 0 auto; } }
+
+/* alignment in cross axis */
+/* alignment in main axis */
+/* self alignment */
+/* multi-line alignment in main axis */
+/* fixed position */
 #ChallengeHeading {
   position: relative;
   padding: 0 0 1.618rem; }
@@ -1417,7 +1457,7 @@ body {
     justify-content: flex-end;
     height: 519px;
     margin-bottom: 51px;
-    background-image: url(../images/BLG_Courses.png);
+    background-image: url(../images/BLG_Hero_Image.png);
     background-repeat: no-repeat;
     background-position: center; }
     #ChallengeHeading > header h3, #ChallengeHeading > header p, #ChallengeHeading > header div {
@@ -1515,6 +1555,115 @@ body {
         #Challenges > footer > ul > li div.wrapper footer dl dd {
           margin-bottom: 0.382rem; }
       #Challenges > footer > ul > li div.wrapper footer ul {
+        margin-bottom: 1rem; }
+
+@media (min-width: 480px) {
+  #Challenges > footer > ul > li div.wrapper footer {
+    padding: 5rem 1rem 0.382rem; } }
+
+@media (min-width: 840px) {
+  #Challenges > header ul {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center; }
+    #Challenges > header ul li {
+      -ms-flex: 1 1 0.000000001px;
+      -webkit-flex: 1;
+      flex: 1;
+      -webkit-flex-basis: 0.000000001px;
+      flex-basis: 0.000000001px;
+      margin: 0 1rem;
+      max-width: 480px; }
+  #Challenges > footer > ul {
+    padding: 3rem 1rem; } }
+
+/* alignment in cross axis */
+/* alignment in main axis */
+/* self alignment */
+/* multi-line alignment in main axis */
+/* fixed position */
+#UpcomingChallenge {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-image: url(../images/BLG_Hero_Image.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+  #UpcomingChallenge > header, #UpcomingChallenge > footer {
+    max-width: 960px; }
+  #UpcomingChallenge > header {
+    margin-bottom: 1.618rem; }
+    #UpcomingChallenge > header h3, #UpcomingChallenge > header h4, #UpcomingChallenge > header p, #UpcomingChallenge > header ul, #UpcomingChallenge > header li, #UpcomingChallenge > header header, #UpcomingChallenge > header footer, #UpcomingChallenge > header div {
+      text-align: center; }
+    #UpcomingChallenge > header h4 {
+      size: 10; }
+    #UpcomingChallenge > header > p {
+      margin-bottom: 2rem; }
+    #UpcomingChallenge > header ul li {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      color: #212121;
+      background-color: #fff;
+      padding: 1.618rem 1rem;
+      margin-bottom: 4rem; }
+      #UpcomingChallenge > header ul li > header {
+        color: #007395;
+        margin-bottom: 0.618rem; }
+      #UpcomingChallenge > header ul li > div {
+        -ms-flex: 1 1 0.000000001px;
+        -webkit-flex: 1;
+        flex: 1;
+        -webkit-flex-basis: 0.000000001px;
+        flex-basis: 0.000000001px; }
+      #UpcomingChallenge > header ul li > footer {
+        height: 0; }
+        #UpcomingChallenge > header ul li > footer a {
+          position: initial;
+          bottom: -50px; }
+  #UpcomingChallenge > footer > ul > li {
+    overflow: hidden; }
+    #UpcomingChallenge > footer > ul > li div.wrapper header {
+      position: relative;
+      top: -50px;
+      margin: 0 2.5rem 5rem; }
+      #UpcomingChallenge > footer > ul > li div.wrapper header > h4 {
+        width: 100%;
+        position: absolute;
+        background-color: #067294;
+        padding: 1.618rem;
+        box-sizing: border-box; }
+    #UpcomingChallenge > footer > ul > li div.wrapper footer {
+      color: #212121;
+      background-color: #fff;
+      padding: 7rem 1rem 0.382rem;
+      margin: 75px 0rem 1.618rem; }
+      #UpcomingChallenge > footer > ul > li div.wrapper footer h5 {
+        font-weight: 700; }
+      #UpcomingChallenge > footer > ul > li div.wrapper footer dl {
+        margin-bottom: 1rem; }
+        #UpcomingChallenge > footer > ul > li div.wrapper footer dl dt {
+          float: left;
+          color: #067294;
+          padding-right: 0.618rem; }
+        #UpcomingChallenge > footer > ul > li div.wrapper footer dl dd {
+          margin-bottom: 0.382rem; }
+      #UpcomingChallenge > footer > ul > li div.wrapper footer ul {
         margin-bottom: 1rem; }
 
 @media (min-width: 480px) {
