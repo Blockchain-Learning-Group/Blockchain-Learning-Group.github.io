@@ -5,6 +5,7 @@ import ContactUs from '../components/ContactUs';
 import Heading from '../components/ChallengeSeries/Heading';
 import Details from '../components/ChallengeSeries/Details';
 import Participation from '../components/ChallengeSeries/Participation';
+import UpcomingChallenge from '../components/ChallengeSeries/UpcomingChallenge';
 
 export default class extends React.Component {
     render() {
@@ -19,8 +20,11 @@ export default class extends React.Component {
                             </li>
                             <li>
                                 <u>
-                                    <a href="#"><strong>Challenge Series</strong></a>
+                                    <a href="#challenge-series">Challenge Series</a>
                                 </u>
+                            </li>
+                            <li>
+                                <a href="#challenge-series/1">Challenge #1</a>
                             </li>
                         </ul>
                     </div>
@@ -29,6 +33,7 @@ export default class extends React.Component {
                 <main>
                     <div className="blg--main-wrapper">
                         <Heading />
+                        <UpcomingChallenge />
                         <Details />
                         <Participation />
                         <ContactUs />

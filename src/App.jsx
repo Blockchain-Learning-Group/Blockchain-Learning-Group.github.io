@@ -2,6 +2,7 @@ import React from "react";
 
 import Main from "./views/Main";
 import ChallengeSeries from "./views/ChallengeSeries";
+import Challenge1 from "./views/Challenge1";
 
 export default class extends React.Component {
     render() {
@@ -10,6 +11,13 @@ export default class extends React.Component {
                 return (
                     <div id="App">
                         <ChallengeSeries />
+                    </div>
+                );
+            
+            case "#challenge-series/1":
+                return (
+                    <div id="App">
+                        <Challenge1 />
                     </div>
                 );
 

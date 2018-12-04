@@ -16,8 +16,10 @@ $link-color: #067294;
 @import "./components/Home";
 @import "./components/ProductDevelopmentServices";
 @import "./components/Team";
-@import "./components/ChallengeSeries/Heading";
+@import "./components/ChallengeSeries/ChallengeLandingHeading";
+@import "./components/ChallengeSeries/ChallengeHeading";
 @import "./components/ChallengeSeries/Details";
+@import "./components/ChallengeSeries/UpcomingChallenge";
 
 $mdc-theme-primary: #fff;
 
