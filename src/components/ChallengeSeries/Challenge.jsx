@@ -80,6 +80,16 @@ export default class extends React.Component {
                                         <li>4. Start building!</li>
                                         <li>5. Submit the specified assets before the conclusion of the Challenge!</li>
                                     </ol>
+
+                                    <br />
+                                    <h5>JUDGING CRITERIA</h5>
+                                    <ol>
+                                        <li>1. Quality of the idea (creativity and originality of the idea).</li>
+                                        <li>2. Implementation of the idea (how well the idea was executed and functionality of the application).</li>
+                                        <li>3. Potential impact (the extent to which the solution can be widely adopted and global impact opportunity).</li>
+                                    </ol>
+                                    
+                                    <br />
                                 </footer>
                             </div>
                         </li>
