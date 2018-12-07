@@ -39,11 +39,8 @@ export default class extends React.Component {
                                 </div>
                             </header>
                             <div>
-                                <p>Registration will be open soon.</p>
+                                <p>Register for the upcoming challenge.</p>
                             </div>
-                            <footer>
-                                {/* <a className="blg-btn" disabled={true} onClick={this.scrollTo.bind(this)}>REGISTER</a> */}
-                            </footer>
                         </li>
                         <li className="mdc-elevation--z16">
                             <header>
@@ -52,11 +49,8 @@ export default class extends React.Component {
                                 </div>
                             </header>
                             <div>
-                                <p>The first challenge will be announced shortly!</p>
+                                <p>Get to doing! Start building your solution.</p>
                             </div>
-                            <footer>
-                                {/* <a className="blg-btn">#BUIDL</a> */}
-                            </footer>
                         </li>
                     </ul>
                 </header>

@@ -12,7 +12,7 @@ export default class extends React.Component {
                     </p>
 
                     <ul>
-                        <li className="mdc-elevation--z16">
+                        {/* <li className="mdc-elevation--z16">
                             <header>
                                 <div>
                                     <strong>REGISTER</strong>
@@ -24,7 +24,7 @@ export default class extends React.Component {
                             <footer>
                                 <a className="blg-btn" onClick={() => window.open('https://goo.gl/forms/BtSoCBBRLanwYNPl1')}>REGISTER NOW!</a>
                             </footer>
-                        </li>
+                        </li> */}
 
                          <li className="mdc-elevation--z16">
                             <header>
