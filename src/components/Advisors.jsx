@@ -62,6 +62,67 @@ export default class extends React.Component {
                         <header>
                             <div>
                                 <span className="avatar">
+                                    <img alt="" src="images/profiles/Dave.jpg" />
+                                </span>
+                                <span className="linkedin" style={{display: "none"}}>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="linkedin"
+                                        href="https://ca.linkedin.com/company/blockchainlearninggroup"
+                                    />
+                                </span>
+                            </div>
+                        </header>
+                        <footer>
+                            <h4>
+                                <div>Dave Mowat</div>
+                            </h4>
+                            <aside>
+                                <p>
+                                    Dave Mowat was the President and CEO of ATB Financial for 11 years, which, through
+                                    more than 5,000 team members provides a full range of banking services to more than
+                                    725,000 customers. ATB has grown to assets of more than $50 billion and is the
+                                    largest, provincially based financial institution in Alberta.
+                                </p>
+                                <p>
+                                    Under his leadership, ATB transformed into a technology leader, committed to make
+                                    banking work for people. It also became a bank obsessed with its customers and the
+                                    experience they received. Community involvement and support for numerous community
+                                    causes were a hallmark of ATB. As a leader, Mowat brought a strong commitment that
+                                    growing team member engagement and customer advocacy were the most sustainable and
+                                    successful ways to a strong bottom line.
+                                </p>
+                                <p>
+                                    Mowat was named Canada’s #1 CEO in 2016 by Glassdoor and was honoured as Business
+                                    Person of the Year in 2014 by Alberta Venture. In 2017, Mowat was conferred with an
+                                    Honorary Doctor of Laws degree from the University of Alberta.
+                                </p>
+                                <p>
+                                    In 2016, Mowat headed Alberta’s Royalty Review panel that, after months of study and
+                                    consultation with stakeholders and the public, the province adopted the panel's
+                                    recommendation of an innovative new approach to Alberta’s oil and natural gas
+                                    royalty structure.
+                                </p>
+                                <p>
+                                    Mowat is involved with numerous boards, including Telus, STARS, Alberta Blue Cross,
+                                    the Citadel Theatre in Edmonton, and the National Music Centre in Calgary. He was
+                                    also involved with Dogs With Wings, and in 2016 was the puppy raiser for Vaughn, a
+                                    black lab service puppy who was part of the organization’s program to train service
+                                    dogs to make life better for blind and autistic children.
+                                </p>
+                                <p>
+                                    Mowat and wife Sandy have raised three children and now enjoy travelling, golf and
+                                    riding road bikes together.
+                                </p>
+                            </aside>
+                        </footer>
+                    </li>
+
+                    <li>
+                        <header>
+                            <div>
+                                <span className="avatar">
                                     <img alt="" src="images/profiles/Tony.jpg" />
                                 </span>
                                 <span className="linkedin" style={{display: "none"}}>
@@ -131,36 +192,6 @@ export default class extends React.Component {
                                     number of emerging trends including urban innovation and blockchain technology. Dr.
                                     Reichental works with his teams to apply technology innovation in organizations to
                                     create new value and to enable work to be more meaningful and fun.
-                                </p>
-                            </aside>
-                        </footer>
-                    </li>
-
-                    <li>
-                        <header>
-                            <div>
-                                <span className="avatar" style={{backgroundColor: "initial"}} />
-                                <span className="linkedin" style={{display: "none"}}>
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="linkedin"
-                                        href="https://ca.linkedin.com/company/blockchainlearninggroup"
-                                    />
-                                </span>
-                            </div>
-                        </header>
-                        <footer>
-                            <h4>
-                                <div>Dave Mowat</div>
-                            </h4>
-                            <aside>
-                                <p>
-                                    HG, the CEO and a founder of BlockRe, is one of the leaders in the enterprise
-                                    blockchain space who was the first dedicated blockchain hire at two of the largest
-                                    global banks. HG is a serial entrepreneur with experience and expertise across
-                                    multiple domains, which has allowed him to bring a unique perspective to solving the
-                                    challenges of safely operating cryptocurrency and blockchain infrastructure.
                                 </p>
                             </aside>
                         </footer>
