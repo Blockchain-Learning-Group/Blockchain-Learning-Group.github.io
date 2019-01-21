@@ -26,7 +26,7 @@ export default class extends React.Component {
                         </ul>
                     </div>
                 </header>
-
+    
                 <main>
                     <div className="blg--main-wrapper">
                         <Challenge
@@ -34,7 +34,7 @@ export default class extends React.Component {
                             title="Financial Literacy"
                             duration="January 1st 2019 00:00 ET to February 28th 2019 23:59 ET"
                             registrationURL="https://goo.gl/forms/BtSoCBBRLanwYNPl1"
-                            prizes="The winning team will be rewarded a $500 cash prize!"
+                            prizes="The winning team will be rewarded a $1000 cash prize!"
                             problemStatement="Financial literacy.
                                 This challenge is targeted at developing solutions to aid financial literacy globally. 
                                 This challenge is left intentionally broad in order to allow for true outside the box thinking and participants are encouraged to do so!
