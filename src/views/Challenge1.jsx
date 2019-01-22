@@ -32,7 +32,7 @@ export default class extends React.Component {
                         <Challenge
                             id={1}
                             title="Financial Literacy"
-                            duration="January 1st 2019 00:00 ET to February 28th 2019 23:59 ET"
+                            duration="January 1st 2019 00:00 ET to March 17th 2019 23:59 ET"
                             registrationURL="https://goo.gl/forms/BtSoCBBRLanwYNPl1"
                             prizes="The winning team will be rewarded a $1000 cash prize!"
                             problemStatement="Financial literacy.
