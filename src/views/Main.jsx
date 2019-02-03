@@ -60,14 +60,14 @@ export default class extends React.Component {
                                     Home
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a
                                     href="#AboutUs"
                                     onClick={this.scrollTo.bind(this)}
                                 >
                                     About Us
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a
                                     href="#Courses"
@@ -105,7 +105,7 @@ export default class extends React.Component {
                                     href="#ContactUs"
                                     onClick={this.scrollTo.bind(this)}
                                 >
-                                    Contact Us
+                                    Contact
                                 </a>
                             </li>
                             <li>
@@ -118,6 +118,16 @@ export default class extends React.Component {
                                         }}
                                     >
                                         Challenge Series
+                                    </a>
+                                </u>
+                            </li>
+                            <li>
+                                <u>
+                                    <a
+                                        target="_blank"
+                                        href="https://drive.google.com/file/d/1m8xVqV2RMTWrKbECKf3RZsdcy44eM21S/view"
+                                    >
+                                        Digital ID Paper
                                     </a>
                                 </u>
                             </li>
