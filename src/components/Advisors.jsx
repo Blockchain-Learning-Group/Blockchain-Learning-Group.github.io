@@ -18,6 +18,68 @@ export default class extends React.Component {
                         <header>
                             <div>
                                 <span className="avatar">
+                                    <img alt="" src="images/profiles/Yannick.jpg" />
+                                </span>
+                                <span className="linkedin" style={{display: "none"}}>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="linkedin"
+                                        href="https://ca.linkedin.com/company/blockchainlearninggroup"
+                                    />
+                                </span>
+                            </div>
+                        </header>
+                        <footer>
+                            <h4>
+                                <div>Yannick Glemarec</div>
+                            </h4>
+                            <aside>
+                                <p>
+                                    Yannick Glemarec brings 30 years of international experience with the United Nations
+                                    in climate change, development, finance and their interrelationships.
+                                </p>
+                                <p>
+                                    Yannick Glemarec served as UN Assistant Secretary-General and Deputy Executive
+                                    Director for Policy and Programme in UN Women from 2015 to 2018. His main
+                                    responsibilities include: shaping the strategic thinking of the organization and its
+                                    organizational design; identifying emerging development opportunities and challenges
+                                    to guide the Entity’s global policy, strategy and portfolio development; and
+                                    overseeing services provided by close to 2,000 UN Women staff in 100 countries
+                                    worldwide.
+                                </p>
+                                <p>
+                                    Before joining UN Women, he was the Executive Coordinator of the UN Multi-Partner
+                                    Trust Fund Office in New York from 2013 to 2015, where he was responsible for the
+                                    design and administration of about 100 UN trust funds supporting humanitarian, post
+                                    conflict, development and climate actions in over 100 countries. Previously, he
+                                    served as UNDP Executive Coordinator for the Global Environment Facility in New York
+                                    from 2007 to 2012, where he oversaw the formulation and implementation of a $ 6
+                                    billion portfolio for climate change management, biodiversity conservation, and
+                                    sustainable natural resources management. Earlier, he worked with UNDP in
+                                    increasingly senior development and environment programme positions in Switzerland,
+                                    Viet Nam, China and Bangladesh.
+                                </p>
+                                <p>
+                                    Yannick Glemarec retired from the United Nations on December 31rst, 2018. He
+                                    currently serves as senior adviser to several UN entities on climate finance and is
+                                    to teach a series of graduate courses on fostering inclusive innovation and
+                                    technology for sustainable development with French, US and Emirate Universities.
+                                </p>
+                                <p>
+                                    He holds a PhD from the University of Paris in Environment Sciences, and two Master
+                                    Degrees in Hydrology and in Business Administration. He has authored several
+                                    publications in the field of risk management, renewable energy, climate finance, and
+                                    co-benefits between human rights, gender equality and climate action.
+                                </p>
+                            </aside>
+                        </footer>
+                    </li>
+
+                    <li>
+                        <header>
+                            <div>
+                                <span className="avatar">
                                     <img alt="" src="images/profiles/Leanne.jpg" />
                                 </span>
                                 <span className="linkedin" style={{display: "none"}}>
