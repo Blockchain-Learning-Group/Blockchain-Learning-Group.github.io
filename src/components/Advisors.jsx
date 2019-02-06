@@ -18,7 +18,7 @@ export default class extends React.Component {
                         <header>
                             <div>
                                 <span className="avatar">
-                                    <img alt="" src="images/profiles/Yannick.jpg" />
+                                    <img alt="" src="images/profiles/Yannick.jpg" style={{filter: "grayscale(1)"}} />
                                 </span>
                                 <span className="linkedin" style={{display: "none"}}>
                                     <a
