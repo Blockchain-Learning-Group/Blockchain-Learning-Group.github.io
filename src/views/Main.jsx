@@ -25,9 +25,7 @@ export default class extends React.Component {
         if (e.target.hasAttribute("href")) {
             let id = e.target.getAttribute("href").replace("#", "");
             let el = document.getElementById(id);
-            document
-                .getElementsByClassName("blg--main-wrapper")[0]
-                .scroll(0, el.offsetTop);
+            document.getElementsByClassName("blg--main-wrapper")[0].scroll(0, el.offsetTop);
             e.preventDefault();
         }
     }
@@ -40,23 +38,14 @@ export default class extends React.Component {
                         <div className="logo" />
 
                         <div className="menu">
-                            <i
-                                className="material-icons mdc-toolbar__menu-icon"
-                                onClick={this.showMenuList.bind(this)}
-                            >
+                            <i className="material-icons mdc-toolbar__menu-icon" onClick={this.showMenuList.bind(this)}>
                                 menu
                             </i>
                         </div>
 
-                        <ul
-                            ref={el => (this.menu_list = el)}
-                            onClick={this.hideMenuList.bind(this)}
-                        >
+                        <ul ref={el => (this.menu_list = el)} onClick={this.hideMenuList.bind(this)}>
                             <li>
-                                <a
-                                    href="#Home"
-                                    onClick={this.scrollTo.bind(this)}
-                                >
+                                <a href="#Home" onClick={this.scrollTo.bind(this)}>
                                     Home
                                 </a>
                             </li>
@@ -69,42 +58,27 @@ export default class extends React.Component {
                                 </a>
                             </li> */}
                             <li>
-                                <a
-                                    href="#Courses"
-                                    onClick={this.scrollTo.bind(this)}
-                                >
+                                <a href="#Courses" onClick={this.scrollTo.bind(this)}>
                                     Courses
                                 </a>
                             </li>
                             <li>
-                                <a
-                                    href="#Team"
-                                    onClick={this.scrollTo.bind(this)}
-                                >
+                                <a href="#Team" onClick={this.scrollTo.bind(this)}>
                                     Team
                                 </a>
                             </li>
                             <li>
-                                <a
-                                    href="#Advisors"
-                                    onClick={this.scrollTo.bind(this)}
-                                >
+                                <a href="#Advisors" onClick={this.scrollTo.bind(this)}>
                                     Advisors
                                 </a>
                             </li>
                             <li>
-                                <a
-                                    href="#Clients"
-                                    onClick={this.scrollTo.bind(this)}
-                                >
+                                <a href="#Clients" onClick={this.scrollTo.bind(this)}>
                                     Clients
                                 </a>
                             </li>
                             <li>
-                                <a
-                                    href="#ContactUs"
-                                    onClick={this.scrollTo.bind(this)}
-                                >
+                                <a href="#ContactUs" onClick={this.scrollTo.bind(this)}>
                                     Contact
                                 </a>
                             </li>
@@ -113,8 +87,7 @@ export default class extends React.Component {
                                     <a
                                         href="#challenge-series"
                                         onClick={() => {
-                                            window.location.hash =
-                                                "challenge-series";
+                                            window.location.hash = "challenge-series";
                                         }}
                                     >
                                         Challenge Series
@@ -125,6 +98,7 @@ export default class extends React.Component {
                                 <u>
                                     <a
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                         href="https://drive.google.com/file/d/1m8xVqV2RMTWrKbECKf3RZsdcy44eM21S/view"
                                     >
                                         Digital ID Paper
