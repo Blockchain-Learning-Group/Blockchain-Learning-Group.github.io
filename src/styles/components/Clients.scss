@@ -19,6 +19,7 @@ $slide-max-width: 720px;
     @include --layout-vertical;
     @include --layout-center-center;
 
+
     color: #fff;
     background-color: #000;
     overflow: hidden;
@@ -46,39 +47,6 @@ $slide-max-width: 720px;
         & > .not-mobile {
             display: none;
 
-            nav {
-                z-index: 1;
-                display: none;
-
-                @include --layout-horizontal;
-                @include --layout-justified;
-                @include --layout-center;
-
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-
-                button {
-                    width: 30px;
-                    height: 30px;
-                    text-align: center;
-
-                    &:hover {
-                        background-color: rgba(0,0,0,0.06);
-                    }
-                    &:active {
-                        background-color: rgba(0,0,0,0.14);
-                    }
-
-                    i {
-                        vertical-align: middle;
-                        animation: pulse 3s 2s infinite;
-                    }
-                }
-            }
-
             ul {
                 @include --layout-horizontal;
 
@@ -93,7 +61,7 @@ $slide-max-width: 720px;
                         padding: 1rem 2rem 1rem 0;
 
                         img {
-                            height: 100px;
+                            height: 125px;
                         }
                     }
 
@@ -146,7 +114,7 @@ $slide-max-width: 720px;
                     @include --layout-horizontal;
 
                     width: $slide-max-width;
-                    height: 380px;
+                    height: 390px;
 
                     &.show {
                         display: flex;

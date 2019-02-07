@@ -51,16 +51,11 @@ export default class extends React.Component {
                     </div>
 
                     <div className="not-mobile">
-                        <nav>
+                        <ul>
                             <button className="blg__nav__btn--prev mdc-elevation--z2" onClick={this.handleClickPrevious.bind(this)}>
                                 <i className="material-icons">chevron_left</i>
                             </button>
-                            <button className="blg__nav__btn--next mdc-elevation--z2" onClick={this.handleClickNext.bind(this)}>
-                                <i className="material-icons">chevron_right</i>
-                            </button>
-                        </nav>
 
-                        <ul>
                             <li className={this.state.client === 0 ? '' : 'blg--invisible'}>
                                 <div>
                                     <div>
@@ -75,7 +70,7 @@ export default class extends React.Component {
                                             target="_blank"
                                         >
                                             <h4>
-                                                Continue reading here
+                                                https://www.forbes.com/sites/rogerhuang/2019/01/07/the-first-program-to-train-high-school-girls-with-blockchain-skills/#2c45ff464275
                                             </h4>
                                         </a>
                                     </footer>
@@ -84,9 +79,9 @@ export default class extends React.Component {
 
                             <li className={this.state.client === 1 ? '' : 'blg--invisible'}>
                                 <div>
-                                <div>
-                                    <img alt="itworldcanda" width="600" src="images/news/itWorldCanada.png" />
-                                </div>
+                                    <div>
+                                        <img style={{ width: 450, height: 65 }} alt="itworldcanda" src="images/news/itWorldCanada.png" />
+                                    </div>
                                     <header>
                                         <h3>Toronto girls school hosts blockchain hackathon to inspire interest in STEM fields</h3>
                                     </header>
@@ -96,7 +91,7 @@ export default class extends React.Component {
                                             target="_blank"
                                         >
                                             <h4>
-                                                Continue reading here
+                                                https://www.itworldcanada.com/article/toronto-girls-school-hosts-blockchain-hackathon-to-inspire-interest-in-stem-fields/403826
                                             </h4>
                                         </a>
                                     </footer>
@@ -106,7 +101,7 @@ export default class extends React.Component {
                             <li className={this.state.client === 2 ? '' : 'blg--invisible'}>
                                 <div>
                                     <div>
-                                        <img alt="LSE" src="images/news/LSEUNDP.png" />
+                                        <img style={{ height: 80 }} alt="LSE" src="images/news/LSEUNDP.png" />
                                     </div>
                                     <header>
                                         <h3>Using blockchain to make land registry more reliable in India</h3>
@@ -117,7 +112,7 @@ export default class extends React.Component {
                                             target="_blank"
                                         >
                                             <h4>
-                                                Continue reading here
+                                                http://blogs.lse.ac.uk/businessreview/2018/04/13/using-blockchain-to-make-land-registry-more-reliable-in-india/
                                             </h4>
                                         </a>
                                     </footer>
@@ -138,7 +133,7 @@ export default class extends React.Component {
                                             target="_blank"
                                         >
                                             <h4>
-                                                Continue reading here
+                                                https://startupheretoronto.com/type/profiles/blockchain-learning-group-and-blockscale-solutions-empowering-approach-to-deciphering-blockchain-for-businesses-and-governments/
                                             </h4>
                                         </a>
                                     </footer>
@@ -151,7 +146,9 @@ export default class extends React.Component {
                                         <img alt="undp" src="images/news/undp.jpeg" />
                                     </div>
                                     <header>
-                                        <h3>Scaling up climate action: Fresh compact between UNDP and private sector partners to accelerate data and information solutions</h3>
+                                        <h3 style={{ fontSize: "30px" }}>
+                                            Scaling up climate action: Fresh compact between UNDP and private sector partners to accelerate data and information solutions
+                                        </h3>
                                     </header>
                                     <footer>
                                         <a
@@ -159,13 +156,16 @@ export default class extends React.Component {
                                             target="_blank"
                                         >
                                             <h4>
-                                                Continue reading here
+                                                https://www.adaptation-undp.org/scaling-climate-action-fresh-compact-between-undp-and-private-sector-partners-accelerate-data-and
                                             </h4>
                                         </a>
                                     </footer>
                                 </div>
                             </li>
-
+                        
+                            <button className="blg__nav__btn--next mdc-elevation--z2" onClick={this.handleClickNext.bind(this)}>
+                                <i className="material-icons">chevron_right</i>
+                            </button>
                         </ul>
                     </div>
                 </footer>

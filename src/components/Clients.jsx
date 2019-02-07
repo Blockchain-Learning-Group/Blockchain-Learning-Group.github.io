@@ -72,16 +72,11 @@ export default class extends React.Component {
                     </div>
 
                     <div className="not-mobile">
-                        <nav>
+                        <ul>
                             <button className="blg__nav__btn--prev mdc-elevation--z2" onClick={this.handleClickPrevious.bind(this)}>
                                 <i className="material-icons">chevron_left</i>
                             </button>
-                            <button className="blg__nav__btn--next mdc-elevation--z2" onClick={this.handleClickNext.bind(this)}>
-                                <i className="material-icons">chevron_right</i>
-                            </button>
-                        </nav>
 
-                        <ul>
                             <li className={this.state.client === 0 ? '' : 'blg--invisible layout vertical center-center'}>
                                 <div className="layout vertical center-center" style={{ padding: 0, height: '100%', width: '100%', justifyContent: 'space-around' }}>
                                     <div>
@@ -102,7 +97,7 @@ export default class extends React.Component {
                                         <img alt="United Nations Development Programme" width="300" src="images/clients/undp.jpeg" />
                                     </div>
                                     <div>
-                                        <img alt="USAID" width="200" src="images/clients/usaid.png" />
+                                        <img style={{ height: 200 }} alt="USAID" src="images/clients/usaid.png" />
                                     </div>
                                 </div>
                             </li>
@@ -137,10 +132,8 @@ export default class extends React.Component {
 
                             <li className={this.state.client === 4 ? '' : 'blg--invisible'}>
                                 <div>
-                                    <img alt="AGL Energy" src="images/clients/AGLEnergy.png" />
-                                </div>
-                                <div>
                                     <header>
+                                        <img style={{ height: 100 }} alt="AGL Energy" src="images/clients/AGLEnergy.png" />
                                         <p>“Thank you to the Blockchain Learning Group for equipping AGL with a strong foundation in blockchain technology and providing us with the knowledge, tools and confidence to start making meaningful inroads with integrating this technology. We have gone from talking about Blockchain to actually developing and experimenting with different solutions, a significant achievement realized in a relatively short period of time. I would highly recommend the Blockchain Learning Group to any organization that is looking for a world-class education partner to jumpstart their own blockchain journeys!”</p>
                                     </header>
                                     <footer>
@@ -161,10 +154,8 @@ export default class extends React.Component {
 
                             <li className={this.state.client === 5 ? '' : 'blg--invisible'}>
                                 <div>
-                                    <img alt="The Knowledge Society" src="images/clients/TheKnowledgeSociety.png" />
-                                </div>
-                                <div>
                                     <header>
+                                        <img style={{ height: 75 }} alt="The Knowledge Society" src="images/clients/TheKnowledgeSociety.png" />
                                         <p>"Wow. Just wow. I cannot say enough about how valuable the Blockchain Learning Group experience was for our TKS students. Before the training, our students had a rudimentary understanding of blockchain technologies. Only a few weeks later they are building multiple decentralized applications and becoming young thought leaders in such a short period of time! Adam and the team were phenomenal facilitators. Not only were they incredibly knowledgeable, but they knew how to deliver the content to different audiences who might have had various levels of coding experience and blockchain understanding. How they were able to provide a personalized experience to a group of young people was very impressive.”</p>
                                     </header>
                                     <footer>
@@ -185,11 +176,9 @@ export default class extends React.Component {
 
                             <li className={this.state.client === 6 ? '' : 'blg--invisible'}>
                                 <div>
-                                    <img alt="Melbourne Girls Grammar School" src="images/clients/MelbourneGirlsGrammarSchool.png" />
-                                </div>
-                                <div>
                                     <header>
-                                        <p>“Blockchain Learning Group provided an immersive learning experience for students and staff at Melbourne Girls Grammar. Their workshops illuminated for all participants the exciting, complex, and disruptive nature of blockchain technologies and its potential to democratize trust. Their skillful and patient coaching enabled students to become developers and integrators of blockchain technologies and imagine possible career pathways in tech. Our girls were able to demonstrate their new-found capabilities through success at the Smart Cities Hackathon in Melbourne where they developed DAPPs using the Ethereum blockchain and were one of the prize-winning groups.”</p>
+                                        <img style={{ height: 90 }} alt="Melbourne Girls Grammar School" src="images/clients/MelbourneGirlsGrammarSchool.png" />
+                                        <p style={{ fontSize: "15px" }}>“Blockchain Learning Group provided an immersive learning experience for students and staff at Melbourne Girls Grammar. Their workshops illuminated for all participants the exciting, complex, and disruptive nature of blockchain technologies and its potential to democratize trust. Their skillful and patient coaching enabled students to become developers and integrators of blockchain technologies and imagine possible career pathways in tech. Our girls were able to demonstrate their new-found capabilities through success at the Smart Cities Hackathon in Melbourne where they developed DAPPs using the Ethereum blockchain and were one of the prize-winning groups.”</p>
                                     </header>
                                     <footer>
                                         <h4>
@@ -209,10 +198,8 @@ export default class extends React.Component {
 
                             <li className={this.state.client === 7 ? '' : 'blg--invisible'}>
                                 <div>
-                                    <img alt="TMX Group" src="images/clients/TMXGroup.png" />
-                                </div>
-                                <div>
                                     <header>
+                                        <img alt="TMX Group" src="images/clients/TMXGroup.png" />
                                         <p style={{ fontSize: "20px" }}>
                                             “Blockchain Learning Group did a fantastic job in our first TMX Blockchain training session. Well attended and impactful with a great curriculum. Thank you for helping to progress our knowledge of how Blockchain can be applied in Capital Markets.”
                                         </p>
@@ -236,7 +223,8 @@ export default class extends React.Component {
                             <li className={this.state.client === 8 ? '' : 'blg--invisible'}>
                                 <div>
                                     <header>
-                                        <p style={{ fontSize: "12px" }}>“Throughout the course of the Blockchain Hackathon at The Bishop Strachan School, Blockchain Learning Group (BLG) provided our Senior School participants with an invaluable, future-forward learning experience.” 
+                                        <img style={{ height: 50 }} alt="BSS" src="images/clients/TheBishopStrachanSchool.png" />
+                                        <p style={{ fontSize: "10px" }}>“Throughout the course of the Blockchain Hackathon at The Bishop Strachan School, Blockchain Learning Group (BLG) provided our Senior School participants with an invaluable, future-forward learning experience.” 
                                             Training for the Hackathon challenged our students on many levels. They had the opportunity to not only develop their skills on an emergent and complex platform but to also use this decentralizing technology in order to solve a social issue they were passionate about. The experience was exciting and highly motivating, prompting our students to further consider the role of technology in the wider world and their own careers.
                                             BLG provided incredible expert guidance throughout the Hackathon. Skillfully training our students and teachers on the Ethereum platform, they led BSS participants through design thinking exercises in order to produce unique problem statements, user stories, designs, prototype apps and pitches to a panel of Alumnae in the field. Adam Lemmon, the lead trainer from BLG, regularly asked for feedback throughout all stages of the Hackathon and easily adapted the material and structure of the event to suit the needs of the various participants.
                                             Feedback from students highlighted their enjoyment of the friendly competition, and how much they learned from collaborating in multidisciplinary groups. Additionally, throughout the event BLG invited industry mentors and speakers to share their expertise with student participants, providing them with powerful insights and an opportunity to begin a unique network that will be invaluable in their coming careers.”
@@ -254,6 +242,10 @@ export default class extends React.Component {
                                     </footer>
                                 </div>
                             </li>
+
+                            <button className="blg__nav__btn--next mdc-elevation--z2" onClick={this.handleClickNext.bind(this)}>
+                                <i className="material-icons">chevron_right</i>
+                            </button>
                         </ul>
                     </div>
                 </footer>
