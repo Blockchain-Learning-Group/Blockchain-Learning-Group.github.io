@@ -69,10 +69,15 @@ export default class extends React.Component {
                         <footer>
                             <h4>
                                 <div>Adam Lemmon</div>
-                                <div>VP, Training & Operations</div>
+                                <div>VP, Technology & Operations</div>
                             </h4>
                             <aside>
-                                <p>Adam is a technology enthusiast and passionate engineer. Prior to joining Blockchain Learning Group, Adam contributed to a wide range of Blockchain projects as well as lead various development workshops in Australia and Canada. Adam is inspired by the potential of Blockchain technology and actively is helping to build the global community.</p>
+                                <p>
+                                    Adam currently leads all technology and development at both Blockscale Solutions and Blockchain Learning Group. 
+                                    He is a passionate engineer and educator, with a background in Mechatronic Systems and Software Engineering. 
+                                    He has been active in the Blockchain ecosystem for several years and has been involved in a variety of initiatives 
+                                    spanning both software education and development globally.
+                                </p>
                             </aside>
                         </footer>
                     </li>

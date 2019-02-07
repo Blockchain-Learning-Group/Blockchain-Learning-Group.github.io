@@ -17,18 +17,28 @@
     & > header {
         margin-bottom: 1.618rem;
 
-        h3, p, ul, li, header, footer, div {
+        h3, ul, li, header, footer, div {
             text-align: center;
         }
 
-        & > p {
-            margin-bottom: 2rem;
+        h4, p {
+            text-align: left;
+            margin: 0rem;
         }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        // & > p {
+        //     margin-bottom: 2rem;
+        // }
 
         ul {
             li {
                 @include --layout-vertical;
 
+                min-width: 320px;
                 color: #212121;
                 background-color: #fff;
                 padding: 1.618rem 1rem;

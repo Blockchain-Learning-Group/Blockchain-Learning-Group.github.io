@@ -5,6 +5,7 @@ import Advisors from "../components/Advisors";
 import Clients from "../components/Clients";
 import ContactUs from "../components/ContactUs";
 import Courses from "../components/Courses";
+import News from "../components/News";
 import Diversity from "../components/Diversity";
 import Home from "../components/Home";
 import ProductDevelopmentServices from "../components/ProductDevelopmentServices";
@@ -92,14 +93,14 @@ export default class extends React.Component {
                                     Advisors
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a
                                     href="#Clients"
                                     onClick={this.scrollTo.bind(this)}
                                 >
                                     Clients
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a
                                     href="#ContactUs"
@@ -139,10 +140,11 @@ export default class extends React.Component {
                     <div className="blg--main-wrapper">
                         <Home />
                         <AboutUs />
-                        <ProductDevelopmentServices />
+                        <News />
                         <Courses />
-                        <Diversity />
                         <Clients />
+                        <Diversity />
+                        <ProductDevelopmentServices />
                         <Team />
                         <Advisors />
                         <ContactUs />

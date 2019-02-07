@@ -1124,10 +1124,13 @@ body {
     max-width: 960px; }
   #Courses > header {
     margin-bottom: 1.618rem; }
-    #Courses > header h3, #Courses > header p, #Courses > header ul, #Courses > header li, #Courses > header header, #Courses > header footer, #Courses > header div {
+    #Courses > header h3, #Courses > header ul, #Courses > header li, #Courses > header header, #Courses > header footer, #Courses > header div {
       text-align: center; }
-    #Courses > header > p {
-      margin-bottom: 2rem; }
+    #Courses > header h4, #Courses > header p {
+      text-align: left;
+      margin: 0rem; }
+    #Courses > header p {
+      margin-bottom: 1rem; }
     #Courses > header ul li {
       display: -ms-flexbox;
       display: -webkit-flex;
@@ -1135,6 +1138,7 @@ body {
       -ms-flex-direction: column;
       -webkit-flex-direction: column;
       flex-direction: column;
+      min-width: 320px;
       color: #212121;
       background-color: #fff;
       padding: 1.618rem 1rem;

@@ -5,7 +5,7 @@ export default class extends React.Component {
         super(props);
         this.state = {
             client: 0,
-            clients: 4
+            clients: 9
         };
     }
 
@@ -28,7 +28,7 @@ export default class extends React.Component {
         return (
             <section id="Clients">
                 <header>
-                    <h3>Clients</h3>
+                    <h3>IMPACT'd Clients</h3>
                 </header>
 
                 <footer className="mdc-elevation--z8">
@@ -51,6 +51,24 @@ export default class extends React.Component {
                         <div>
                             <img alt="TMX Group" src="images/clients/TMXGroup.png" />
                         </div>
+                        <div>
+                            <img alt="City of Toronto" src="images/clients/cityOfToronto.png" />
+                        </div>
+                        <div>
+                            <img alt="UNDP" src="images/clients/undp.jpeg" />
+                        </div>
+                        <div>
+                            <img alt="USAID" src="images/clients/usaid.png" />
+                        </div>
+                        <div>
+                            <img alt="Havergal College" src="images/clients/HavergalCollege.png" />
+                        </div>
+                        <div>
+                            <img alt="Holy Trinity" src="images/clients/holyTrinitySchool.png" />
+                        </div>
+                        <div>
+                            <img alt="UCC" src="images/clients/upperCanadaCollege.png" />
+                        </div>
                     </div>
 
                     <div className="not-mobile">
@@ -64,7 +82,60 @@ export default class extends React.Component {
                         </nav>
 
                         <ul>
-                            <li className={this.state.client === 0 ? '' : 'blg--invisible'}>
+                            <li className={this.state.client === 0 ? '' : 'blg--invisible layout vertical center-center'}>
+                                <div className="layout vertical center-center" style={{ padding: 0, height: '100%', width: '100%', justifyContent: 'space-around' }}>
+                                    <div>
+                                        <img alt="Government Of Ontario" src="images/clients/GovernmentOfOntario.png" />
+                                    </div>
+                                    <div>
+                                        <img alt="City of Toronto" src="images/clients/cityOfToronto.png" />
+                                    </div>
+                                    <div>
+                                        <img alt="TMX Group" src="images/clients/TMXGroup.png" />
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li className={this.state.client === 1 ? '' : 'blg--invisible layout vertical center-center'}>
+                                <div className="layout vertical center-center" style={{ padding: 0, height: '100%', width: '100%', justifyContent: 'space-around' }}>
+                                    <div>
+                                        <img alt="United Nations Development Programme" width="300" src="images/clients/undp.jpeg" />
+                                    </div>
+                                    <div>
+                                        <img alt="USAID" width="200" src="images/clients/usaid.png" />
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li className={this.state.client === 2 ? '' : 'blg--invisible layout vertical center-center'}>
+                                <div className="layout vertical center-center" style={{ padding: 0, height: '100%', width: '100%', justifyContent: 'space-around' }}>
+                                    <div>
+                                        <img alt="Havergal College" src="images/clients/HavergalCollege.png" />
+                                    </div>
+                                    <div>
+                                        <img alt="The Bishop Strachan School" src="images/clients/TheBishopStrachanSchool.png" />
+                                    </div>
+                                    <div>
+                                        <img alt="Holy Trinity School" src="images/clients/holyTrinitySchool.png" />
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li className={this.state.client === 3 ? '' : 'blg--invisible layout vertical center-center'}>
+                                <div className="layout vertical center-center" style={{ padding: 0, height: '100%', width: '100%', justifyContent: 'space-around' }}>
+                                    <div>
+                                        <img alt="Royal St. George College" src="images/clients/royalStGeorgeCollege.png" />
+                                    </div>
+                                    <div>
+                                        <img alt="Upper Canada College" src="images/clients/upperCanadaCollege.png" />
+                                    </div>
+                                    <div>
+                                        <img alt="The Knowledge Society" src="images/clients/tks.png" />
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li className={this.state.client === 4 ? '' : 'blg--invisible'}>
                                 <div>
                                     <img alt="AGL Energy" src="images/clients/AGLEnergy.png" />
                                 </div>
@@ -88,7 +159,7 @@ export default class extends React.Component {
                                 </div>
                             </li>
 
-                            <li className={this.state.client === 1 ? '' : 'blg--invisible'}>
+                            <li className={this.state.client === 5 ? '' : 'blg--invisible'}>
                                 <div>
                                     <img alt="The Knowledge Society" src="images/clients/TheKnowledgeSociety.png" />
                                 </div>
@@ -112,7 +183,7 @@ export default class extends React.Component {
                                 </div>
                             </li>
 
-                            <li className={this.state.client === 2 ? '' : 'blg--invisible'}>
+                            <li className={this.state.client === 6 ? '' : 'blg--invisible'}>
                                 <div>
                                     <img alt="Melbourne Girls Grammar School" src="images/clients/MelbourneGirlsGrammarSchool.png" />
                                 </div>
@@ -136,17 +207,51 @@ export default class extends React.Component {
                                 </div>
                             </li>
 
-                            <li className={this.state.client === 3 ? '' : 'blg--invisible layout vertical center-center'}>
-                                <div className="layout vertical center-center" style={{ padding: 0, height: '100%', width: '100%', justifyContent: 'space-around' }}>
-                                    <div>
-                                        <img alt="Government Of Ontario" src="images/clients/GovernmentOfOntario.png" />
-                                    </div>
-                                    <div>
-                                        <img alt="The Bishop Strachan School" src="images/clients/TheBishopStrachanSchool.png" />
-                                    </div>
-                                    <div>
-                                        <img alt="TMX Group" src="images/clients/TMXGroup.png" />
-                                    </div>
+                            <li className={this.state.client === 7 ? '' : 'blg--invisible'}>
+                                <div>
+                                    <img alt="TMX Group" src="images/clients/TMXGroup.png" />
+                                </div>
+                                <div>
+                                    <header>
+                                        <p style={{ fontSize: "20px" }}>
+                                            “Blockchain Learning Group did a fantastic job in our first TMX Blockchain training session. Well attended and impactful with a great curriculum. Thank you for helping to progress our knowledge of how Blockchain can be applied in Capital Markets.”
+                                        </p>
+                                    </header>
+                                    <footer>
+                                        <h4>
+                                            <div>
+                                                <strong>John Lee</strong>
+                                            </div>
+                                            <div>
+                                                <small>Managing Director, Enterprise Innovation and Product Development</small>
+                                            </div>
+                                            <div>
+                                                <small>TMX Group</small>
+                                            </div>
+                                        </h4>
+                                    </footer>
+                                </div>
+                            </li>
+
+                            <li className={this.state.client === 8 ? '' : 'blg--invisible'}>
+                                <div>
+                                    <header>
+                                        <p style={{ fontSize: "12px" }}>“Throughout the course of the Blockchain Hackathon at The Bishop Strachan School, Blockchain Learning Group (BLG) provided our Senior School participants with an invaluable, future-forward learning experience.” 
+                                            Training for the Hackathon challenged our students on many levels. They had the opportunity to not only develop their skills on an emergent and complex platform but to also use this decentralizing technology in order to solve a social issue they were passionate about. The experience was exciting and highly motivating, prompting our students to further consider the role of technology in the wider world and their own careers.
+                                            BLG provided incredible expert guidance throughout the Hackathon. Skillfully training our students and teachers on the Ethereum platform, they led BSS participants through design thinking exercises in order to produce unique problem statements, user stories, designs, prototype apps and pitches to a panel of Alumnae in the field. Adam Lemmon, the lead trainer from BLG, regularly asked for feedback throughout all stages of the Hackathon and easily adapted the material and structure of the event to suit the needs of the various participants.
+                                            Feedback from students highlighted their enjoyment of the friendly competition, and how much they learned from collaborating in multidisciplinary groups. Additionally, throughout the event BLG invited industry mentors and speakers to share their expertise with student participants, providing them with powerful insights and an opportunity to begin a unique network that will be invaluable in their coming careers.”
+                                        </p>
+                                    </header>
+                                    <footer>
+                                        <h4>
+                                            <div>
+                                                <strong>Mary Anne Van Acker, </strong><small>Assistant Head, Innovation Development and Technology</small>
+                                            </div>
+                                            <div>
+                                                <small>The Bishop Strachan School</small>
+                                            </div>
+                                        </h4>
+                                    </footer>
                                 </div>
                             </li>
                         </ul>

@@ -7,23 +7,24 @@ export default class extends React.Component {
                 <div />
                 <div>
                     <header>
-                        <p>We have developed a hands-on, immersive blockchain training course for developers that was created by our in-house developers, with a strong focus on smart contracts and decentralized application development.</p>
-                    </header>
-
-                    <footer>
-                        <article>
-                            <h4>
-                                <strong>VISION</strong>
-                            </h4>
-                            <p>Our vision is a global community where developers and organizations attain a much stronger foundation of blockchain education in order to better serve their blockchain technology projects and goals.</p>
-                        </article>
-
                         <article>
                             <h4>
                                 <strong>MISSION</strong>
                             </h4>
-                            <p>Our mission is to provide a training course with the right mix of theoretical and practical components that empowers developers with an actionable knowledge base to help them make an immediate impact.</p>
+                            <p>
+                                Our mission is to empower current and aspiring leaders with the tools they need to succeed in the jobs of tomorrow!
+                                We will provide education and equal opportunity no matter gender, race, religion... or internet connectivity.
+                            </p>
                         </article>
+                    </header>
+
+                    <footer>
+                        <p>
+                            We have developed an immersive and collaborative program in problem solving, design thinking and software development, 
+                            leveraging leading edge and innovative technologies.  
+                            This program features a deep dive into Blockchain technology and decentralized application(DApp) development. 
+                            It targets not only knowledge uptake but focuses on applying the technology to address real world problems!
+                        </p>                        
                     </footer>
                 </div>
             </section>
