@@ -5,7 +5,7 @@ export default class extends React.Component {
         super(props);
         this.state = {
             client: 0,
-            clients: 5
+            clients: 6
         };
     }
 
@@ -80,6 +80,27 @@ export default class extends React.Component {
                             <li className={this.state.client === 1 ? '' : 'blg--invisible'}>
                                 <div>
                                     <div>
+                                        <img alt="undp" src="images/news/undp.jpeg" />
+                                    </div>
+                                    <header>
+                                        <h3>Using Tech to Combat Corruption in Afghanistan</h3>
+                                    </header>
+                                    <footer>
+                                        <a
+                                            href="http://www.af.undp.org/presscenter/pressreleases/2019/Hack4Integrity.html" 
+                                            target="_blank"
+                                        >
+                                            <h4>
+                                                http://www.af.undp.org/presscenter/pressreleases/2019/Hack4Integrity.html
+                                            </h4>
+                                        </a>
+                                    </footer>
+                                </div>
+                            </li>
+
+                            <li className={this.state.client === 2 ? '' : 'blg--invisible'}>
+                                <div>
+                                    <div>
                                         <img style={{ width: 450, height: 65 }} alt="itworldcanda" src="images/news/itWorldCanada.png" />
                                     </div>
                                     <header>
@@ -98,7 +119,7 @@ export default class extends React.Component {
                                 </div>
                             </li>
 
-                            <li className={this.state.client === 2 ? '' : 'blg--invisible'}>
+                            <li className={this.state.client === 3 ? '' : 'blg--invisible'}>
                                 <div>
                                     <div>
                                         <img style={{ height: 80 }} alt="LSE" src="images/news/LSEUNDP.png" />
@@ -119,7 +140,7 @@ export default class extends React.Component {
                                 </div>
                             </li>
 
-                            <li className={this.state.client === 3 ? '' : 'blg--invisible'}>
+                            <li className={this.state.client === 4 ? '' : 'blg--invisible'}>
                                 <div>
                                     <div>
                                         <img alt="startUpToronto" src="images/news/startUpToronto.png" />
@@ -140,7 +161,7 @@ export default class extends React.Component {
                                 </div>
                             </li>
 
-                            <li className={this.state.client === 4 ? '' : 'blg--invisible'}>
+                            <li className={this.state.client === 5 ? '' : 'blg--invisible'}>
                                 <div>
                                     <div>
                                         <img alt="undp" src="images/news/undp.jpeg" />
