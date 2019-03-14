@@ -97,8 +97,6 @@ export default class extends React.Component {
                                 <h4><strong>PARTICIPANTS:</strong></h4>
                                 <p>
                                     Maximum of 20 technical participants
-                                    <br />
-                                    No limit on non-technical participants
                                 </p>
                             </div>
                             <footer>
@@ -132,13 +130,9 @@ export default class extends React.Component {
                                 <h4><strong>PARTICIPANTS:</strong></h4>
                                 <p>
                                     Maximum of 10 technical participants*
-                                    <br />
-                                    No limit on non-technical participants**
                                 </p>
                                 <p style={{ fontSize: "10px" }}>
                                     * multiple programs may be initiated in parallel or close proximity
-                                    <br />
-                                    ** Non-technical participants are optional but recommended
                                 </p>
                             </div>
                             <footer>
