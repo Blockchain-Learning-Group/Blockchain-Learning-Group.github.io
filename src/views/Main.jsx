@@ -8,6 +8,7 @@ import Courses from "../components/Courses";
 import News from "../components/News";
 import Diversity from "../components/Diversity";
 import Home from "../components/Home";
+import HighSchoolEduVideo1 from "../components/HighSchoolEduVideo1";
 import ProductDevelopmentServices from "../components/ProductDevelopmentServices";
 import Team from "../components/Team";
 
@@ -113,6 +114,7 @@ export default class extends React.Component {
                 <main>
                     <div className="blg--main-wrapper">
                         <Home />
+                        <HighSchoolEduVideo1 />
                         <AboutUs />
                         <News />
                         <Courses />
