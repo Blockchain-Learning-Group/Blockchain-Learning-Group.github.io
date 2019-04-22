@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class extends React.Component {
     render() {
-        const { id, title, duration, registrationURL, prizes, problemStatement, externalLink, externalLinkTitle } = this.props;
+        const { id, title, duration, registrationURL, prizes, problemStatement, externalLink, externalLinkTitle, completed } = this.props;
 
         return (
             <div>
@@ -10,12 +10,22 @@ export default class extends React.Component {
                     <header>
                         <h3><strong>Challenge #{id} {title}</strong></h3>
                         <p><strong><u>{duration}</u></strong></p>
-                        <p>
-                            Spots are limited so be sure to register now!
-                        </p>
-
+                        {
+                            (
+                                !completed &&
+                                <p>
+                                    Spots are limited so be sure to register now!
+                                </p>
+                            )
+                        }
                         <div>
-                            <a className="blg-btn" onClick={() => window.open(registrationURL)}>REGISTER NOW!</a>
+                            {
+                                (
+                                    !completed ? 
+                                    <a className="blg-btn" onClick={() => window.open(registrationURL)}>REGISTER NOW!</a> :
+                                    <a className="blg-btn">CHALLENGE COMPLETE!</a>
+                                )
+                            }
                             <div/>
                         </div>
                     </header>
@@ -73,7 +83,7 @@ export default class extends React.Component {
                                     <h5>HOW TO PARTICIPATE</h5>
                                     <ol>
                                         <li>
-                                            <a href={registrationURL}>1. Register to participate!</a>
+                                            1. Register to participate!
                                         </li>
                                         <li>2. Build any app you want. If you need a place to start, review the problem statement above.</li>
                                         <li>3. Find a team (optional) by reaching out to other developers on the dedicated Slack channel.</li>

@@ -5,12 +5,12 @@ export default class extends React.Component {
         return (
             <section id="UpcomingChallenge">
                 <header>
-                    <h3>Upcoming Challenge: <strong>#1 Financial Literacy</strong></h3>
+                    <h3>Upcoming Challenge: <strong>#2 To Be Announce Shortly!</strong></h3>
                     <p>
                         Spots are limited so be sure to register now!
                     </p>
 
-                    <ul>
+                    {/* <ul>
                          <li className="mdc-elevation--z16">
                             <header>
                                 <div>
@@ -24,7 +24,7 @@ export default class extends React.Component {
                                 <a className="blg-btn" href="#challenge-series/1">VIEW DETAILS</a>
                             </footer>
                         </li>
-                    </ul>
+                    </ul> */}
                 </header>
             </section>
         );

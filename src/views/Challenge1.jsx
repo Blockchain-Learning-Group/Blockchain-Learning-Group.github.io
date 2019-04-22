@@ -31,6 +31,7 @@ export default class extends React.Component {
                     <div className="blg--main-wrapper">
                         <Challenge
                             id={1}
+                            completed={true}
                             title="Financial Literacy"
                             duration="January 1st 2019 00:00 ET to March 17th 2019 23:59 ET"
                             registrationURL="https://goo.gl/forms/BtSoCBBRLanwYNPl1"
