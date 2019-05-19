@@ -80,6 +80,40 @@ export default class extends React.Component {
                         <header>
                             <div>
                                 <span className="avatar">
+                                    <img alt="" src="images/profiles/SteveOrsini.png" style={{filter: "grayscale(1)"}} />
+                                </span>
+                                <span className="linkedin" style={{display: "none"}}>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="linkedin"
+                                        href="https://ca.linkedin.com/company/blockchainlearninggroup"
+                                    />
+                                </span>
+                            </div>
+                        </header>
+                        <footer>
+                            <h4>
+                                <div>Steve Orsini</div>
+                            </h4>
+                            <aside>
+                                <p>
+                                    DISTINGUISHED FELLOW, UNIVERSITY OF TORONTO AND SENIOR VICE-PRESIDENT AND CHIEF OF STAFF, INTERNATIONAL OF CANOPY GROWTH CORPORATION
+                                </p>
+                                <p>
+                                    Steve has been recently appointed Distinguished Fellow of the Munk School of Global Affairs and Public Policy of the University of Toronto.  He also serves as Senior Vice-President and Chief of Staff, International of Canopy Growth Corporation.  He is responsible for advancing Canopy Growth’s international operations and government relations (excluding the US).  In April 2019, Steve joined the Blockchain Learning Group and Blockscale Solutions Advisory Board.
+                                </p>
+                                <p>
+                                    Steve has more than 30 years of experience in the Ontario public service where he has held numerous leadership positions. As Secretary of Cabinet, Head of the OPS and Clerk of the Executive Council, Steve reported to the Ontario Premier and was responsible for 65,000 public service employees.  Steve also served as Ontario’s Deputy Minister (DM) of Finance and Secretary of the Treasury Board, DM of the Ministry of Revenue and Associate DM for Taxation, Pensions and Agencies (e.g., LCBO and OLG). He has also held several positions at the Ontario Hospital Association, including VP of Policy and Public Affairs.
+                                </p>
+                            </aside>
+                        </footer>
+                    </li>
+
+                    <li>
+                        <header>
+                            <div>
+                                <span className="avatar">
                                     <img alt="" src="images/profiles/Leanne.jpg" />
                                 </span>
                                 <span className="linkedin" style={{display: "none"}}>

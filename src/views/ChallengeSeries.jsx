@@ -26,6 +26,9 @@ export default class extends React.Component {
                             <li>
                                 <a href="#challenge-series/1">Challenge #1</a>
                             </li>
+                            <li>
+                                <a href="#challenge-series/1">Challenge #2</a>
+                            </li>
                         </ul>
                     </div>
                 </header>
