@@ -45,6 +45,7 @@ export default class extends React.Component {
                             "
                             externalLink="https://www.edutopia.org/blog/what-is-financial-literacy-lennette-coleman"
                             externalLinkTitle="Finacial literacy... far beyond personal finance"
+                            winnerVideoLink="https://player.vimeo.com/video/337595571"
                         />
                         <ContactUs />
                     </div>

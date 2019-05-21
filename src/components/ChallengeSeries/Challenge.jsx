@@ -1,8 +1,9 @@
 import React from 'react';
+import ChallengeSeriesWinnerVideo from '../ChallengeSeriesWinnerVideo';
 
 export default class extends React.Component {
     render() {
-        const { id, title, duration, registrationURL, prizes, problemStatement, externalLink, externalLinkTitle, completed } = this.props;
+        const { id, title, duration, registrationURL, prizes, problemStatement, externalLink, externalLinkTitle, completed, winnerVideoLink } = this.props;
 
         return (
             <div>
@@ -29,6 +30,13 @@ export default class extends React.Component {
                             <div/>
                         </div>
                     </header>
+                    {
+                        (
+                            completed ? 
+                            <ChallengeSeriesWinnerVideo src={winnerVideoLink}/> :
+                            <a></a>
+                        )
+                    }
                 </section>
 
                 <section id="Courses">
