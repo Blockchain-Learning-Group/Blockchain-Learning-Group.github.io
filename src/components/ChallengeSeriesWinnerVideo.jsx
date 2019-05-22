@@ -5,6 +5,8 @@ export default class extends React.Component {
         return (
             <section id="Clients">
                 <div />
+                {this.props.winningMessage}
+                <br />
                 <div>
                     <header>
                         <div>

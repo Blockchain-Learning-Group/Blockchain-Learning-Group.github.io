@@ -46,6 +46,19 @@ export default class extends React.Component {
                             externalLink="https://www.edutopia.org/blog/what-is-financial-literacy-lennette-coleman"
                             externalLinkTitle="Finacial literacy... far beyond personal finance"
                             winnerVideoLink="https://player.vimeo.com/video/337595571"
+                            winningMessage={<div>
+                                    <h1>1st Challenge Series Winners!</h1>
+
+                                    <p>
+                                        Congratulations to a trio of students from Holy Trinity School who submitted the winning solution for the inaugural BLG Challenge Series.
+                                    </p>
+                                    <br />
+                                    <p>
+                                        The team developed a solution to help students manage their personal finances. The application simplifies the considerations around financial literacy and delivers an interactive platform to manage revenue and expenses.
+                                        The winning team demonstrated the true spirit of the competition, by combining a thoughtful research-based approach to problem solving and developing a simple yet meaningful solution that addresses a key issue.
+                                    </p>
+                                </div>
+                            }
                         />
                         <ContactUs />
                     </div>

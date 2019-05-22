@@ -3,7 +3,7 @@ import ChallengeSeriesWinnerVideo from '../ChallengeSeriesWinnerVideo';
 
 export default class extends React.Component {
     render() {
-        const { id, title, duration, registrationURL, prizes, problemStatement, externalLink, externalLinkTitle, completed, winnerVideoLink } = this.props;
+        const { id, title, duration, registrationURL, prizes, problemStatement, externalLink, externalLinkTitle, completed, winnerVideoLink, winningMessage } = this.props;
 
         return (
             <div>
@@ -33,7 +33,7 @@ export default class extends React.Component {
                     {
                         (
                             completed ? 
-                            <ChallengeSeriesWinnerVideo src={winnerVideoLink}/> :
+                            <ChallengeSeriesWinnerVideo winningMessage={winningMessage}  src={winnerVideoLink}/> :
                             <a></a>
                         )
                     }
