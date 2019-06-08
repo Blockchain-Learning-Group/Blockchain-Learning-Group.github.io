@@ -22,7 +22,7 @@ export default class extends React.Component {
                         <p>
                             We have developed an immersive and collaborative program in problem solving, design thinking and software development, 
                             leveraging leading edge and innovative technologies.  
-                            This program features a deep dive into Blockchain technology and decentralized application(DApp) development. 
+                            This program features a deep dive into Blockchain technology and decentralized application(DApp) development, powered by Ethereum. 
                             It targets not only knowledge uptake but focuses on applying the technology to address real world problems!
                         </p>                        
                     </footer>
