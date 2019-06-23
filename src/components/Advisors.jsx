@@ -36,13 +36,42 @@ export default class extends React.Component {
                             </h4>
                             <aside>
                                 <p>
-                                    DISTINGUISHED FELLOW, UNIVERSITY OF TORONTO AND SENIOR VICE-PRESIDENT AND CHIEF OF STAFF, INTERNATIONAL OF CANOPY GROWTH CORPORATION
-                                </p>
-                                <p>
-                                    Steve has been recently appointed Distinguished Fellow of the Munk School of Global Affairs and Public Policy of the University of Toronto.  He also serves as Senior Vice-President and Chief of Staff, International of Canopy Growth Corporation.  He is responsible for advancing Canopy Growth’s international operations and government relations (excluding the US).  In April 2019, Steve joined the Blockchain Learning Group and Blockscale Solutions Advisory Board.
-                                </p>
-                                <p>
-                                    Steve has more than 30 years of experience in the Ontario public service where he has held numerous leadership positions. As Secretary of Cabinet, Head of the OPS and Clerk of the Executive Council, Steve reported to the Ontario Premier and was responsible for 65,000 public service employees.  Steve also served as Ontario’s Deputy Minister (DM) of Finance and Secretary of the Treasury Board, DM of the Ministry of Revenue and Associate DM for Taxation, Pensions and Agencies (e.g., LCBO and OLG). He has also held several positions at the Ontario Hospital Association, including VP of Policy and Public Affairs.
+                                SENIOR VICE-PRESIDENT AND CHIEF OF STAFF,
+                                INTERNATIONAL, CANOPY GROWTH CORPORATION
+                                <br />
+                                <br />
+                                Steve joined Canopy Growth in March 2019 as the Senior
+                                Vice-President and Chief of Staff, International. In this role,
+                                he is responsible for advancing the company’s international
+                                operations and government relations in Africa, Asia-Pacific,
+                                Europe and Latin America, including Mexico.
+                                In April 2019, Steve was appointed Distinguished Fellow,
+                                Munk School of Global Affairs and Public Policy at the
+                                University of Toronto. In May, he was appointed to the
+                                Advisory Board of the Blockchain Learning Group. In June,
+                                Steve joined the C.D. Howe Institute as a Senior Fellow to
+                                continue his advisory role in advancing public policy to
+                                promote sustainable economic growth.
+                                Steve has more than 30 years of experience in the public
+                                service, where he held numerous leadership positions. As
+                                Secretary of Cabinet, Head of the Ontario Public Service
+                                and Clerk of the Executive Council, Steve reported to the
+                                Ontario Premier and was responsible for 65,000 public-
+                                service employees. Steve also served as Ontario’s Deputy
+                                Minister (DM) of Finance and Secretary of the Treasury
+                                Board, and DM of the Ministry of Revenue and Associate
+                                DM for Taxation, Pensions and Agencies (e.g., Liquor
+                                Control Board of Ontario and Ontario Lottery and Gaming
+                                Corporation). He has also held several positions at the
+                                Ontario Hospital Association, including Vice-President of
+                                Policy and Public Affairs.
+                                <br />
+                                <br />
+                                Steve has a BA in Urban and Regional Planning and a
+                                Master’s in Environmental Studies (economic
+                                development). He completed the Canadian Securities
+                                Course, Parts I and II of the CICA Tax Course and the
+                                Harvard Health Care Leadership Program.
                                 </p>
                             </aside>
                         </footer>

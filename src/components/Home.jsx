@@ -15,7 +15,7 @@ export default class extends React.Component {
             <section id="Home">
                 <header>
                     <h3>Take Control of Your Blockchain Future</h3>
-                    <p>Ready to jumpstart your blockchain education? Looking to turn your Blockchain strategies into tangible solutions and results?</p>
+                    <p>Ready to jumpstart your blockchain education? Interested in an experiential-learning based approach that focuses on collaboration and design thinking principles to solve real world issueS with emerging technology?</p>
                     <div>
                         <a href="#Courses" className="blg-btn" onClick={this.scrollTo.bind(this)}>VIEW OUR PROGRAMS</a>
                         <div />
@@ -23,9 +23,7 @@ export default class extends React.Component {
                 </header>
                 <footer>
                     <p>
-                        The Blockchain Learning Group facilitates comprehensive, high impact education programs aimed at the developer base - 
-                        and the organizations that they belong to - and provides them with the knowledge, 
-                        tools and confidence to make an immediate impact.
+                        The Blockchain Learning Group facilitates experiential learning-based education programs to support the innovation and design-thinking objectives of schools and organizations globally. Our programs not only help to build a strong technical foundation but also provides the opportunity to make an immediate impact with the lessons learned.
                     </p>
                 </footer>
             </section>

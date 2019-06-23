@@ -35,12 +35,23 @@ export default class extends React.Component {
                         <Challenge
                             id={2}
                             completed={false}
-                            title="To be announced soon!"
+                            title="Combating Deforestation"
                             duration="July 1st 2019 00:00 ET to September 2nd 2019 23:59 ET"
                             registrationURL="https://forms.gle/5ftAu16Evwiz8ewT8"
-                            prizes="Prizes and sponsoring organizations to be announced soon!"
-                            problemStatement="Coming soon...
-                            "
+                            prizes="The prize for the top submission is $1250!"
+                            problemStatement={
+                                <div>
+                                    <h2>Climate Action: Combating Deforestation</h2>
+                                    <p>
+                                        As the UNDP's climate action partner we are passionate about our planet and actively working towards a sustainable future
+                                        and we would love you to join us.
+
+                                        This challenge we want you to address the growing global issue of deforestation.
+
+                                        MORE ON THIS PROBLEM...
+                                    </p>
+                                </div>
+                            }
                             externalLink="#"
                             externalLinkTitle=""
                         />

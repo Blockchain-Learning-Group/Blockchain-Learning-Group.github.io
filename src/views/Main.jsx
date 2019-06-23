@@ -5,6 +5,7 @@ import Advisors from "../components/Advisors";
 import Clients from "../components/Clients";
 import ContactUs from "../components/ContactUs";
 import Courses from "../components/Courses";
+import Community from "../components/Community";
 import News from "../components/News";
 import Diversity from "../components/Diversity";
 import Home from "../components/Home";
@@ -117,6 +118,7 @@ export default class extends React.Component {
                         <HighSchoolEduVideo1 />
                         <AboutUs />
                         <News />
+                        <Community />
                         <Courses />
                         <Clients />
                         <Diversity />
