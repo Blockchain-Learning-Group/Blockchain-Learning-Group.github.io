@@ -36,8 +36,7 @@ export default class extends React.Component {
                             </h4>
                             <aside>
                                 <p>
-                                SENIOR VICE-PRESIDENT AND CHIEF OF STAFF,
-                                INTERNATIONAL, CANOPY GROWTH CORPORATION
+                                Former Cabinet Secretary, Ontario Public Service
                                 <br />
                                 <br />
                                 Steve joined Canopy Growth in March 2019 as the Senior
@@ -72,50 +71,6 @@ export default class extends React.Component {
                                 development). He completed the Canadian Securities
                                 Course, Parts I and II of the CICA Tax Course and the
                                 Harvard Health Care Leadership Program.
-                                </p>
-                            </aside>
-                        </footer>
-                    </li>
-
-                    <li>
-                        <header>
-                            <div>
-                                <span className="avatar">
-                                    <img alt="" src="images/profiles/Leanne.jpg" />
-                                </span>
-                                <span className="linkedin" style={{display: "none"}}>
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="linkedin"
-                                        href="https://ca.linkedin.com/company/blockchainlearninggroup"
-                                    />
-                                </span>
-                            </div>
-                        </header>
-                        <footer>
-                            <h4>
-                                <div>Leanne Kemp</div>
-                            </h4>
-                            <aside>
-                                <p>Leanne Kemp is the Founder & CEO of Everledger.</p>
-                                <p>
-                                    Using her extensive background in emerging technology, business, jewellery and
-                                    insurance, Leanne is pushing boundaries with Everledger in building a global
-                                    verification system that asserts transparency along the entire supply chain process.
-                                    With a rich history in innovation, Leanne previously founded three Australian
-                                    startups where she introduced and patented transformational technology ideas
-                                    alongside various solutions to streamline inventory and supply chain operations.
-                                </p>
-                                <p>
-                                    Her leadership role in technology has been recognised, winning awards including
-                                    Innovator of the Year 2018 at the Women in IT Awards (London). She has also been
-                                    named an IBM Champion for 2018.
-                                </p>
-                                <p>
-                                    Leanne is an appointed member of the World Economic Forum’s Global Blockchain
-                                    Business Council and a Co-Chair for the World Trade Board's Sustainable Trade Action
-                                    Group. She is also on the IBM Blockchain Platform Board of Advisors.
                                 </p>
                             </aside>
                         </footer>
