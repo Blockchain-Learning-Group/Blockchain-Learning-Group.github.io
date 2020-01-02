@@ -5,7 +5,7 @@ export default class extends React.Component {
         super(props);
         this.state = {
             client: 0,
-            clients: 6
+            clients: 7
         };
     }
 
@@ -178,6 +178,27 @@ export default class extends React.Component {
                                         >
                                             <h4>
                                                 https://www.adaptation-undp.org/scaling-climate-action-fresh-compact-between-undp-and-private-sector-partners-accelerate-data-and
+                                            </h4>
+                                        </a>
+                                    </footer>
+                                </div>
+                            </li>
+
+                            <li className={this.state.client === 6 ? '' : 'blg--invisible'}>
+                                <div>
+                                    <div>
+                                        <img alt="Forbes" src="images/news/forbes.png" />
+                                    </div>
+                                    <header>
+                                        <h3>UN Pilot In Mongolia Uses Blockchain To Help Farmers Deliver Sustainable Cashmere</h3>
+                                    </header>
+                                    <footer>
+                                        <a
+                                            href="https://www.forbes.com/sites/rogerhuang/2019/12/28/un-pilot-in-mongolia-uses-blockchain-to-help-farmers-deliver-sustainable-cashmere/#5a34aefa17d9" 
+                                            target="_blank"
+                                        >
+                                            <h4>
+                                                https://www.forbes.com/sites/rogerhuang/2019/12/28/un-pilot-in-mongolia-uses-blockchain-to-help-farmers-deliver-sustainable-cashmere/#5a34aefa17d9
                                             </h4>
                                         </a>
                                     </footer>
