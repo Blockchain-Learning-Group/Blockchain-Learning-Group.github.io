@@ -124,7 +124,7 @@ export default class extends React.Component {
                         <Diversity />
                         <ProductDevelopmentServices />
                         <Team />
-                        <Advisors />
+                        {/* <Advisors /> */}
                         <ContactUs />
                     </div>
                 </main>

@@ -47,7 +47,7 @@ export default class extends React.Component {
                         <footer>
                             <h4>
                                 <div>Murtaza Tawawala</div>
-                                <div>Chief Operating Officer</div>
+                                <div>Head of Operations</div>
                             </h4>
                             <aside>
                                 <p>Murtaza brings over 20 years of experience in training, marketing, project management and product development for both global firms and Canadian companies. He is an accomplished training and marketing professional with extensive experience in the technology, insurance, financial, transportation and retail industries.</p>
@@ -69,11 +69,11 @@ export default class extends React.Component {
                         <footer>
                             <h4>
                                 <div>Adam Lemmon</div>
-                                <div>VP, Technology & Operations</div>
+                                <div>Head of Training</div>
                             </h4>
                             <aside>
                                 <p>
-                                    Adam currently leads all technology and development at both Blockscale Solutions and Blockchain Learning Group. 
+                                    Adam currently leads training initiatives and development with Blockchain Learning Group. 
                                     He is a passionate engineer and educator, with a background in Mechatronic Systems and Software Engineering. 
                                     He has been active in the Blockchain ecosystem for several years and has been involved in a variety of initiatives 
                                     spanning both software education and development globally.
